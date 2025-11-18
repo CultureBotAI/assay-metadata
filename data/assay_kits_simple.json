@@ -131,11 +131,19 @@
           "enzyme_name": [
             "Esterase Lipase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.1.1.1"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0052689"
+          ],
+          "go_names": [
+            "carboxylic ester hydrolase activity"
+          ],
+          "kegg_ko": [
+            "K01066"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -239,11 +247,19 @@
           "enzyme_name": [
             "Valine arylamidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.4.11.6"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0070006"
+          ],
+          "go_names": [
+            "metalloaminopeptidase activity"
+          ],
+          "kegg_ko": [
+            "K01255"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -269,10 +285,16 @@
           "enzyme_name": [
             "Cystine arylamidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.4.22.-"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
+          "go_terms": [
+            "GO:0008234"
+          ],
+          "go_names": [
+            "cysteine-type peptidase activity"
+          ],
           "kegg_ko": [],
           "kegg_reaction": [],
           "rhea_ids": [],
@@ -327,11 +349,19 @@
           "enzyme_name": [
             "alpha- Chymotrypsin"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.4.21.1"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004263"
+          ],
+          "go_names": [
+            "obsolete chymotrypsin activity"
+          ],
+          "kegg_ko": [
+            "K01311"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -395,11 +425,19 @@
           "enzyme_name": [
             "Naphthol-AS-BI-phosphohydrolase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.1.3.1"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004035"
+          ],
+          "go_names": [
+            "alkaline phosphatase activity"
+          ],
+          "kegg_ko": [
+            "K01077"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -425,11 +463,19 @@
           "enzyme_name": [
             "alpha- Galactosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.22"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004557"
+          ],
+          "go_names": [
+            "alpha-galactosidase activity"
+          ],
+          "kegg_ko": [
+            "K07407"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -455,11 +501,19 @@
           "enzyme_name": [
             "beta- Galactosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.23"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004565"
+          ],
+          "go_names": [
+            "beta-galactosidase activity"
+          ],
+          "kegg_ko": [
+            "K01190"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -485,11 +539,19 @@
           "enzyme_name": [
             "beta- Glucuronidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.31"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004566"
+          ],
+          "go_names": [
+            "beta-glucuronidase activity"
+          ],
+          "kegg_ko": [
+            "K01195"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -515,11 +577,19 @@
           "enzyme_name": [
             "alpha- Glucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.20"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004558"
+          ],
+          "go_names": [
+            "alpha-glucosidase activity"
+          ],
+          "kegg_ko": [
+            "K01187"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -545,11 +615,19 @@
           "enzyme_name": [
             "beta- Glucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.21"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0008422"
+          ],
+          "go_names": [
+            "beta-glucosidase activity"
+          ],
+          "kegg_ko": [
+            "K05349"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -575,11 +653,19 @@
           "enzyme_name": [
             "N-acetyl-beta- glucosaminidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.52"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004563"
+          ],
+          "go_names": [
+            "beta-N-acetylhexosaminidase activity"
+          ],
+          "kegg_ko": [
+            "K01207"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -605,11 +691,19 @@
           "enzyme_name": [
             "alpha- Mannosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.24"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004559"
+          ],
+          "go_names": [
+            "alpha-mannosidase activity"
+          ],
+          "kegg_ko": [
+            "K01191"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],
@@ -635,11 +729,19 @@
           "enzyme_name": [
             "alpha- Fucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.51"
+          ],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
-          "kegg_ko": [],
+          "go_terms": [
+            "GO:0004560"
+          ],
+          "go_names": [
+            "alpha-L-fucosidase activity"
+          ],
+          "kegg_ko": [
+            "K01206"
+          ],
           "kegg_reaction": [],
           "rhea_ids": [],
           "metacyc_reaction": [],

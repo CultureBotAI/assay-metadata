@@ -719,10 +719,16 @@
       "well_type": "enzyme",
       "description": "Tests for Esterase Lipase activity",
       "enzyme_ids": {
+        "ec_number": "3.1.1.1",
         "rhea_ids": [],
         "enzyme_name": "Esterase Lipase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0052689"
+        ],
+        "go_names": [
+          "carboxylic ester hydrolase activity"
+        ],
+        "kegg_ko": "K01066",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -781,10 +787,16 @@
       "well_type": "enzyme",
       "description": "Tests for Valine arylamidase activity",
       "enzyme_ids": {
+        "ec_number": "3.4.11.6",
         "rhea_ids": [],
         "enzyme_name": "Valine arylamidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0070006"
+        ],
+        "go_names": [
+          "metalloaminopeptidase activity"
+        ],
+        "kegg_ko": "K01255",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -797,10 +809,15 @@
       "well_type": "enzyme",
       "description": "Tests for Cystine arylamidase activity",
       "enzyme_ids": {
+        "ec_number": "3.4.22.-",
         "rhea_ids": [],
         "enzyme_name": "Cystine arylamidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0008234"
+        ],
+        "go_names": [
+          "cysteine-type peptidase activity"
+        ],
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -822,10 +839,16 @@
       "well_type": "enzyme",
       "description": "Tests for alpha- Chymotrypsin activity",
       "enzyme_ids": {
+        "ec_number": "3.4.21.1",
         "rhea_ids": [],
         "enzyme_name": "alpha- Chymotrypsin",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004263"
+        ],
+        "go_names": [
+          "obsolete chymotrypsin activity"
+        ],
+        "kegg_ko": "K01311",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -860,10 +883,16 @@
       "well_type": "enzyme",
       "description": "Tests for Naphthol-AS-BI-phosphohydrolase activity",
       "enzyme_ids": {
+        "ec_number": "3.1.3.1",
         "rhea_ids": [],
         "enzyme_name": "Naphthol-AS-BI-phosphohydrolase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004035"
+        ],
+        "go_names": [
+          "alkaline phosphatase activity"
+        ],
+        "kegg_ko": "K01077",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -876,10 +905,16 @@
       "well_type": "enzyme",
       "description": "Tests for alpha- Galactosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.22",
         "rhea_ids": [],
         "enzyme_name": "alpha- Galactosidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004557"
+        ],
+        "go_names": [
+          "alpha-galactosidase activity"
+        ],
+        "kegg_ko": "K07407",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -892,10 +927,16 @@
       "well_type": "enzyme",
       "description": "Tests for beta- Galactosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.23",
         "rhea_ids": [],
         "enzyme_name": "beta- Galactosidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004565"
+        ],
+        "go_names": [
+          "beta-galactosidase activity"
+        ],
+        "kegg_ko": "K01190",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -908,10 +949,16 @@
       "well_type": "enzyme",
       "description": "Tests for beta- Glucuronidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.31",
         "rhea_ids": [],
         "enzyme_name": "beta- Glucuronidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004566"
+        ],
+        "go_names": [
+          "beta-glucuronidase activity"
+        ],
+        "kegg_ko": "K01195",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -924,10 +971,16 @@
       "well_type": "enzyme",
       "description": "Tests for alpha- Glucosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.20",
         "rhea_ids": [],
         "enzyme_name": "alpha- Glucosidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004558"
+        ],
+        "go_names": [
+          "alpha-glucosidase activity"
+        ],
+        "kegg_ko": "K01187",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -940,10 +993,16 @@
       "well_type": "enzyme",
       "description": "Tests for beta- Glucosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.21",
         "rhea_ids": [],
         "enzyme_name": "beta- Glucosidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0008422"
+        ],
+        "go_names": [
+          "beta-glucosidase activity"
+        ],
+        "kegg_ko": "K05349",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -956,10 +1015,16 @@
       "well_type": "enzyme",
       "description": "Tests for N-acetyl-beta- glucosaminidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.52",
         "rhea_ids": [],
         "enzyme_name": "N-acetyl-beta- glucosaminidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004563"
+        ],
+        "go_names": [
+          "beta-N-acetylhexosaminidase activity"
+        ],
+        "kegg_ko": "K01207",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -972,10 +1037,16 @@
       "well_type": "enzyme",
       "description": "Tests for alpha- Mannosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.24",
         "rhea_ids": [],
         "enzyme_name": "alpha- Mannosidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004559"
+        ],
+        "go_names": [
+          "alpha-mannosidase activity"
+        ],
+        "kegg_ko": "K01191",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -988,10 +1059,16 @@
       "well_type": "enzyme",
       "description": "Tests for alpha- Fucosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.51",
         "rhea_ids": [],
         "enzyme_name": "alpha- Fucosidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004560"
+        ],
+        "go_names": [
+          "alpha-L-fucosidase activity"
+        ],
+        "kegg_ko": "K01206",
         "metacyc_pathway": []
       },
       "used_in_kits": [
