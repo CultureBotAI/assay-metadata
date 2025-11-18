@@ -7,123 +7,148 @@
       "url": "https://microbeonline.com/api-20e-test-system/",
       "validated": [
         {
+          "code": "ONPG",
+          "official": "\u03b2-galactosidase",
+          "ours": "\u03b2-galactosidase",
+          "location": "KIT_SPECIFIC[API 20E]",
+          "status": "match"
+        },
+        {
+          "code": "ADH",
+          "official": "Arginine dihydrolase",
+          "ours": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS",
+          "status": "match"
+        },
+        {
+          "code": "LDC",
+          "official": "Lysine decarboxylase",
+          "ours": "Lysine decarboxylase",
+          "location": "ENZYME_ACTIVITY_TESTS",
+          "status": "match"
+        },
+        {
+          "code": "ODC",
+          "official": "Ornithine decarboxylase",
+          "ours": "Ornithine decarboxylase",
+          "location": "ENZYME_ACTIVITY_TESTS",
+          "status": "match"
+        },
+        {
+          "code": "CIT",
+          "official": "Citrate",
+          "ours": "Citrate",
+          "location": "SUBSTRATE_MAPPINGS",
+          "status": "match"
+        },
+        {
+          "code": "H2S",
+          "official": "Hydrogen sulfide production",
+          "ours": "Hydrogen sulfide production",
+          "location": "ENZYME_TESTS",
+          "status": "match"
+        },
+        {
           "code": "URE",
           "official": "Urease",
           "ours": "Urea",
+          "location": "SUBSTRATE_MAPPINGS",
+          "status": "match"
+        },
+        {
+          "code": "TDA",
+          "official": "Tryptophan deaminase",
+          "ours": "Tryptophan deaminase",
+          "location": "ENZYME_TESTS",
+          "status": "match"
+        },
+        {
+          "code": "IND",
+          "official": "Indole production",
+          "ours": "Indole production",
+          "location": "ENZYME_TESTS",
+          "status": "match"
+        },
+        {
+          "code": "VP",
+          "official": "Voges-Proskauer (acetoin)",
+          "ours": "Voges-Proskauer",
+          "location": "ENZYME_TESTS",
           "status": "match"
         },
         {
           "code": "GEL",
           "official": "Gelatinase",
           "ours": "Gelatin",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "GLU",
           "official": "D-Glucose",
           "ours": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "MAN",
           "official": "D-Mannose",
           "ours": "D-Mannose",
+          "location": "KIT_SPECIFIC[API 20E]",
           "status": "match"
         },
         {
           "code": "INO",
           "official": "myo-Inositol",
           "ours": "myo-Inositol",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "SOR",
           "official": "D-Sorbitol",
           "ours": "D-Sorbitol",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "RHA",
           "official": "L-Rhamnose",
           "ours": "L-Rhamnose",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "SAC",
           "official": "Sucrose",
           "ours": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "MEL",
           "official": "Melibiose",
           "ours": "Melibiose",
+          "location": "SUBSTRATE_MAPPINGS",
+          "status": "match"
+        },
+        {
+          "code": "AMY",
+          "official": "Amygdalin",
+          "ours": "Amygdalin",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "ARA",
           "official": "L-Arabinose",
           "ours": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         }
       ],
-      "missing": [
-        {
-          "code": "ADH",
-          "official": "Arginine dihydrolase",
-          "status": "not_mapped"
-        },
-        {
-          "code": "LDC",
-          "official": "Lysine decarboxylase",
-          "status": "not_mapped"
-        },
-        {
-          "code": "ODC",
-          "official": "Ornithine decarboxylase",
-          "status": "not_mapped"
-        },
-        {
-          "code": "H2S",
-          "official": "Hydrogen sulfide production",
-          "status": "not_mapped"
-        },
-        {
-          "code": "TDA",
-          "official": "Tryptophan deaminase",
-          "status": "not_mapped"
-        },
-        {
-          "code": "IND",
-          "official": "Indole production",
-          "status": "not_mapped"
-        },
-        {
-          "code": "VP",
-          "official": "Voges-Proskauer (acetoin)",
-          "status": "not_mapped"
-        }
-      ],
-      "mismatched": [
-        {
-          "code": "ONPG",
-          "official": "\u03b2-galactosidase",
-          "ours": "o-Nitrophenyl-\u03b2-D-galactopyranoside",
-          "status": "mismatch"
-        },
-        {
-          "code": "CIT",
-          "official": "Citrate",
-          "ours": "Citric acid",
-          "status": "mismatch"
-        },
-        {
-          "code": "AMY",
-          "official": "Amygdalin",
-          "ours": "Starch (Amylose)",
-          "status": "mismatch"
-        }
-      ]
+      "missing": [],
+      "mismatched": []
     },
     "API 20NE": {
       "kit_name": "API 20NE",
@@ -132,120 +157,141 @@
       "url": "https://faculty.fiu.edu/~makemson/MCB3020Lab/API20neInstructions.pdf",
       "validated": [
         {
+          "code": "NO3",
+          "official": "Nitrate reduction",
+          "ours": "Nitrate reduction",
+          "location": "ENZYME_TESTS",
+          "status": "match"
+        },
+        {
+          "code": "TRP",
+          "official": "Tryptophane",
+          "ours": "Tryptophane test",
+          "location": "ENZYME_TESTS",
+          "status": "match"
+        },
+        {
           "code": "GLU",
           "official": "D-Glucose",
           "ours": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS",
+          "status": "match"
+        },
+        {
+          "code": "ADH",
+          "official": "Arginine dihydrolase",
+          "ours": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS",
           "status": "match"
         },
         {
           "code": "URE",
           "official": "Urease",
           "ours": "Urea",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "ESC",
           "official": "Esculin",
           "ours": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "GEL",
           "official": "Gelatinase",
           "ours": "Gelatin",
+          "location": "SUBSTRATE_MAPPINGS",
+          "status": "match"
+        },
+        {
+          "code": "PNG",
+          "official": "\u03b2-galactosidase (PNPG)",
+          "ours": "\u03b2-galactosidase (PNPG)",
+          "location": "ENZYME_TESTS",
           "status": "match"
         },
         {
           "code": "ARA",
           "official": "L-Arabinose",
           "ours": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS",
+          "status": "match"
+        },
+        {
+          "code": "MNE",
+          "official": "D-Mannose",
+          "ours": "D-Mannose",
+          "location": "KIT_SPECIFIC[API 20NE]",
+          "status": "match"
+        },
+        {
+          "code": "MAN",
+          "official": "D-Mannitol",
+          "ours": "D-Mannitol",
+          "location": "KIT_SPECIFIC[API 20NE]",
+          "status": "match"
+        },
+        {
+          "code": "NAG",
+          "official": "N-Acetyl-Glucosamine",
+          "ours": "N-Acetyl-Glucosamine",
+          "location": "KIT_SPECIFIC[API 20NE]",
           "status": "match"
         },
         {
           "code": "MAL",
           "official": "Maltose",
           "ours": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "GNT",
           "official": "Gluconate",
           "ours": "Gluconate",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "CAP",
           "official": "Caprate",
           "ours": "Caprate",
+          "location": "SUBSTRATE_MAPPINGS",
+          "status": "match"
+        },
+        {
+          "code": "ADI",
+          "official": "Adipate",
+          "ours": "Adipate",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
         },
         {
           "code": "MLT",
           "official": "Malate",
           "ours": "Malate",
+          "location": "SUBSTRATE_MAPPINGS",
           "status": "match"
-        }
-      ],
-      "missing": [
-        {
-          "code": "NO3",
-          "official": "Nitrate reduction",
-          "status": "not_mapped"
-        },
-        {
-          "code": "TRP",
-          "official": "Tryptophane",
-          "status": "not_mapped"
-        },
-        {
-          "code": "ADH",
-          "official": "Arginine dihydrolase",
-          "status": "not_mapped"
-        },
-        {
-          "code": "PNG",
-          "official": "\u03b2-galactosidase (PNPG)",
-          "status": "not_mapped"
-        }
-      ],
-      "mismatched": [
-        {
-          "code": "MNE",
-          "official": "D-Mannose",
-          "ours": "D-Mannitol",
-          "status": "mismatch"
-        },
-        {
-          "code": "MAN",
-          "official": "D-Mannitol",
-          "ours": "D-Mannose",
-          "status": "mismatch"
-        },
-        {
-          "code": "NAG",
-          "official": "N-Acetyl-Glucosamine",
-          "ours": "N-Acetyl-D-glucosamine",
-          "status": "mismatch"
-        },
-        {
-          "code": "ADI",
-          "official": "Adipate",
-          "ours": "Adenosine",
-          "status": "mismatch"
         },
         {
           "code": "CIT",
           "official": "Citrate",
-          "ours": "Citric acid",
-          "status": "mismatch"
+          "ours": "Citrate",
+          "location": "SUBSTRATE_MAPPINGS",
+          "status": "match"
         },
         {
           "code": "PAC",
           "official": "Phenyl-acetate",
-          "ours": "Phenylacetate",
-          "status": "mismatch"
+          "ours": "Phenyl-acetate",
+          "location": "KIT_SPECIFIC[API 20NE]",
+          "status": "match"
         }
-      ]
+      ],
+      "missing": [],
+      "mismatched": []
     },
     "API 50CHac": {
       "kit_name": "API 50CHac",
@@ -261,164 +307,162 @@
       "official_wells": 20,
       "source": "bioM\u00e9rieux Package Insert",
       "url": "https://www.biomerieux.com/",
-      "validated": [],
-      "missing": [
+      "validated": [
         {
           "code": "Control",
           "official": "Negative control",
-          "status": "not_mapped"
+          "ours": "Negative control",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Alkaline phosphatase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Alkaline phosphatase",
+          "ours": "Alkaline phosphatase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Esterase (C4)",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Esterase (C4)",
+          "ours": "Esterase (C4)",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Esterase lipase (C8)",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Esterase lipase (C8)",
+          "ours": "Esterase lipase (C8)",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Lipase (C14)",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Lipase (C14)",
+          "ours": "Lipase (C14)",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Leucine arylamidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Leucine arylamidase",
+          "ours": "Leucine arylamidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Valine arylamidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Valine arylamidase",
+          "ours": "Valine arylamidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Cystine arylamidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Cystine arylamidase",
+          "ours": "Cystine arylamidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Trypsin",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Trypsin",
+          "ours": "Trypsin",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "alpha-Chymotrypsin",
-          "official": null,
-          "status": "not_mapped"
+          "official": "alpha-Chymotrypsin",
+          "ours": "alpha-Chymotrypsin",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Acid phosphatase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Acid phosphatase",
+          "ours": "Acid phosphatase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "Naphthol-AS-BI-phosphohydrolase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "Naphthol-AS-BI-phosphohydrolase",
+          "ours": "Naphthol-AS-BI-phosphohydrolase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "alpha-Galactosidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "alpha-Galactosidase",
+          "ours": "alpha-Galactosidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "beta-Galactosidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "beta-Galactosidase",
+          "ours": "beta-Galactosidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "beta-Glucuronidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "beta-Glucuronidase",
+          "ours": "beta-Glucuronidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "alpha-Glucosidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "alpha-Glucosidase",
+          "ours": "alpha-Glucosidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "beta-Glucosidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "beta-Glucosidase",
+          "ours": "beta-Glucosidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "N-acetyl-beta-glucosaminidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "N-acetyl-beta-glucosaminidase",
+          "ours": "N-acetyl-beta-glucosaminidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "alpha-Mannosidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "alpha-Mannosidase",
+          "ours": "alpha-Mannosidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         },
         {
           "code": "alpha-Fucosidase",
-          "official": null,
-          "status": "not_mapped"
+          "official": "alpha-Fucosidase",
+          "ours": "alpha-Fucosidase",
+          "location": "KIT_SPECIFIC[API zym]",
+          "status": "match"
         }
       ],
+      "missing": [],
       "mismatched": []
     }
   },
-  "errors": [
-    "API 20E: ONPG - Official: '\u03b2-galactosidase', Ours: 'o-Nitrophenyl-\u03b2-D-galactopyranoside'",
-    "API 20E: CIT - Official: 'Citrate', Ours: 'Citric acid'",
-    "API 20E: AMY - Official: 'Amygdalin', Ours: 'Starch (Amylose)'",
-    "API 20NE: MNE - Official: 'D-Mannose', Ours: 'D-Mannitol'",
-    "API 20NE: MAN - Official: 'D-Mannitol', Ours: 'D-Mannose'",
-    "API 20NE: NAG - Official: 'N-Acetyl-Glucosamine', Ours: 'N-Acetyl-D-glucosamine'",
-    "API 20NE: ADI - Official: 'Adipate', Ours: 'Adenosine'",
-    "API 20NE: CIT - Official: 'Citrate', Ours: 'Citric acid'",
-    "API 20NE: PAC - Official: 'Phenyl-acetate', Ours: 'Phenylacetate'"
-  ],
-  "warnings": [
-    "API 20E: ADH (Arginine dihydrolase) not in our mappings",
-    "API 20E: LDC (Lysine decarboxylase) not in our mappings",
-    "API 20E: ODC (Ornithine decarboxylase) not in our mappings",
-    "API 20E: H2S (Hydrogen sulfide production) not in our mappings",
-    "API 20E: TDA (Tryptophan deaminase) not in our mappings",
-    "API 20E: IND (Indole production) not in our mappings",
-    "API 20E: VP (Voges-Proskauer (acetoin)) not in our mappings",
-    "API 20NE: NO3 (Nitrate reduction) not in our mappings",
-    "API 20NE: TRP (Tryptophane) not in our mappings",
-    "API 20NE: ADH (Arginine dihydrolase) not in our mappings",
-    "API 20NE: PNG (\u03b2-galactosidase (PNPG)) not in our mappings",
-    "API zym: Control (Negative control) not in our mappings",
-    "API zym: Alkaline phosphatase (None) not in our mappings",
-    "API zym: Esterase (C4) (None) not in our mappings",
-    "API zym: Esterase lipase (C8) (None) not in our mappings",
-    "API zym: Lipase (C14) (None) not in our mappings",
-    "API zym: Leucine arylamidase (None) not in our mappings",
-    "API zym: Valine arylamidase (None) not in our mappings",
-    "API zym: Cystine arylamidase (None) not in our mappings",
-    "API zym: Trypsin (None) not in our mappings",
-    "API zym: alpha-Chymotrypsin (None) not in our mappings",
-    "API zym: Acid phosphatase (None) not in our mappings",
-    "API zym: Naphthol-AS-BI-phosphohydrolase (None) not in our mappings",
-    "API zym: alpha-Galactosidase (None) not in our mappings",
-    "API zym: beta-Galactosidase (None) not in our mappings",
-    "API zym: beta-Glucuronidase (None) not in our mappings",
-    "API zym: alpha-Glucosidase (None) not in our mappings",
-    "API zym: beta-Glucosidase (None) not in our mappings",
-    "API zym: N-acetyl-beta-glucosaminidase (None) not in our mappings",
-    "API zym: alpha-Mannosidase (None) not in our mappings",
-    "API zym: alpha-Fucosidase (None) not in our mappings"
-  ],
+  "errors": [],
+  "warnings": [],
   "summary": {
     "total_kits_validated": 4,
     "total_wells_checked": 59,
-    "total_validated": 19,
-    "total_missing": 31,
-    "total_mismatched": 9,
-    "accuracy_percent": 32.20338983050847,
-    "has_errors": true,
-    "has_warnings": true
+    "total_validated": 59,
+    "total_missing": 0,
+    "total_mismatched": 0,
+    "accuracy_percent": 100.0,
+    "has_errors": false,
+    "has_warnings": false
   }
 }

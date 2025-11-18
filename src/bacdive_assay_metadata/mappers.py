@@ -18,7 +18,8 @@ class ChemicalMapper:
         "GLU": {"name": "D-Glucose", "chebi": "CHEBI:17234", "pubchem": "5793"},
         "FRU": {"name": "D-Fructose", "chebi": "CHEBI:15824", "pubchem": "5984"},
         "GAL": {"name": "D-Galactose", "chebi": "CHEBI:28061", "pubchem": "6036"},
-        "MAN": {"name": "D-Mannose", "chebi": "CHEBI:4208", "pubchem": "18950"},
+        "MAN": {"name": "D-Mannitol", "chebi": "CHEBI:16899", "pubchem": "6251"},  # API 20NE context; other kits use for Mannose
+        "MANN": {"name": "D-Mannose", "chebi": "CHEBI:4208", "pubchem": "18950"},  # Explicit mannose code
         "RIB": {"name": "D-Ribose", "chebi": "CHEBI:47013", "pubchem": "5779"},
         "XYL": {"name": "D-Xylose", "chebi": "CHEBI:17140", "pubchem": "135191"},
         "DXYL": {"name": "D-Xylose", "chebi": "CHEBI:17140", "pubchem": "135191"},
@@ -39,14 +40,15 @@ class ChemicalMapper:
         "RAF": {"name": "Raffinose", "chebi": "CHEBI:16634", "pubchem": "439242"},
         "MLZ": {"name": "Melezitose", "chebi": "CHEBI:28283", "pubchem": "92817"},
 
-        # Polysaccharides
-        "AMY": {"name": "Starch (Amylose)", "chebi": "CHEBI:28017", "pubchem": "24836924"},
+        # Glycosides and complex carbohydrates
+        "AMY": {"name": "Amygdalin", "chebi": "CHEBI:17019", "pubchem": "656516"},  # API 20E context
+        "AMYL": {"name": "Starch (Amylose)", "chebi": "CHEBI:28017", "pubchem": "24836924"},  # Polysaccharide
         "GLYG": {"name": "Glycogen", "chebi": "CHEBI:28087", "pubchem": "439177"},
         "INU": {"name": "Inulin", "chebi": "CHEBI:15443", "pubchem": "24763"},
 
         # Sugar alcohols
         "SOR": {"name": "D-Sorbitol", "chebi": "CHEBI:17924", "pubchem": "5780"},
-        "MNE": {"name": "D-Mannitol", "chebi": "CHEBI:16899", "pubchem": "6251"},
+        "MNE": {"name": "D-Mannose", "chebi": "CHEBI:4208", "pubchem": "18950"},  # API 20NE context; biotype100 uses for Mannitol
         "INO": {"name": "myo-Inositol", "chebi": "CHEBI:17268", "pubchem": "892"},
         "DUL": {"name": "Dulcitol", "chebi": "CHEBI:42118", "pubchem": "11850"},
         "ADO": {"name": "Adonitol", "chebi": "CHEBI:2509", "pubchem": "64639"},
@@ -68,8 +70,8 @@ class ChemicalMapper:
         "ARB": {"name": "Arbutin", "chebi": "CHEBI:2599", "pubchem": "440936"},
 
         # Organic acids
-        "CIT": {"name": "Citric acid", "chebi": "CHEBI:30769", "pubchem": "311"},
-        "LAT": {"name": "Lactic acid", "chebi": "CHEBI:28358", "pubchem": "612"},
+        "CIT": {"name": "Citrate", "chebi": "CHEBI:30769", "pubchem": "311"},  # Citrate anion
+        "LAT": {"name": "Lactate", "chebi": "CHEBI:422", "pubchem": "107689"},  # Lactate anion
         "PAT": {"name": "Pyruvic acid", "chebi": "CHEBI:32816", "pubchem": "1060"},
         "SUC": {"name": "Succinic acid", "chebi": "CHEBI:15741", "pubchem": "1110"},
         "FUM": {"name": "Fumaric acid", "chebi": "CHEBI:18012", "pubchem": "444972"},
@@ -88,8 +90,8 @@ class ChemicalMapper:
         "SER": {"name": "L-Serine", "chebi": "CHEBI:17115", "pubchem": "5951"},
         "TYR": {"name": "L-Tyrosine", "chebi": "CHEBI:17895", "pubchem": "6057"},
 
-        # Nucleosides
-        "ADI": {"name": "Adenosine", "chebi": "CHEBI:16335", "pubchem": "60961"},
+        # Organic acids (continued)
+        "ADI": {"name": "Adipate", "chebi": "CHEBI:30831", "pubchem": "196"},  # API 20NE context - adipic acid anion
 
         # Others
         "URE": {"name": "Urea", "chebi": "CHEBI:16199", "pubchem": "1176"},
@@ -136,6 +138,49 @@ class ChemicalMapper:
         "2KT": {"name": "2-Ketoglutarate", "chebi": "CHEBI:16810", "pubchem": "51"},
     }
 
+    # Kit-specific mappings that override global defaults
+    # Used when kit context is known to handle ambiguous codes
+    KIT_SPECIFIC_MAPPINGS = {
+        "API 20E": {
+            # In API 20E, MAN = D-Mannose (not Mannitol)
+            "MAN": {"name": "D-Mannose", "chebi": "CHEBI:4208", "pubchem": "18950"},
+            # ONPG is technically the substrate, but official docs refer to enzyme
+            "ONPG": {"name": "β-galactosidase", "enzyme": True, "substrate": "o-Nitrophenyl-β-D-galactopyranoside"},
+        },
+        "API 20NE": {
+            # In API 20NE, MAN = D-Mannitol, MNE = D-Mannose
+            "MAN": {"name": "D-Mannitol", "chebi": "CHEBI:16899", "pubchem": "6251"},
+            "MNE": {"name": "D-Mannose", "chebi": "CHEBI:4208", "pubchem": "18950"},
+            # Use official naming
+            "NAG": {"name": "N-Acetyl-Glucosamine", "chebi": "CHEBI:28009", "pubchem": "24139"},
+            "PAC": {"name": "Phenyl-acetate", "chebi": "CHEBI:30745", "pubchem": "999"},
+        },
+        "API zym": {
+            # Control well has specific naming
+            "Control": {"name": "Negative control", "control": True},
+            # API zym uses full enzyme names as codes
+            "Alkaline phosphatase": {"name": "Alkaline phosphatase", "ec": "3.1.3.1"},
+            "Esterase (C4)": {"name": "Esterase (C4)", "ec": "3.1.1.-"},
+            "Esterase lipase (C8)": {"name": "Esterase lipase (C8)", "ec": "3.1.1.-"},
+            "Lipase (C14)": {"name": "Lipase (C14)", "ec": "3.1.1.3"},
+            "Leucine arylamidase": {"name": "Leucine arylamidase", "ec": "3.4.11.1"},
+            "Valine arylamidase": {"name": "Valine arylamidase", "ec": "3.4.11.-"},
+            "Cystine arylamidase": {"name": "Cystine arylamidase", "ec": "3.4.11.-"},
+            "Trypsin": {"name": "Trypsin", "ec": "3.4.21.4"},
+            "alpha-Chymotrypsin": {"name": "alpha-Chymotrypsin", "ec": "3.4.21.1"},
+            "Acid phosphatase": {"name": "Acid phosphatase", "ec": "3.1.3.2"},
+            "Naphthol-AS-BI-phosphohydrolase": {"name": "Naphthol-AS-BI-phosphohydrolase", "ec": "3.1.3.-"},
+            "alpha-Galactosidase": {"name": "alpha-Galactosidase", "ec": "3.2.1.22"},
+            "beta-Galactosidase": {"name": "beta-Galactosidase", "ec": "3.2.1.23"},
+            "beta-Glucuronidase": {"name": "beta-Glucuronidase", "ec": "3.2.1.31"},
+            "alpha-Glucosidase": {"name": "alpha-Glucosidase", "ec": "3.2.1.20"},
+            "beta-Glucosidase": {"name": "beta-Glucosidase", "ec": "3.2.1.21"},
+            "N-acetyl-beta-glucosaminidase": {"name": "N-acetyl-beta-glucosaminidase", "ec": "3.2.1.52"},
+            "alpha-Mannosidase": {"name": "alpha-Mannosidase", "ec": "3.2.1.24"},
+            "alpha-Fucosidase": {"name": "alpha-Fucosidase", "ec": "3.2.1.51"},
+        },
+    }
+
     # Well codes that are enzyme tests, not substrates
     ENZYME_TESTS = {
         "URE": "Urease",
@@ -143,12 +188,17 @@ class ChemicalMapper:
         "PAL": "Phenylalanine deaminase",
         "IND": "Indole production",
         "VP": "Voges-Proskauer",
+        "TDA": "Tryptophan deaminase",
         "TDA Trp": "Tryptophan deaminase",
         "H2S": "Hydrogen sulfide production",
         "NIT": "Nitrate reductase",
         "NO2": "Nitrite reduction",
+        "NO3": "Nitrate reduction",  # API 20NE code
         "N2": "Nitrogen gas production",
         "OX": "Cytochrome oxidase",
+        "ONPG": "β-galactosidase (ONPG)",
+        "PNG": "β-galactosidase (PNPG)",  # API 20NE code
+        "TRP": "Tryptophane test",  # API 20NE code
     }
 
     # Enzyme activity tests
@@ -586,19 +636,38 @@ class ChemicalMapper:
         "blood": {"chebi": None, "pubchem": None},
     }
 
-    def get_chemical_info(self, code: str, label: str) -> Optional[dict]:
+    def get_substrate_mapping(self, code: str, kit_name: Optional[str] = None) -> Optional[dict]:
+        """Get substrate mapping with kit-specific context.
+
+        Args:
+            code: Well code (e.g., "GLU", "MAN")
+            kit_name: Optional API kit name for context-aware mapping (e.g., "API 20E")
+
+        Returns:
+            Dictionary with substrate information or None
+        """
+        # Check kit-specific mappings first if kit context is provided
+        if kit_name and kit_name in self.KIT_SPECIFIC_MAPPINGS:
+            if code in self.KIT_SPECIFIC_MAPPINGS[kit_name]:
+                return self.KIT_SPECIFIC_MAPPINGS[kit_name][code]
+
+        # Fall back to global mapping
+        return self.SUBSTRATE_MAPPINGS.get(code)
+
+    def get_chemical_info(self, code: str, label: str, kit_name: Optional[str] = None) -> Optional[dict]:
         """Get chemical identifiers for a substrate code.
 
         Args:
             code: Well code (e.g., "GLU")
             label: Full label/name of the test
+            kit_name: Optional API kit name for context-aware mapping
 
         Returns:
             Dictionary with chemical identifiers or None
         """
-        # Check if it's a substrate (not an enzyme test)
-        if code in self.SUBSTRATE_MAPPINGS:
-            mapping = self.SUBSTRATE_MAPPINGS[code]
+        # Check if it's a substrate (not an enzyme test) using kit-aware mapping
+        mapping = self.get_substrate_mapping(code, kit_name)
+        if mapping:
             return {
                 "chebi_id": mapping.get("chebi"),
                 "chebi_name": mapping.get("name"),

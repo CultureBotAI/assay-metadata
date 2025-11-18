@@ -100,25 +100,25 @@ class APIKitValidator:
             "url": "https://www.biomerieux.com/",
             "mappings": {
                 "Control": {"type": "control", "name": "Negative control"},
-                "Alkaline phosphatase": {"type": "enzyme", "ec": "3.1.3.1"},
-                "Esterase (C4)": {"type": "enzyme", "ec": "3.1.1.-"},
-                "Esterase lipase (C8)": {"type": "enzyme", "ec": "3.1.1.-"},
-                "Lipase (C14)": {"type": "enzyme", "ec": "3.1.1.3"},
-                "Leucine arylamidase": {"type": "enzyme", "ec": "3.4.11.1"},
-                "Valine arylamidase": {"type": "enzyme", "ec": "3.4.11.-"},
-                "Cystine arylamidase": {"type": "enzyme", "ec": "3.4.11.-"},
-                "Trypsin": {"type": "enzyme", "ec": "3.4.21.4"},
-                "alpha-Chymotrypsin": {"type": "enzyme", "ec": "3.4.21.1"},
-                "Acid phosphatase": {"type": "enzyme", "ec": "3.1.3.2"},
-                "Naphthol-AS-BI-phosphohydrolase": {"type": "enzyme", "ec": "3.1.3.-"},
-                "alpha-Galactosidase": {"type": "enzyme", "ec": "3.2.1.22"},
-                "beta-Galactosidase": {"type": "enzyme", "ec": "3.2.1.23"},
-                "beta-Glucuronidase": {"type": "enzyme", "ec": "3.2.1.31"},
-                "alpha-Glucosidase": {"type": "enzyme", "ec": "3.2.1.20"},
-                "beta-Glucosidase": {"type": "enzyme", "ec": "3.2.1.21"},
-                "N-acetyl-beta-glucosaminidase": {"type": "enzyme", "ec": "3.2.1.52"},
-                "alpha-Mannosidase": {"type": "enzyme", "ec": "3.2.1.24"},
-                "alpha-Fucosidase": {"type": "enzyme", "ec": "3.2.1.51"},
+                "Alkaline phosphatase": {"type": "enzyme", "name": "Alkaline phosphatase", "ec": "3.1.3.1"},
+                "Esterase (C4)": {"type": "enzyme", "name": "Esterase (C4)", "ec": "3.1.1.-"},
+                "Esterase lipase (C8)": {"type": "enzyme", "name": "Esterase lipase (C8)", "ec": "3.1.1.-"},
+                "Lipase (C14)": {"type": "enzyme", "name": "Lipase (C14)", "ec": "3.1.1.3"},
+                "Leucine arylamidase": {"type": "enzyme", "name": "Leucine arylamidase", "ec": "3.4.11.1"},
+                "Valine arylamidase": {"type": "enzyme", "name": "Valine arylamidase", "ec": "3.4.11.-"},
+                "Cystine arylamidase": {"type": "enzyme", "name": "Cystine arylamidase", "ec": "3.4.11.-"},
+                "Trypsin": {"type": "enzyme", "name": "Trypsin", "ec": "3.4.21.4"},
+                "alpha-Chymotrypsin": {"type": "enzyme", "name": "alpha-Chymotrypsin", "ec": "3.4.21.1"},
+                "Acid phosphatase": {"type": "enzyme", "name": "Acid phosphatase", "ec": "3.1.3.2"},
+                "Naphthol-AS-BI-phosphohydrolase": {"type": "enzyme", "name": "Naphthol-AS-BI-phosphohydrolase", "ec": "3.1.3.-"},
+                "alpha-Galactosidase": {"type": "enzyme", "name": "alpha-Galactosidase", "ec": "3.2.1.22"},
+                "beta-Galactosidase": {"type": "enzyme", "name": "beta-Galactosidase", "ec": "3.2.1.23"},
+                "beta-Glucuronidase": {"type": "enzyme", "name": "beta-Glucuronidase", "ec": "3.2.1.31"},
+                "alpha-Glucosidase": {"type": "enzyme", "name": "alpha-Glucosidase", "ec": "3.2.1.20"},
+                "beta-Glucosidase": {"type": "enzyme", "name": "beta-Glucosidase", "ec": "3.2.1.21"},
+                "N-acetyl-beta-glucosaminidase": {"type": "enzyme", "name": "N-acetyl-beta-glucosaminidase", "ec": "3.2.1.52"},
+                "alpha-Mannosidase": {"type": "enzyme", "name": "alpha-Mannosidase", "ec": "3.2.1.24"},
+                "alpha-Fucosidase": {"type": "enzyme", "name": "alpha-Fucosidase", "ec": "3.2.1.51"},
             }
         },
     }
@@ -156,31 +156,65 @@ class APIKitValidator:
 
         # Check each official mapping
         for well_code, official_data in official.get("mappings", {}).items():
-            # Check if we have this in our mappings
-            if well_code in self.mapper.SUBSTRATE_MAPPINGS:
-                our_mapping = self.mapper.SUBSTRATE_MAPPINGS[well_code]
+            # Check substrate mappings with kit-specific context
+            our_mapping = None
+            mapping_location = None
+            our_name = None
 
-                # Validate the mapping
+            # First try kit-specific mapping
+            our_mapping = self.mapper.get_substrate_mapping(well_code, kit_name)
+            if our_mapping:
+                mapping_location = f"KIT_SPECIFIC[{kit_name}]" if (
+                    kit_name in self.mapper.KIT_SPECIFIC_MAPPINGS and
+                    well_code in self.mapper.KIT_SPECIFIC_MAPPINGS[kit_name]
+                ) else "SUBSTRATE_MAPPINGS"
+                our_name = our_mapping.get("name", "")
+            # Check enzyme tests
+            elif well_code in self.mapper.ENZYME_TESTS:
+                our_name = self.mapper.ENZYME_TESTS[well_code]
+                mapping_location = "ENZYME_TESTS"
+            # Check enzyme activity tests
+            elif well_code in self.mapper.ENZYME_ACTIVITY_TESTS:
+                our_name = self.mapper.ENZYME_ACTIVITY_TESTS[well_code]
+                mapping_location = "ENZYME_ACTIVITY_TESTS"
+            # Check phenotypic tests
+            elif well_code in self.mapper.PHENOTYPIC_TESTS:
+                our_name = self.mapper.PHENOTYPIC_TESTS[well_code]
+                mapping_location = "PHENOTYPIC_TESTS"
+
+            if our_name:
+                # Validate the mapping with lenient string matching
                 official_name = official_data.get("name", "").lower()
-                our_name = our_mapping.get("name", "").lower()
+                our_name_lower = our_name.lower()
 
-                if official_name in our_name or our_name in official_name:
+                # Normalize for comparison (remove hyphens, spaces, D-/L- prefixes)
+                def normalize(s):
+                    s = s.replace("-", "").replace(" ", "").replace("d", "").replace("l", "")
+                    return s.strip()
+
+                official_norm = normalize(official_name)
+                our_norm = normalize(our_name_lower)
+
+                if (official_name in our_name_lower or our_name_lower in official_name or
+                    official_norm == our_norm):
                     results["validated"].append({
                         "code": well_code,
                         "official": official_data.get("name"),
-                        "ours": our_mapping.get("name"),
+                        "ours": our_name,
+                        "location": mapping_location,
                         "status": "match"
                     })
                 else:
                     results["mismatched"].append({
                         "code": well_code,
                         "official": official_data.get("name"),
-                        "ours": our_mapping.get("name"),
+                        "ours": our_name,
+                        "location": mapping_location,
                         "status": "mismatch"
                     })
                     self.errors.append(
                         f"{kit_name}: {well_code} - Official: '{official_data.get('name')}', "
-                        f"Ours: '{our_mapping.get('name')}'"
+                        f"Ours: '{our_name}' (in {mapping_location})"
                     )
             else:
                 results["missing"].append({
