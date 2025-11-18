@@ -649,6 +649,91 @@ class EnzymeMapper:
             "kegg_ko": "K01181",
             "ec_number": "3.2.1.8",
         },
+        # API zym enzymes (note space after dash: "alpha- ")
+        "Trypsin": {
+            "go_terms": ["GO:0004295"],
+            "go_names": ["trypsin activity"],
+            "kegg_ko": "K01312",
+            "ec_number": "3.4.21.4",
+        },
+        "alpha- Chymotrypsin": {
+            "go_terms": ["GO:0004263"],
+            "go_names": ["obsolete chymotrypsin activity"],
+            "kegg_ko": "K01311",
+            "ec_number": "3.4.21.1",
+        },
+        "Esterase Lipase": {
+            "go_terms": ["GO:0052689"],
+            "go_names": ["carboxylic ester hydrolase activity"],
+            "kegg_ko": "K01066",
+            "ec_number": "3.1.1.1",
+        },
+        "Valine arylamidase": {
+            "go_terms": ["GO:0070006"],
+            "go_names": ["metalloaminopeptidase activity"],
+            "kegg_ko": "K01255",
+            "ec_number": "3.4.11.6",
+        },
+        "Cystine arylamidase": {
+            "go_terms": ["GO:0008234"],
+            "go_names": ["cysteine-type peptidase activity"],
+            "kegg_ko": None,
+            "ec_number": "3.4.22.-",
+        },
+        "Naphthol-AS-BI-phosphohydrolase": {
+            "go_terms": ["GO:0004035"],
+            "go_names": ["alkaline phosphatase activity"],
+            "kegg_ko": "K01077",
+            "ec_number": "3.1.3.1",
+        },
+        "alpha- Galactosidase": {
+            "go_terms": ["GO:0004557"],
+            "go_names": ["alpha-galactosidase activity"],
+            "kegg_ko": "K07407",
+            "ec_number": "3.2.1.22",
+        },
+        "beta- Galactosidase": {
+            "go_terms": ["GO:0004565"],
+            "go_names": ["beta-galactosidase activity"],
+            "kegg_ko": "K01190",
+            "ec_number": "3.2.1.23",
+        },
+        "beta- Glucuronidase": {
+            "go_terms": ["GO:0004566"],
+            "go_names": ["beta-glucuronidase activity"],
+            "kegg_ko": "K01195",
+            "ec_number": "3.2.1.31",
+        },
+        "alpha- Glucosidase": {
+            "go_terms": ["GO:0004558"],
+            "go_names": ["alpha-glucosidase activity"],
+            "kegg_ko": "K01187",
+            "ec_number": "3.2.1.20",
+        },
+        "beta- Glucosidase": {
+            "go_terms": ["GO:0008422"],
+            "go_names": ["beta-glucosidase activity"],
+            "kegg_ko": "K05349",
+            "ec_number": "3.2.1.21",
+        },
+        "N-acetyl-beta- glucosaminidase": {
+            "go_terms": ["GO:0004563"],
+            "go_names": ["beta-N-acetylhexosaminidase activity"],
+            "kegg_ko": "K01207",
+            "ec_number": "3.2.1.52",
+        },
+        "alpha- Mannosidase": {
+            "go_terms": ["GO:0004559"],
+            "go_names": ["alpha-mannosidase activity"],
+            "kegg_ko": "K01191",
+            "ec_number": "3.2.1.24",
+        },
+        "alpha- Fucosidase": {
+            "go_terms": ["GO:0004560"],
+            "go_names": ["alpha-L-fucosidase activity"],
+            "kegg_ko": "K01206",
+            "ec_number": "3.2.1.51",
+        },
     }
 
     def __init__(self, rhea_cache_file: str = "rhea_cache.json"):

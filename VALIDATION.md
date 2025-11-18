@@ -59,7 +59,7 @@ uv run python3 scripts/apply_fixes.py
 **What it does**:
 - Creates automatic backup of `mappers.py`
 - Applies 11 fixes (3 critical errors + 8 deprecated terms)
-- Generates `FINAL_FIXED_MAPPING_STATS.md` report
+- Generates `notes/FINAL_FIXED_MAPPING_STATS.md` report
 - Shows summary of all changes
 
 ## Output Files

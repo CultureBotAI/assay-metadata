@@ -469,7 +469,8 @@ def generate_final_stats_report():
 **Version**: 2.0 (Fixed)
 """
 
-    output_path = Path("FINAL_FIXED_MAPPING_STATS.md")
+    output_path = Path("notes/FINAL_FIXED_MAPPING_STATS.md")
+    output_path.parent.mkdir(exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(report)
 
@@ -521,7 +522,7 @@ def main():
     print("Next steps:")
     print("  1. Run validation: make validate")
     print("  2. Expected result: 0 errors, 0 warnings ✅")
-    print("  3. Review: cat FINAL_FIXED_MAPPING_STATS.md")
+    print("  3. Review: cat notes/FINAL_FIXED_MAPPING_STATS.md")
     print()
 
 

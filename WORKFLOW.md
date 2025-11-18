@@ -65,9 +65,9 @@ make validate
 
 ### Step 2: Review Validation Reports
 ```bash
-cat VALIDATION_ERRORS_DETAILED.md      # Invalid IDs
-cat DEPRECATED_TERMS_REPORT.md         # Deprecated terms
-cat FINAL_MAPPING_STATS.md             # Overall statistics
+cat notes/VALIDATION_ERRORS_DETAILED.md      # Invalid IDs
+cat notes/DEPRECATED_TERMS_REPORT.md         # Deprecated terms
+cat notes/FINAL_MAPPING_STATS.md             # Overall statistics
 ```
 
 ### Step 3: Apply One-Time Fixes (Optional)
@@ -78,7 +78,7 @@ uv run python3 scripts/apply_fixes.py
 
 **Output**:
 - Backup: `mappers.py.backup-{timestamp}`
-- Report: `FINAL_FIXED_MAPPING_STATS.md`
+- Report: `notes/FINAL_FIXED_MAPPING_STATS.md`
 
 **Verify**:
 ```bash
@@ -256,10 +256,14 @@ assay-metadata/
 │   └── README.md               # Script documentation
 ├── data/
 │   └── *.json                  # Generated outputs
+├── notes/                      # Reference documentation
+│   ├── FINAL_MAPPING_STATS.md      # Pre-fix statistics
+│   ├── FINAL_FIXED_MAPPING_STATS.md # Post-fix statistics (after cleanup)
+│   ├── VALIDATION_ERRORS_DETAILED.md # Invalid ID analysis
+│   ├── DEPRECATED_TERMS_REPORT.md   # Deprecated term analysis
+│   └── README.md               # Notes directory guide
 ├── VALIDATION.md               # Validation guide
-├── WORKFLOW.md                 # This file
-├── FINAL_MAPPING_STATS.md      # Pre-fix statistics
-└── FINAL_FIXED_MAPPING_STATS.md # Post-fix statistics (after cleanup)
+└── WORKFLOW.md                 # This file
 ```
 
 ---
@@ -288,10 +292,10 @@ assay-metadata/
 - `scripts/README.md` - One-time utility scripts
 
 ### Validation Reports
-- `VALIDATION_ERRORS_DETAILED.md` - Invalid ID analysis
-- `DEPRECATED_TERMS_REPORT.md` - Deprecated term analysis
-- `FINAL_MAPPING_STATS.md` - Initial statistics
-- `FINAL_FIXED_MAPPING_STATS.md` - After-fix statistics
+- `notes/VALIDATION_ERRORS_DETAILED.md` - Invalid ID analysis
+- `notes/DEPRECATED_TERMS_REPORT.md` - Deprecated term analysis
+- `notes/FINAL_MAPPING_STATS.md` - Initial statistics
+- `notes/FINAL_FIXED_MAPPING_STATS.md` - After-fix statistics
 
 ### Databases
 - CHEBI: https://www.ebi.ac.uk/chebi/
