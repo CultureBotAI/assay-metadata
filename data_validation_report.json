@@ -1,0 +1,2715 @@
+{
+  "kits": {
+    "API zym": {
+      "kit_name": "API zym",
+      "total_wells": 20,
+      "mapped": 20,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "Control",
+          "name": "Negative control",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Alkaline phosphatase",
+          "name": "Alkaline phosphatase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Esterase",
+          "name": "Esterase (C4)",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Esterase Lipase",
+          "name": "Esterase lipase (C8)",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Lipase",
+          "name": "Lipase (C14)",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Leucine arylamidase",
+          "name": "Leucine arylamidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Valine arylamidase",
+          "name": "Valine arylamidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Cystine arylamidase",
+          "name": "Cystine arylamidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Trypsin",
+          "name": "Trypsin",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "alpha- Chymotrypsin",
+          "name": "alpha-Chymotrypsin",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Acid phosphatase",
+          "name": "Acid phosphatase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "Naphthol-AS-BI-phosphohydrolase",
+          "name": "Naphthol-AS-BI-phosphohydrolase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "alpha- Galactosidase",
+          "name": "alpha-Galactosidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "beta- Galactosidase",
+          "name": "beta-Galactosidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "beta- Glucuronidase",
+          "name": "beta-Glucuronidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "alpha- Glucosidase",
+          "name": "alpha-Glucosidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "beta- Glucosidase",
+          "name": "beta-Glucosidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "N-acetyl-beta- glucosaminidase",
+          "name": "N-acetyl-beta-glucosaminidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "alpha- Mannosidase",
+          "name": "alpha-Mannosidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        },
+        {
+          "code": "alpha- Fucosidase",
+          "name": "alpha-Fucosidase",
+          "location": "KIT_SPECIFIC[API zym]"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 11747
+    },
+    "API 50CHac": {
+      "kit_name": "API 50CHac",
+      "total_wells": 49,
+      "mapped": 49,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "GLY",
+          "name": "Glycerol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ERY",
+          "name": "Erythritol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DARA",
+          "name": "D-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RIB",
+          "name": "D-Ribose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DXYL",
+          "name": "D-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LXYL",
+          "name": "L-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ADO",
+          "name": "Adonitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDX",
+          "name": "Methyl-D-xyloside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GAL",
+          "name": "D-Galactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "FRU",
+          "name": "D-Fructose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MNE",
+          "name": "D-Mannose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SBE",
+          "name": "D-Sorbose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RHA",
+          "name": "L-Rhamnose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DUL",
+          "name": "Dulcitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "INO",
+          "name": "myo-Inositol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SOR",
+          "name": "D-Sorbitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDM",
+          "name": "Methyl-\u03b1-D-mannopyranoside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDG",
+          "name": "Methyl-\u03b1-D-glucopyranoside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NAG",
+          "name": "N-Acetyl-D-glucosamine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "AMY",
+          "name": "Amygdalin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ARB",
+          "name": "Arbutin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAL",
+          "name": "Salicin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CEL",
+          "name": "Cellobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MEL",
+          "name": "Melibiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "INU",
+          "name": "Inulin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MLZ",
+          "name": "Melezitose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "AMD",
+          "name": "Amidon",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLYG",
+          "name": "Glycogen",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XLT",
+          "name": "Xylitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GEN",
+          "name": "Gentiobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TUR",
+          "name": "Turanose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LYX",
+          "name": "D-Lyxose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TAG",
+          "name": "D-Tagatose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DFUC",
+          "name": "D-Fucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LFUC",
+          "name": "L-Fucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DARL",
+          "name": "D-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LARL",
+          "name": "L-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GNT",
+          "name": "Gluconate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "2KG",
+          "name": "2-Ketogluconic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "5KG",
+          "name": "5-Ketogluconic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 6853
+    },
+    "API 20NE": {
+      "kit_name": "API 20NE",
+      "total_wells": 21,
+      "mapped": 21,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "NO3",
+          "name": "Nitrate reduction",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "TRP",
+          "name": "Tryptophane test",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "GLU_ Ferm",
+          "name": "Glucose fermentation",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ADH Arg",
+          "name": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GEL",
+          "name": "Gelatin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PNPG",
+          "name": "\u03b2-galactosidase (PNPG)",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "GLU_ Assim",
+          "name": "Glucose assimilation",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MNE",
+          "name": "D-Mannose",
+          "location": "KIT_SPECIFIC[API 20NE]"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "KIT_SPECIFIC[API 20NE]"
+        },
+        {
+          "code": "NAG",
+          "name": "N-Acetyl-Glucosamine",
+          "location": "KIT_SPECIFIC[API 20NE]"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GNT",
+          "name": "Gluconate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CAP",
+          "name": "Caprate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ADI",
+          "name": "Adipate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MLT",
+          "name": "Malate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CIT",
+          "name": "Citrate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PAC",
+          "name": "Phenyl-acetate",
+          "location": "KIT_SPECIFIC[API 20NE]"
+        },
+        {
+          "code": "OX",
+          "name": "Cytochrome oxidase",
+          "location": "ENZYME_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 3833
+    },
+    "API rID32STR": {
+      "kit_name": "API rID32STR",
+      "total_wells": 32,
+      "mapped": 32,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "ADH Arg",
+          "name": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GLU",
+          "name": "\u03b2-glucosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GAR",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GUR",
+          "name": "\u03b2-glucuronidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "alpha GAL",
+          "name": "\u03b1-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PAL",
+          "name": "Phenylalanine deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "RIB",
+          "name": "D-Ribose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SOR",
+          "name": "D-Sorbitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DARL",
+          "name": "D-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CDEX",
+          "name": "Cyclodextrin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "VP",
+          "name": "Voges-Proskauer",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "APPA",
+          "name": "Alanine-phenylalanine-proline arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GAL",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PyrA",
+          "name": "Pyroglutamic acid arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta NAG",
+          "name": "\u03b2-N-acetyl-glucosaminidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "GTA",
+          "name": "Glutamate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "HIP",
+          "name": "Hippurate hydrolysis",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "GLYG",
+          "name": "Glycogen",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PUL",
+          "name": "Pullulan",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MEL",
+          "name": "Melibiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MLZ",
+          "name": "Melezitose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "Mbeta DG",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "TAG",
+          "name": "D-Tagatose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "beta MAN",
+          "name": "\u03b2-mannosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 3666
+    },
+    "API biotype100": {
+      "kit_name": "API biotype100",
+      "total_wells": 99,
+      "mapped": 99,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "FRU",
+          "name": "D-Fructose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GAL",
+          "name": "D-Galactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MNE",
+          "name": "D-Mannose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SBE",
+          "name": "D-Sorbose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MEL",
+          "name": "Melibiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MTE",
+          "name": "Maltose variant test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LTE",
+          "name": "Lactose variant test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "MbGa",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "MaGa",
+          "name": "\u03b1-galactosidase (Mannosidase)",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "CEL",
+          "name": "Cellobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GEN",
+          "name": "Gentiobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MbGu",
+          "name": "\u03b2-glucuronidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RIB",
+          "name": "D-Ribose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XYL",
+          "name": "D-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PLE",
+          "name": "Phospholipase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "RHA",
+          "name": "L-Rhamnose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "FUC",
+          "name": "Fucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MLZ",
+          "name": "Melezitose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DARL",
+          "name": "D-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LARL",
+          "name": "L-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XLT",
+          "name": "Xylitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DUL",
+          "name": "Dulcitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TAG",
+          "name": "D-Tagatose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLY",
+          "name": "Glycerol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "INO",
+          "name": "myo-Inositol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MTL",
+          "name": "Mannitol utilization",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "TUR",
+          "name": "Turanose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SOR",
+          "name": "D-Sorbitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ADO",
+          "name": "Adonitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "HBG",
+          "name": "Hemoglobin test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "LYX",
+          "name": "D-Lyxose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ERY",
+          "name": "Erythritol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDG",
+          "name": "Methyl-\u03b1-D-glucopyranoside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "3MDG",
+          "name": "3-Methyl-D-glucose",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "SAT",
+          "name": "Salicin variant test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "MUC",
+          "name": "Mucate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LTAT",
+          "name": "L-Tartrate",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "DTAT",
+          "name": "D-Tartrate",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "MTAT",
+          "name": "Meso-Tartrate",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "DMLT",
+          "name": "D-Malate test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "LMLT",
+          "name": "L-Malate test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "CATE",
+          "name": "Catalase test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "TATE",
+          "name": "Tartrate variant test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "TTE",
+          "name": "Trehalose variant enzyme",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "CIT",
+          "name": "Citrate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GRT",
+          "name": "Glucuronate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GAT",
+          "name": "Galactitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "2KG",
+          "name": "2-Ketogluconic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "5KG",
+          "name": "5-Ketogluconic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRY",
+          "name": "L-Tryptophan",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NAG",
+          "name": "N-Acetyl-D-glucosamine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GNT",
+          "name": "Gluconate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PAC",
+          "name": "Phenylacetate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PAT",
+          "name": "Pyruvic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "pOBE",
+          "name": "para-hydroxybenzoate",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "QAT",
+          "name": "Quinine test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "GTE",
+          "name": "Gelatin liquefaction variant",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "mOBE",
+          "name": "meta-hydroxybenzoate",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "BAT",
+          "name": "Beta-alanine test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "PPAT",
+          "name": "Phenylpyruvic acid test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "CMT",
+          "name": "Coumarin test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "TGE",
+          "name": "Trehalose variant test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "BET",
+          "name": "Betaine utilization",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "PCE",
+          "name": "Penicillin variant",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "ABT",
+          "name": "Arabitol",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "HIN",
+          "name": "Hippurate test variant",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "LAT",
+          "name": "Lactate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CAP",
+          "name": "Caprate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CYT",
+          "name": "Cytochrome test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "HIS",
+          "name": "L-Histidine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SUC",
+          "name": "Succinic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "FUM",
+          "name": "Fumaric acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GRE",
+          "name": "Green fluorescence",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "GYT",
+          "name": "Glycerol test variant",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "AVT",
+          "name": "Arabinose variant test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "ETN",
+          "name": "Ethanol utilization",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "TTN",
+          "name": "Tetanus toxin",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "GLN",
+          "name": "L-Glutamine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ITA",
+          "name": "Itaconate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "3OBU",
+          "name": "3-Hydroxybutyrate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "APT",
+          "name": "Alanine-phenylalanine-proline test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "GTT",
+          "name": "Glutamate test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "PRO",
+          "name": "L-Proline",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DALA",
+          "name": "D-Alanine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LALA",
+          "name": "L-Alanine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SER",
+          "name": "L-Serine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MNT",
+          "name": "Maltotriose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PROP",
+          "name": "Propionate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TYR",
+          "name": "L-Tyrosine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "2KT",
+          "name": "2-Ketoglutarate",
+          "location": "SUBSTRATE_MAPPINGS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 3599
+    },
+    "API 20E": {
+      "kit_name": "API 20E",
+      "total_wells": 19,
+      "mapped": 19,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "ONPG",
+          "name": "\u03b2-galactosidase",
+          "location": "KIT_SPECIFIC[API 20E]"
+        },
+        {
+          "code": "ADH Arg",
+          "name": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "LDC Lys",
+          "name": "Lysine decarboxylase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ODC",
+          "name": "Ornithine decarboxylase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "CIT",
+          "name": "Citrate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "H2S",
+          "name": "Hydrogen sulfide production",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TDA Trp",
+          "name": "Tryptophan deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "IND",
+          "name": "Indole production",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "VP",
+          "name": "Voges-Proskauer",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "GEL",
+          "name": "Gelatin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "INO",
+          "name": "myo-Inositol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "Sor",
+          "name": "D-Sorbitol",
+          "location": "KIT_SPECIFIC[API 20E]"
+        },
+        {
+          "code": "RHA",
+          "name": "L-Rhamnose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MEL",
+          "name": "Melibiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NO2",
+          "name": "Nitrite reduction",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "N2",
+          "name": "Nitrogen gas production",
+          "location": "ENZYME_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 3452
+    },
+    "API coryne": {
+      "kit_name": "API coryne",
+      "total_wells": 21,
+      "mapped": 21,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "NIT",
+          "name": "Nitrate reductase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "PYZ",
+          "name": "Pyrazinamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PYRA",
+          "name": "Pyrrolidonyl arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PAL",
+          "name": "Phenylalanine deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "beta GUR",
+          "name": "\u03b2-glucuronidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GAL",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "alpha GLU",
+          "name": "\u03b1-glucosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta NAG",
+          "name": "\u03b2-N-acetyl-glucosaminidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GEL",
+          "name": "Gelatin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "Control",
+          "name": "Control well (no substrate)",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RIB",
+          "name": "D-Ribose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XYL",
+          "name": "D-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLYG",
+          "name": "Glycogen",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CAT",
+          "name": "Catalase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 3287
+    },
+    "API rID32A": {
+      "kit_name": "API rID32A",
+      "total_wells": 29,
+      "mapped": 29,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ADH Arg",
+          "name": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "alpha GAL",
+          "name": "\u03b1-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GAL",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GP",
+          "name": "\u03b2-glycosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "alpha GLU",
+          "name": "\u03b1-glucosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GLU",
+          "name": "\u03b2-glucosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "alpha ARA",
+          "name": "\u03b1-arabinosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GUR",
+          "name": "\u03b2-glucuronidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta NAG",
+          "name": "\u03b2-N-acetyl-glucosaminidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "MNE",
+          "name": "D-Mannose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GDC",
+          "name": "Gluconic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "alpha FUC",
+          "name": "\u03b1-fucosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "NIT",
+          "name": "Nitrate reductase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "IND",
+          "name": "Indole production",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "PAL",
+          "name": "Phenylalanine deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "ArgA",
+          "name": "Arginine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ProA",
+          "name": "Proline arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "LGA",
+          "name": "Glutamyl glutamic acid arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PheA",
+          "name": "Phenylalanine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "LeuA",
+          "name": "Leucine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PyrA",
+          "name": "Pyroglutamic acid arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "TyrA",
+          "name": "Tyrosine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "AlaA",
+          "name": "Alanine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "GlyA",
+          "name": "Glycine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "HisA",
+          "name": "Histidine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "GGA",
+          "name": "Glutamyl glutamic acid arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "SerA",
+          "name": "Serine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 2198
+    },
+    "API ID32E": {
+      "kit_name": "API ID32E",
+      "total_wells": 32,
+      "mapped": 32,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "ODC",
+          "name": "Ornithine decarboxylase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ADH Arg",
+          "name": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "LDC Lys",
+          "name": "Lysine decarboxylase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LARL",
+          "name": "L-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GAT",
+          "name": "Galactitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "5KG",
+          "name": "5-Ketogluconic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LIP",
+          "name": "Lipase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "RP",
+          "name": "Reverse CAMP test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "beta GLU",
+          "name": "\u03b2-glucosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ADO",
+          "name": "Adonitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PLE",
+          "name": "Phospholipase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GUR",
+          "name": "\u03b2-glucuronidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "MNT",
+          "name": "Maltotriose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "IND",
+          "name": "Indole production",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "beta NAG",
+          "name": "\u03b2-N-acetyl-glucosaminidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GAL",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DARL",
+          "name": "D-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "alpha GLU",
+          "name": "\u03b1-glucosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "alpha GAL",
+          "name": "\u03b1-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RHA",
+          "name": "L-Rhamnose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "INO",
+          "name": "myo-Inositol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CEL",
+          "name": "Cellobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SOR",
+          "name": "D-Sorbitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "alphaMAL",
+          "name": "\u03b1-maltosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "AspA",
+          "name": "Aspartic acid arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 1438
+    },
+    "API NH": {
+      "kit_name": "API NH",
+      "total_wells": 13,
+      "mapped": 13,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "PEN",
+          "name": "Penicillin resistance",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "FRU",
+          "name": "D-Fructose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ODC",
+          "name": "Ornithine decarboxylase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LIP",
+          "name": "Lipase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PAL",
+          "name": "Phenylalanine deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "beta GAL",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ProA",
+          "name": "Proline arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "GGT",
+          "name": "Gamma-glutamyl transferase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "IND",
+          "name": "Indole production",
+          "location": "ENZYME_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 1407
+    },
+    "API ID32STA": {
+      "kit_name": "API ID32STA",
+      "total_wells": 26,
+      "mapped": 26,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ADH Arg",
+          "name": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ODC",
+          "name": "Ornithine decarboxylase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "FRU",
+          "name": "D-Fructose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MNE",
+          "name": "D-Mannose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RIB",
+          "name": "D-Ribose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CEL",
+          "name": "Cellobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NIT",
+          "name": "Nitrate reductase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "VP",
+          "name": "Voges-Proskauer",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "beta GAL",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ArgA",
+          "name": "Arginine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PAL",
+          "name": "Phenylalanine deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "PyrA",
+          "name": "Pyroglutamic acid arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "NOVO",
+          "name": "Novobiocin resistance",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NAG",
+          "name": "N-Acetyl-D-glucosamine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TUR",
+          "name": "Turanose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "beta GUR",
+          "name": "\u03b2-glucuronidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 839
+    },
+    "API CAM": {
+      "kit_name": "API CAM",
+      "total_wells": 21,
+      "mapped": 21,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NIT",
+          "name": "Nitrate reductase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "EST",
+          "name": "Esterase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "HIP",
+          "name": "Hippurate hydrolysis",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "GGT",
+          "name": "Gamma-glutamyl transferase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "TTC",
+          "name": "Tetrazolium reduction",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "PYRA",
+          "name": "Pyrrolidonyl arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ArgA",
+          "name": "Arginine arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "AspA",
+          "name": "Aspartic acid arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PAL",
+          "name": "Phenylalanine deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "H2S",
+          "name": "Hydrogen sulfide production",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SUT",
+          "name": "Sucrose variant test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "NAL",
+          "name": "Nalidixic acid resistance",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "CFZ",
+          "name": "Cefoxitin resistance",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "ACE",
+          "name": "Acetate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PROP",
+          "name": "Propionate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MLT",
+          "name": "Malate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CIT",
+          "name": "Citrate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ERO",
+          "name": "Erythromycin test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "CAT",
+          "name": "Catalase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 370
+    },
+    "API 20STR": {
+      "kit_name": "API 20STR",
+      "total_wells": 20,
+      "mapped": 20,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "VP",
+          "name": "Voges-Proskauer",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "HIP",
+          "name": "Hippurate hydrolysis",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "PYRA",
+          "name": "Pyrrolidonyl arylamidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "alpha GAL",
+          "name": "\u03b1-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GUR",
+          "name": "\u03b2-glucuronidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "beta GAL",
+          "name": "\u03b2-galactosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "PAL",
+          "name": "Phenylalanine deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "LAP",
+          "name": "Leucine aminopeptidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "ADH",
+          "name": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "RIB",
+          "name": "D-Ribose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SOR",
+          "name": "D-Sorbitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "INU",
+          "name": "Inulin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "AMD",
+          "name": "Amidon",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLYG",
+          "name": "Glycogen",
+          "location": "SUBSTRATE_MAPPINGS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 311
+    },
+    "API LIST": {
+      "kit_name": "API LIST",
+      "total_wells": 10,
+      "mapped": 10,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "DIM",
+          "name": "Dimethyl test",
+          "location": "PHENOTYPIC_TESTS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "alpha MAN",
+          "name": "\u03b1-mannosidase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "DARL",
+          "name": "D-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XYL",
+          "name": "D-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RHA",
+          "name": "L-Rhamnose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDG",
+          "name": "Methyl-\u03b1-D-glucopyranoside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RIB",
+          "name": "D-Ribose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "G1P",
+          "name": "Glucose-1-phosphate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TAG",
+          "name": "D-Tagatose",
+          "location": "SUBSTRATE_MAPPINGS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 270
+    },
+    "API STA": {
+      "kit_name": "API STA",
+      "total_wells": 20,
+      "mapped": 20,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "FRU",
+          "name": "D-Fructose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MNE",
+          "name": "D-Mannose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XLT",
+          "name": "Xylitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MEL",
+          "name": "Melibiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NIT",
+          "name": "Nitrate reductase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "PAL",
+          "name": "Phenylalanine deaminase",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "VP",
+          "name": "Voges-Proskauer",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XYL",
+          "name": "D-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDG",
+          "name": "Methyl-\u03b1-D-glucopyranoside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NAG",
+          "name": "N-Acetyl-D-glucosamine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ADH",
+          "name": "Arginine dihydrolase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        },
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LSTR",
+          "name": "L-Serine test",
+          "location": "PHENOTYPIC_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 220
+    },
+    "API 20A": {
+      "kit_name": "API 20A",
+      "total_wells": 21,
+      "mapped": 21,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "IND",
+          "name": "Indole production",
+          "location": "ENZYME_TESTS"
+        },
+        {
+          "code": "URE",
+          "name": "Urea",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAL",
+          "name": "Salicin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XYL",
+          "name": "D-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GEL",
+          "name": "Gelatin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLY",
+          "name": "Glycerol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CEL",
+          "name": "Cellobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MNE",
+          "name": "D-Mannose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MLZ",
+          "name": "Melezitose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SOR",
+          "name": "D-Sorbitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RHA",
+          "name": "L-Rhamnose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CAT",
+          "name": "Catalase",
+          "location": "ENZYME_ACTIVITY_TESTS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 185
+    },
+    "API 50CHas": {
+      "kit_name": "API 50CHas",
+      "total_wells": 50,
+      "mapped": 50,
+      "unmapped": 0,
+      "coverage_percent": 100.0,
+      "mapped_codes": [
+        {
+          "code": "Q",
+          "name": "Quinate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLY",
+          "name": "Glycerol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ERY",
+          "name": "Erythritol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DARA",
+          "name": "D-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LARA",
+          "name": "L-Arabinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RIB",
+          "name": "D-Ribose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DXYL",
+          "name": "D-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LXYL",
+          "name": "L-Xylose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ADO",
+          "name": "Adonitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDX",
+          "name": "Methyl-D-xyloside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GAL",
+          "name": "D-Galactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLU",
+          "name": "D-Glucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "FRU",
+          "name": "D-Fructose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MNE",
+          "name": "D-Mannose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SBE",
+          "name": "D-Sorbose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RHA",
+          "name": "L-Rhamnose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DUL",
+          "name": "Dulcitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "INO",
+          "name": "myo-Inositol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAN",
+          "name": "D-Mannitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SOR",
+          "name": "D-Sorbitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDM",
+          "name": "Methyl-\u03b1-D-mannopyranoside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MDG",
+          "name": "Methyl-\u03b1-D-glucopyranoside",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "NAG",
+          "name": "N-Acetyl-D-glucosamine",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "AMY",
+          "name": "Amygdalin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ARB",
+          "name": "Arbutin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "ESC",
+          "name": "Esculin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAL",
+          "name": "Salicin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "CEL",
+          "name": "Cellobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MAL",
+          "name": "Maltose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LAC",
+          "name": "Lactose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MEL",
+          "name": "Melibiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "SAC",
+          "name": "Sucrose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TRE",
+          "name": "Trehalose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "INU",
+          "name": "Inulin",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "MLZ",
+          "name": "Melezitose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "RAF",
+          "name": "Raffinose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "AMD",
+          "name": "Amidon",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GLYG",
+          "name": "Glycogen",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "XLT",
+          "name": "Xylitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GEN",
+          "name": "Gentiobiose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TUR",
+          "name": "Turanose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LYX",
+          "name": "D-Lyxose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "TAG",
+          "name": "D-Tagatose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DFUC",
+          "name": "D-Fucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LFUC",
+          "name": "L-Fucose",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "DARL",
+          "name": "D-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "LARL",
+          "name": "L-Arabitol",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "GNT",
+          "name": "Gluconate",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "2KG",
+          "name": "2-Ketogluconic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        },
+        {
+          "code": "5KG",
+          "name": "5-Ketogluconic acid",
+          "location": "SUBSTRATE_MAPPINGS"
+        }
+      ],
+      "unmapped_codes": [],
+      "occurrence_count": 13
+    }
+  },
+  "summary": {
+    "total_kits": 17,
+    "total_wells": 503,
+    "total_mapped": 503,
+    "total_unmapped": 0,
+    "total_unique_unmapped": 0,
+    "coverage_percent": 100.0,
+    "all_unmapped_codes": []
+  }
+}

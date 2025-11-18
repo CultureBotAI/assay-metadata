@@ -146,6 +146,8 @@ class ChemicalMapper:
             "MAN": {"name": "D-Mannose", "chebi": "CHEBI:4208", "pubchem": "18950"},
             # ONPG is technically the substrate, but official docs refer to enzyme
             "ONPG": {"name": "β-galactosidase", "enzyme": True, "substrate": "o-Nitrophenyl-β-D-galactopyranoside"},
+            # Capitalization variant
+            "Sor": {"name": "D-Sorbitol", "chebi": "CHEBI:17924", "pubchem": "5780"},
         },
         "API 20NE": {
             # In API 20NE, MAN = D-Mannitol, MNE = D-Mannose
@@ -161,23 +163,35 @@ class ChemicalMapper:
             # API zym uses full enzyme names as codes
             "Alkaline phosphatase": {"name": "Alkaline phosphatase", "ec": "3.1.3.1"},
             "Esterase (C4)": {"name": "Esterase (C4)", "ec": "3.1.1.-"},
+            "Esterase": {"name": "Esterase (C4)", "ec": "3.1.1.-"},  # Variant without chain length
             "Esterase lipase (C8)": {"name": "Esterase lipase (C8)", "ec": "3.1.1.-"},
+            "Esterase Lipase": {"name": "Esterase lipase (C8)", "ec": "3.1.1.-"},  # Spacing variant
             "Lipase (C14)": {"name": "Lipase (C14)", "ec": "3.1.1.3"},
+            "Lipase": {"name": "Lipase (C14)", "ec": "3.1.1.3"},  # Variant without chain length
             "Leucine arylamidase": {"name": "Leucine arylamidase", "ec": "3.4.11.1"},
             "Valine arylamidase": {"name": "Valine arylamidase", "ec": "3.4.11.-"},
             "Cystine arylamidase": {"name": "Cystine arylamidase", "ec": "3.4.11.-"},
             "Trypsin": {"name": "Trypsin", "ec": "3.4.21.4"},
             "alpha-Chymotrypsin": {"name": "alpha-Chymotrypsin", "ec": "3.4.21.1"},
+            "alpha- Chymotrypsin": {"name": "alpha-Chymotrypsin", "ec": "3.4.21.1"},  # Spacing variant
             "Acid phosphatase": {"name": "Acid phosphatase", "ec": "3.1.3.2"},
             "Naphthol-AS-BI-phosphohydrolase": {"name": "Naphthol-AS-BI-phosphohydrolase", "ec": "3.1.3.-"},
             "alpha-Galactosidase": {"name": "alpha-Galactosidase", "ec": "3.2.1.22"},
+            "alpha- Galactosidase": {"name": "alpha-Galactosidase", "ec": "3.2.1.22"},  # Spacing variant
             "beta-Galactosidase": {"name": "beta-Galactosidase", "ec": "3.2.1.23"},
+            "beta- Galactosidase": {"name": "beta-Galactosidase", "ec": "3.2.1.23"},  # Spacing variant
             "beta-Glucuronidase": {"name": "beta-Glucuronidase", "ec": "3.2.1.31"},
+            "beta- Glucuronidase": {"name": "beta-Glucuronidase", "ec": "3.2.1.31"},  # Spacing variant
             "alpha-Glucosidase": {"name": "alpha-Glucosidase", "ec": "3.2.1.20"},
+            "alpha- Glucosidase": {"name": "alpha-Glucosidase", "ec": "3.2.1.20"},  # Spacing variant
             "beta-Glucosidase": {"name": "beta-Glucosidase", "ec": "3.2.1.21"},
+            "beta- Glucosidase": {"name": "beta-Glucosidase", "ec": "3.2.1.21"},  # Spacing variant
             "N-acetyl-beta-glucosaminidase": {"name": "N-acetyl-beta-glucosaminidase", "ec": "3.2.1.52"},
+            "N-acetyl-beta- glucosaminidase": {"name": "N-acetyl-beta-glucosaminidase", "ec": "3.2.1.52"},  # Spacing variant
             "alpha-Mannosidase": {"name": "alpha-Mannosidase", "ec": "3.2.1.24"},
+            "alpha- Mannosidase": {"name": "alpha-Mannosidase", "ec": "3.2.1.24"},  # Spacing variant
             "alpha-Fucosidase": {"name": "alpha-Fucosidase", "ec": "3.2.1.51"},
+            "alpha- Fucosidase": {"name": "alpha-Fucosidase", "ec": "3.2.1.51"},  # Spacing variant
         },
     }
 
@@ -222,6 +236,7 @@ class ChemicalMapper:
         "SerA": "Serine arylamidase",
         "PheA": "Phenylalanine arylamidase",
         "LGA": "Glutamyl glutamic acid arylamidase",
+        "GGA": "Glutamyl glutamic acid arylamidase",  # Variant code
         "AspA": "Aspartic acid arylamidase",
 
         # Peptidases and proteases
@@ -238,6 +253,20 @@ class ChemicalMapper:
         "MbGa": "β-galactosidase",
         "MbGu": "β-glucuronidase",
         "Mbeta DG": "β-galactosidase",
+        # Greek letter prefix glycosidases (abbreviated codes from various API kits)
+        "alpha GAL": "α-galactosidase",
+        "alpha GLU": "α-glucosidase",
+        "alpha MAN": "α-mannosidase",
+        "alpha ARA": "α-arabinosidase",
+        "alpha FUC": "α-fucosidase",
+        "alphaMAL": "α-maltosidase",
+        "beta GAL": "β-galactosidase",
+        "beta GLU": "β-glucosidase",
+        "beta GUR": "β-glucuronidase",
+        "beta NAG": "β-N-acetyl-glucosaminidase",
+        "beta GAR": "β-galactosidase",  # Variant code
+        "beta GP": "β-glycosidase",
+        "beta MAN": "β-mannosidase",
 
         # Other enzymes
         "CAT": "Catalase",

@@ -1,4 +1,4 @@
-.PHONY: help install extract validate validate-api validate-full track-files clean test all
+.PHONY: help install extract validate validate-api validate-data validate-full track-files clean test all
 
 # Default target
 help:
@@ -8,6 +8,7 @@ help:
 	@echo "  extract         - Extract metadata from BacDive data"
 	@echo "  validate        - Validate using ontology files (CHEBI, EC, GO) - RECOMMENDED"
 	@echo "  validate-api    - Validate API kit well code mappings against official docs"
+	@echo "  validate-data   - Validate mappings against actual extracted data (100% coverage)"
 	@echo "  validate-full   - Validate all mappings with API calls (KEGG, PubChem) - SLOW"
 	@echo "  track-files     - Track ontology file versions (hashes)"
 	@echo "  clean           - Clean generated files"
@@ -46,6 +47,15 @@ validate-api: install
 	@echo "  - api_kit_validation_report.json"
 	@echo "  - API_WELL_CODE_SOURCES.md (documentation)"
 
+# Validate mappings against actual extracted data
+validate-data: install extract
+	@echo "Validating mappings against actual extracted data..."
+	@echo "ℹ️  Checks that all well codes in extracted data have mappings"
+	uv run python -m bacdive_assay_metadata.validate_against_data
+	@echo ""
+	@echo "Results:"
+	@echo "  - data_validation_report.json"
+
 # Validate all mappings (includes API calls - SLOW)
 validate-full: install
 	@echo "Validating ALL curated mappings (includes API calls)..."
@@ -77,5 +87,5 @@ test: install
 	uv run pytest -v
 
 # Complete pipeline
-all: install extract validate validate-api
+all: install extract validate validate-api validate-data
 	@echo "✅ Complete pipeline finished!"

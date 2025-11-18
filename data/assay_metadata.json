@@ -1136,14 +1136,20 @@
     },
     "alpha GAL": {
       "code": "alpha GAL",
-      "label": "alpha GAL",
+      "label": "\u03b1-galactosidase",
       "well_type": "enzyme",
-      "description": "Tests for alpha GAL activity",
+      "description": "Tests for \u03b1-galactosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.22",
         "rhea_ids": [],
-        "enzyme_name": "alpha GAL",
-        "go_terms": [],
-        "go_names": [],
+        "enzyme_name": "\u03b1-galactosidase",
+        "go_terms": [
+          "GO:0004557"
+        ],
+        "go_names": [
+          "alpha-galactosidase activity"
+        ],
+        "kegg_ko": "K07407",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -1155,14 +1161,20 @@
     },
     "beta GAL": {
       "code": "beta GAL",
-      "label": "beta GAL",
+      "label": "\u03b2-galactosidase",
       "well_type": "enzyme",
-      "description": "Tests for beta GAL activity",
+      "description": "Tests for \u03b2-galactosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.23",
         "rhea_ids": [],
-        "enzyme_name": "beta GAL",
-        "go_terms": [],
-        "go_names": [],
+        "enzyme_name": "\u03b2-galactosidase",
+        "go_terms": [
+          "GO:0004565"
+        ],
+        "go_names": [
+          "beta-galactosidase activity"
+        ],
+        "kegg_ko": "K01190",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -1177,12 +1189,12 @@
     },
     "beta GP": {
       "code": "beta GP",
-      "label": "beta GP",
+      "label": "\u03b2-glycosidase",
       "well_type": "enzyme",
-      "description": "Tests for beta GP activity",
+      "description": "Tests for \u03b2-glycosidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "beta GP",
+        "enzyme_name": "\u03b2-glycosidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
@@ -1193,12 +1205,12 @@
     },
     "alpha GLU": {
       "code": "alpha GLU",
-      "label": "alpha GLU",
+      "label": "\u03b1-glucosidase",
       "well_type": "enzyme",
-      "description": "Tests for alpha GLU activity",
+      "description": "Tests for \u03b1-glucosidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "alpha GLU",
+        "enzyme_name": "\u03b1-glucosidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
@@ -1211,12 +1223,12 @@
     },
     "beta GLU": {
       "code": "beta GLU",
-      "label": "beta GLU",
+      "label": "\u03b2-glucosidase",
       "well_type": "enzyme",
-      "description": "Tests for beta GLU activity",
+      "description": "Tests for \u03b2-glucosidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "beta GLU",
+        "enzyme_name": "\u03b2-glucosidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
@@ -1229,12 +1241,12 @@
     },
     "alpha ARA": {
       "code": "alpha ARA",
-      "label": "alpha ARA",
+      "label": "\u03b1-arabinosidase",
       "well_type": "enzyme",
-      "description": "Tests for alpha ARA activity",
+      "description": "Tests for \u03b1-arabinosidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "alpha ARA",
+        "enzyme_name": "\u03b1-arabinosidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
@@ -1245,14 +1257,20 @@
     },
     "beta GUR": {
       "code": "beta GUR",
-      "label": "beta GUR",
+      "label": "\u03b2-glucuronidase",
       "well_type": "enzyme",
-      "description": "Tests for beta GUR activity",
+      "description": "Tests for \u03b2-glucuronidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.31",
         "rhea_ids": [],
-        "enzyme_name": "beta GUR",
-        "go_terms": [],
-        "go_names": [],
+        "enzyme_name": "\u03b2-glucuronidase",
+        "go_terms": [
+          "GO:0004566"
+        ],
+        "go_names": [
+          "beta-glucuronidase activity"
+        ],
+        "kegg_ko": "K01195",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -1266,12 +1284,12 @@
     },
     "beta NAG": {
       "code": "beta NAG",
-      "label": "beta NAG",
+      "label": "\u03b2-N-acetyl-glucosaminidase",
       "well_type": "enzyme",
-      "description": "Tests for beta NAG activity",
+      "description": "Tests for \u03b2-N-acetyl-glucosaminidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "beta NAG",
+        "enzyme_name": "\u03b2-N-acetyl-glucosaminidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
@@ -1285,14 +1303,14 @@
     },
     "MNE": {
       "code": "MNE",
-      "label": "D-Mannitol",
+      "label": "D-Mannose",
       "well_type": "substrate",
-      "description": "Tests for utilization/fermentation of D-Mannitol",
+      "description": "Tests for utilization/fermentation of D-Mannose",
       "chemical_ids": {
-        "chebi_id": "CHEBI:16899",
-        "chebi_name": "D-Mannitol",
-        "pubchem_cid": "6251",
-        "pubchem_name": "D-Mannitol"
+        "chebi_id": "CHEBI:4208",
+        "chebi_name": "D-Mannose",
+        "pubchem_cid": "18950",
+        "pubchem_name": "D-Mannose"
       },
       "used_in_kits": [
         "API 20A",
@@ -1345,12 +1363,12 @@
     },
     "alpha FUC": {
       "code": "alpha FUC",
-      "label": "alpha FUC",
+      "label": "\u03b1-fucosidase",
       "well_type": "enzyme",
-      "description": "Tests for alpha FUC activity",
+      "description": "Tests for \u03b1-fucosidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "alpha FUC",
+        "enzyme_name": "\u03b1-fucosidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
@@ -1648,9 +1666,20 @@
     },
     "GGA": {
       "code": "GGA",
-      "label": "GGA",
-      "well_type": "other",
-      "description": "Biochemical test: GGA",
+      "label": "Glutamyl glutamic acid arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Glutamyl glutamic acid arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Glutamyl glutamic acid arylamidase",
+        "go_terms": [
+          "GO:0004177"
+        ],
+        "go_names": [
+          "aminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API rID32A"
       ]
@@ -1970,14 +1999,14 @@
     },
     "MAN": {
       "code": "MAN",
-      "label": "D-Mannose",
+      "label": "D-Mannitol",
       "well_type": "substrate",
-      "description": "Tests for utilization/fermentation of D-Mannose",
+      "description": "Tests for utilization/fermentation of D-Mannitol",
       "chemical_ids": {
-        "chebi_id": "CHEBI:4208",
-        "chebi_name": "D-Mannose",
-        "pubchem_cid": "18950",
-        "pubchem_name": "D-Mannose"
+        "chebi_id": "CHEBI:16899",
+        "chebi_name": "D-Mannitol",
+        "pubchem_cid": "6251",
+        "pubchem_name": "D-Mannitol"
       },
       "used_in_kits": [
         "API 20A",
@@ -2072,14 +2101,14 @@
     },
     "AMY": {
       "code": "AMY",
-      "label": "Starch (Amylose)",
+      "label": "Amygdalin",
       "well_type": "substrate",
-      "description": "Tests for utilization/fermentation of Starch (Amylose)",
+      "description": "Tests for utilization/fermentation of Amygdalin",
       "chemical_ids": {
-        "chebi_id": "CHEBI:28017",
-        "chebi_name": "Starch (Amylose)",
-        "pubchem_cid": "24836924",
-        "pubchem_name": "Starch (Amylose)"
+        "chebi_id": "CHEBI:17019",
+        "chebi_name": "Amygdalin",
+        "pubchem_cid": "656516",
+        "pubchem_name": "Amygdalin"
       },
       "used_in_kits": [
         "API 20E",
@@ -2840,14 +2869,14 @@
     },
     "CIT": {
       "code": "CIT",
-      "label": "Citric acid",
+      "label": "Citrate",
       "well_type": "substrate",
-      "description": "Tests for utilization/fermentation of Citric acid",
+      "description": "Tests for utilization/fermentation of Citrate",
       "chemical_ids": {
         "chebi_id": "CHEBI:30769",
-        "chebi_name": "Citric acid",
+        "chebi_name": "Citrate",
         "pubchem_cid": "311",
-        "pubchem_name": "Citric acid"
+        "pubchem_name": "Citrate"
       },
       "used_in_kits": [
         "API 20E",
@@ -3043,14 +3072,14 @@
     },
     "LAT": {
       "code": "LAT",
-      "label": "Lactic acid",
+      "label": "Lactate",
       "well_type": "substrate",
-      "description": "Tests for utilization/fermentation of Lactic acid",
+      "description": "Tests for utilization/fermentation of Lactate",
       "chemical_ids": {
-        "chebi_id": "CHEBI:28358",
-        "chebi_name": "Lactic acid",
-        "pubchem_cid": "612",
-        "pubchem_name": "Lactic acid"
+        "chebi_id": "CHEBI:422",
+        "chebi_name": "Lactate",
+        "pubchem_cid": "107689",
+        "pubchem_name": "Lactate"
       },
       "used_in_kits": [
         "API biotype100"
@@ -3359,17 +3388,31 @@
     "NO3": {
       "code": "NO3",
       "label": "Nitrate reduction",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Nitrate reduction",
+      "well_type": "enzyme",
+      "description": "Tests for Nitrate reduction activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Nitrate reduction",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20NE"
       ]
     },
     "TRP": {
       "code": "TRP",
-      "label": "Tryptophan test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Tryptophan test",
+      "label": "Tryptophane test",
+      "well_type": "enzyme",
+      "description": "Tests for Tryptophane test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Tryptophane test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20NE"
       ]
@@ -3455,14 +3498,14 @@
     },
     "ADI": {
       "code": "ADI",
-      "label": "Adenosine",
+      "label": "Adipate",
       "well_type": "substrate",
-      "description": "Tests for utilization/fermentation of Adenosine",
+      "description": "Tests for utilization/fermentation of Adipate",
       "chemical_ids": {
-        "chebi_id": "CHEBI:16335",
-        "chebi_name": "Adenosine",
-        "pubchem_cid": "60961",
-        "pubchem_name": "Adenosine"
+        "chebi_id": "CHEBI:30831",
+        "chebi_name": "Adipate",
+        "pubchem_cid": "196",
+        "pubchem_name": "Adipate"
       },
       "used_in_kits": [
         "API 20NE"
@@ -3510,13 +3553,14 @@
     "ONPG": {
       "code": "ONPG",
       "label": "o-Nitrophenyl-\u03b2-D-galactopyranoside",
-      "well_type": "substrate",
-      "description": "Tests for utilization/fermentation of o-Nitrophenyl-\u03b2-D-galactopyranoside",
-      "chemical_ids": {
-        "chebi_id": "CHEBI:70697",
-        "chebi_name": "o-Nitrophenyl-\u03b2-D-galactopyranoside",
-        "pubchem_cid": "4625",
-        "pubchem_name": "o-Nitrophenyl-\u03b2-D-galactopyranoside"
+      "well_type": "enzyme",
+      "description": "Tests for o-Nitrophenyl-\u03b2-D-galactopyranoside activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "\u03b2-galactosidase (ONPG)",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
       },
       "used_in_kits": [
         "API 20E"
@@ -3677,14 +3721,20 @@
     },
     "beta GAR": {
       "code": "beta GAR",
-      "label": "beta GAR",
+      "label": "\u03b2-galactosidase",
       "well_type": "enzyme",
-      "description": "Tests for beta GAR activity",
+      "description": "Tests for \u03b2-galactosidase activity",
       "enzyme_ids": {
+        "ec_number": "3.2.1.23",
         "rhea_ids": [],
-        "enzyme_name": "beta GAR",
-        "go_terms": [],
-        "go_names": [],
+        "enzyme_name": "\u03b2-galactosidase",
+        "go_terms": [
+          "GO:0004565"
+        ],
+        "go_names": [
+          "beta-galactosidase activity"
+        ],
+        "kegg_ko": "K01190",
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -3801,12 +3851,12 @@
     },
     "beta MAN": {
       "code": "beta MAN",
-      "label": "beta MAN",
+      "label": "\u03b2-mannosidase",
       "well_type": "enzyme",
-      "description": "Tests for beta MAN activity",
+      "description": "Tests for \u03b2-mannosidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "beta MAN",
+        "enzyme_name": "\u03b2-mannosidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
@@ -3975,12 +4025,12 @@
     },
     "alphaMAL": {
       "code": "alphaMAL",
-      "label": "alphaMAL",
+      "label": "\u03b1-maltosidase",
       "well_type": "enzyme",
-      "description": "Tests for alphaMAL activity",
+      "description": "Tests for \u03b1-maltosidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "alphaMAL",
+        "enzyme_name": "\u03b1-maltosidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
@@ -4162,12 +4212,12 @@
     },
     "alpha MAN": {
       "code": "alpha MAN",
-      "label": "alpha MAN",
+      "label": "\u03b1-mannosidase",
       "well_type": "enzyme",
-      "description": "Tests for alpha MAN activity",
+      "description": "Tests for \u03b1-mannosidase activity",
       "enzyme_ids": {
         "rhea_ids": [],
-        "enzyme_name": "alpha MAN",
+        "enzyme_name": "\u03b1-mannosidase",
         "go_terms": [],
         "go_names": [],
         "metacyc_pathway": []
