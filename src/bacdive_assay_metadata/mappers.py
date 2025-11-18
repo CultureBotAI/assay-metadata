@@ -678,7 +678,7 @@ class EnzymeMapper:
             "go_terms": ["GO:0008234"],
             "go_names": ["cysteine-type peptidase activity"],
             "kegg_ko": None,
-            "ec_number": None,
+            "ec_number": "3.4.22.-",
         },
         "Naphthol-AS-BI-phosphohydrolase": {
             "go_terms": ["GO:0004035"],

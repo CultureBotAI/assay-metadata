@@ -809,6 +809,7 @@
       "well_type": "enzyme",
       "description": "Tests for Cystine arylamidase activity",
       "enzyme_ids": {
+        "ec_number": "3.4.22.-",
         "rhea_ids": [],
         "enzyme_name": "Cystine arylamidase",
         "go_terms": [

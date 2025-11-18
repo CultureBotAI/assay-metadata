@@ -285,7 +285,9 @@
           "enzyme_name": [
             "Cystine arylamidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.4.22.-"
+          ],
           "ec_name": [],
           "go_terms": [
             "GO:0008234"

@@ -121,9 +121,18 @@ class MappingValidator:
             return False
 
     def validate_ec(self, ec_number: str) -> bool:
-        """Validate EC number exists."""
+        """Validate EC number exists.
+
+        Incomplete EC numbers (e.g., 3.4.22.-) are allowed and represent
+        enzyme classes rather than specific enzymes.
+        """
         if not ec_number:
             return False
+
+        # Incomplete EC numbers (ending with .-) are valid class identifiers
+        if ec_number.endswith(".-") or ".-." in ec_number:
+            self.stats["ec_valid"] += 1
+            return True
 
         term = self.ec_index.lookup(ec_number)
         if not term:
