@@ -285,9 +285,7 @@
           "enzyme_name": [
             "Cystine arylamidase"
           ],
-          "ec_number": [
-            "3.4.22.-"
-          ],
+          "ec_number": [],
           "ec_name": [],
           "go_terms": [
             "GO:0008234"
@@ -354,10 +352,10 @@
           ],
           "ec_name": [],
           "go_terms": [
-            "GO:0004263"
+            "GO:0004252"
           ],
           "go_names": [
-            "obsolete chymotrypsin activity"
+            "serine-type endopeptidase activity"
           ],
           "kegg_ko": [
             "K01311"

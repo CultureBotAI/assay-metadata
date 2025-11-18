@@ -809,7 +809,6 @@
       "well_type": "enzyme",
       "description": "Tests for Cystine arylamidase activity",
       "enzyme_ids": {
-        "ec_number": "3.4.22.-",
         "rhea_ids": [],
         "enzyme_name": "Cystine arylamidase",
         "go_terms": [
@@ -843,10 +842,10 @@
         "rhea_ids": [],
         "enzyme_name": "alpha- Chymotrypsin",
         "go_terms": [
-          "GO:0004263"
+          "GO:0004252"
         ],
         "go_names": [
-          "obsolete chymotrypsin activity"
+          "serine-type endopeptidase activity"
         ],
         "kegg_ko": "K01311",
         "metacyc_pathway": []

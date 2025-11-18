@@ -651,14 +651,14 @@ class EnzymeMapper:
         },
         # API zym enzymes (note space after dash: "alpha- ")
         "Trypsin": {
-            "go_terms": ["GO:0004295"],
-            "go_names": ["trypsin activity"],
+            "go_terms": ["GO:0004252"],
+            "go_names": ["serine-type endopeptidase activity"],
             "kegg_ko": "K01312",
             "ec_number": "3.4.21.4",
         },
         "alpha- Chymotrypsin": {
-            "go_terms": ["GO:0004263"],
-            "go_names": ["obsolete chymotrypsin activity"],
+            "go_terms": ["GO:0004252"],
+            "go_names": ["serine-type endopeptidase activity"],
             "kegg_ko": "K01311",
             "ec_number": "3.4.21.1",
         },
@@ -678,7 +678,7 @@ class EnzymeMapper:
             "go_terms": ["GO:0008234"],
             "go_names": ["cysteine-type peptidase activity"],
             "kegg_ko": None,
-            "ec_number": "3.4.22.-",
+            "ec_number": None,
         },
         "Naphthol-AS-BI-phosphohydrolase": {
             "go_terms": ["GO:0004035"],
