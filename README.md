@@ -88,13 +88,19 @@ uv run extract-metadata --input bacdive_strains.json \
 
 ## Validation
 
-All curated identifier mappings are validated against authoritative sources. See **[VALIDATION.md](VALIDATION.md)** for complete details.
+All curated identifier mappings are validated against authoritative sources and actual extracted data. See **[VALIDATION.md](VALIDATION.md)** and **[API_WELL_CODE_SOURCES.md](API_WELL_CODE_SOURCES.md)** for complete details.
 
 ### Quick Validation
 
 ```bash
 # Fast validation using ontology files (~5 seconds)
 make validate
+
+# Validate API kit well code mappings against official docs
+make validate-api
+
+# Validate mappings against actual extracted data
+make validate-data
 
 # Full validation with API calls (~20 minutes)
 make validate-full
@@ -112,14 +118,28 @@ make track-files
 | **GO** | KG-Microbe ontology TSV | Offline lookup |
 | **PubChem** | PubChem API | Online validation |
 | **KEGG** | KEGG API | Online validation |
+| **bioMérieux Docs** | Official API kit documentation | Manual curation |
 
-**Current Status**: 81/84 CHEBI valid (96.4%), 39/39 EC valid (100%), 55 GO terms valid
+### Validation Coverage
+
+**Ontology Identifiers**: 81/84 CHEBI valid (96.4%), 39/39 EC valid (100%), 55 GO terms valid
+
+**API Kit Well Code Mappings**:
+- **100% coverage** across all 17 API kits
+- **503/503 well codes** mapped (data-driven validation)
+- **59/59 wells** validated against official bioMérieux documentation
+- All kits: API zym, API 50CHac, API biotype100, API 20E, API 20NE, API rID32STR, API coryne, API rID32A, API ID32E, API NH, API ID32STA, API CAM, API 20STR, API LIST, API STA, API 20A, API 50CHas
 
 See [VALIDATION.md](VALIDATION.md) for:
 - Detailed validation results
 - Error and warning details
 - Instructions for fixing invalid IDs
 - Version control strategy for ontology files
+
+See [API_WELL_CODE_SOURCES.md](API_WELL_CODE_SOURCES.md) for:
+- How well codes are verified against official sources
+- Kit-specific context for ambiguous codes
+- Cross-kit consistency analysis
 
 ## Output Files
 
