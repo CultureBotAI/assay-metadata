@@ -1,0 +1,5616 @@
+{
+  "api_kits": [
+    {
+      "kit_name": "API zym",
+      "description": "Enzyme activity testing for 19 different enzymes using chromogenic substrates",
+      "category": "Enzyme profiling",
+      "well_count": 20,
+      "wells": [
+        "Control",
+        "Alkaline phosphatase",
+        "Esterase",
+        "Esterase Lipase",
+        "Lipase",
+        "Leucine arylamidase",
+        "Valine arylamidase",
+        "Cystine arylamidase",
+        "Trypsin",
+        "alpha- Chymotrypsin",
+        "Acid phosphatase",
+        "Naphthol-AS-BI-phosphohydrolase",
+        "alpha- Galactosidase",
+        "beta- Galactosidase",
+        "beta- Glucuronidase",
+        "alpha- Glucosidase",
+        "beta- Glucosidase",
+        "N-acetyl-beta- glucosaminidase",
+        "alpha- Mannosidase",
+        "alpha- Fucosidase"
+      ],
+      "occurrence_count": 11747
+    },
+    {
+      "kit_name": "API 50CHac",
+      "description": "Carbohydrate acidification (fermentation) test with 50 different carbohydrates",
+      "category": "Carbohydrate fermentation",
+      "well_count": 49,
+      "wells": [
+        "GLY",
+        "ERY",
+        "DARA",
+        "LARA",
+        "RIB",
+        "DXYL",
+        "LXYL",
+        "ADO",
+        "MDX",
+        "GAL",
+        "GLU",
+        "FRU",
+        "MNE",
+        "SBE",
+        "RHA",
+        "DUL",
+        "INO",
+        "MAN",
+        "SOR",
+        "MDM",
+        "MDG",
+        "NAG",
+        "AMY",
+        "ARB",
+        "ESC",
+        "SAL",
+        "CEL",
+        "MAL",
+        "LAC",
+        "MEL",
+        "SAC",
+        "TRE",
+        "INU",
+        "MLZ",
+        "RAF",
+        "AMD",
+        "GLYG",
+        "XLT",
+        "GEN",
+        "TUR",
+        "LYX",
+        "TAG",
+        "DFUC",
+        "LFUC",
+        "DARL",
+        "LARL",
+        "GNT",
+        "2KG",
+        "5KG"
+      ],
+      "occurrence_count": 6853
+    },
+    {
+      "kit_name": "API 20NE",
+      "description": "Identification system for non-Enterobacteriaceae Gram-negative bacteria",
+      "category": "Bacterial identification",
+      "well_count": 21,
+      "wells": [
+        "NO3",
+        "TRP",
+        "GLU_ Ferm",
+        "ADH Arg",
+        "URE",
+        "ESC",
+        "GEL",
+        "PNPG",
+        "GLU_ Assim",
+        "ARA",
+        "MNE",
+        "MAN",
+        "NAG",
+        "MAL",
+        "GNT",
+        "CAP",
+        "ADI",
+        "MLT",
+        "CIT",
+        "PAC",
+        "OX"
+      ],
+      "occurrence_count": 3833
+    },
+    {
+      "kit_name": "API rID32STR",
+      "description": "Rapid identification of Streptococcus species with 32 tests",
+      "category": "Bacterial identification",
+      "well_count": 32,
+      "wells": [
+        "ADH Arg",
+        "beta GLU",
+        "beta GAR",
+        "beta GUR",
+        "alpha GAL",
+        "PAL",
+        "RIB",
+        "MAN",
+        "SOR",
+        "LAC",
+        "TRE",
+        "RAF",
+        "SAC",
+        "LARA",
+        "DARL",
+        "CDEX",
+        "VP",
+        "APPA",
+        "beta GAL",
+        "PyrA",
+        "beta NAG",
+        "GTA",
+        "HIP",
+        "GLYG",
+        "PUL",
+        "MAL",
+        "MEL",
+        "MLZ",
+        "Mbeta DG",
+        "TAG",
+        "beta MAN",
+        "URE"
+      ],
+      "occurrence_count": 3666
+    },
+    {
+      "kit_name": "API biotype100",
+      "description": "Comprehensive biochemical profiling with 99 different tests",
+      "category": "Biochemical profiling",
+      "well_count": 99,
+      "wells": [
+        "GLU",
+        "FRU",
+        "GAL",
+        "TRE",
+        "MNE",
+        "SBE",
+        "MEL",
+        "SAC",
+        "RAF",
+        "MTE",
+        "MAL",
+        "LAC",
+        "LTE",
+        "MbGa",
+        "MaGa",
+        "CEL",
+        "GEN",
+        "MbGu",
+        "ESC",
+        "RIB",
+        "ARA",
+        "XYL",
+        "PLE",
+        "RHA",
+        "FUC",
+        "MLZ",
+        "DARL",
+        "LARL",
+        "XLT",
+        "DUL",
+        "TAG",
+        "GLY",
+        "INO",
+        "MAN",
+        "MTL",
+        "TUR",
+        "SOR",
+        "ADO",
+        "HBG",
+        "LYX",
+        "ERY",
+        "MDG",
+        "3MDG",
+        "SAT",
+        "MUC",
+        "LTAT",
+        "DTAT",
+        "MTAT",
+        "DMLT",
+        "LMLT",
+        "CATE",
+        "TATE",
+        "TTE",
+        "CIT",
+        "GRT",
+        "GAT",
+        "2KG",
+        "5KG",
+        "TRY",
+        "NAG",
+        "GNT",
+        "PAC",
+        "PAT",
+        "pOBE",
+        "QAT",
+        "GTE",
+        "mOBE",
+        "BAT",
+        "PPAT",
+        "CMT",
+        "TGE",
+        "BET",
+        "PCE",
+        "ABT",
+        "HIN",
+        "LAT",
+        "CAP",
+        "CYT",
+        "HIS",
+        "SUC",
+        "FUM",
+        "GRE",
+        "GYT",
+        "AVT",
+        "ETN",
+        "TTN",
+        "GLN",
+        "ITA",
+        "3OBU",
+        "APT",
+        "GTT",
+        "PRO",
+        "DALA",
+        "LALA",
+        "SER",
+        "MNT",
+        "PROP",
+        "TYR",
+        "2KT"
+      ],
+      "occurrence_count": 3599
+    },
+    {
+      "kit_name": "API 20E",
+      "description": "Identification system for Enterobacteriaceae and other Gram-negative bacteria",
+      "category": "Bacterial identification",
+      "well_count": 19,
+      "wells": [
+        "ONPG",
+        "ADH Arg",
+        "LDC Lys",
+        "ODC",
+        "CIT",
+        "H2S",
+        "URE",
+        "TDA Trp",
+        "IND",
+        "VP",
+        "GEL",
+        "GLU",
+        "INO",
+        "Sor",
+        "RHA",
+        "SAC",
+        "MEL",
+        "NO2",
+        "N2"
+      ],
+      "occurrence_count": 3452
+    },
+    {
+      "kit_name": "API coryne",
+      "description": "Identification of Corynebacterium and related bacteria",
+      "category": "Bacterial identification",
+      "well_count": 21,
+      "wells": [
+        "NIT",
+        "PYZ",
+        "PYRA",
+        "PAL",
+        "beta GUR",
+        "beta GAL",
+        "alpha GLU",
+        "beta NAG",
+        "ESC",
+        "URE",
+        "GEL",
+        "Control",
+        "GLU",
+        "RIB",
+        "XYL",
+        "MAN",
+        "MAL",
+        "LAC",
+        "SAC",
+        "GLYG",
+        "CAT"
+      ],
+      "occurrence_count": 3287
+    },
+    {
+      "kit_name": "API rID32A",
+      "description": "Rapid identification of anaerobic bacteria with 32 tests",
+      "category": "Bacterial identification",
+      "well_count": 29,
+      "wells": [
+        "URE",
+        "ADH Arg",
+        "alpha GAL",
+        "beta GAL",
+        "beta GP",
+        "alpha GLU",
+        "beta GLU",
+        "alpha ARA",
+        "beta GUR",
+        "beta NAG",
+        "MNE",
+        "RAF",
+        "GDC",
+        "alpha FUC",
+        "NIT",
+        "IND",
+        "PAL",
+        "ArgA",
+        "ProA",
+        "LGA",
+        "PheA",
+        "LeuA",
+        "PyrA",
+        "TyrA",
+        "AlaA",
+        "GlyA",
+        "HisA",
+        "GGA",
+        "SerA"
+      ],
+      "occurrence_count": 2198
+    },
+    {
+      "kit_name": "API ID32E",
+      "description": "Extended identification of Enterobacteriaceae with 32 tests",
+      "category": "Bacterial identification",
+      "well_count": 32,
+      "wells": [
+        "ODC",
+        "ADH Arg",
+        "LDC Lys",
+        "URE",
+        "LARL",
+        "GAT",
+        "5KG",
+        "LIP",
+        "RP",
+        "beta GLU",
+        "MAN",
+        "MAL",
+        "ADO",
+        "PLE",
+        "beta GUR",
+        "MNT",
+        "IND",
+        "beta NAG",
+        "beta GAL",
+        "GLU",
+        "SAC",
+        "LARA",
+        "DARL",
+        "alpha GLU",
+        "alpha GAL",
+        "TRE",
+        "RHA",
+        "INO",
+        "CEL",
+        "SOR",
+        "alphaMAL",
+        "AspA"
+      ],
+      "occurrence_count": 1438
+    },
+    {
+      "kit_name": "API NH",
+      "description": "Identification of Neisseria, Haemophilus and related organisms",
+      "category": "Bacterial identification",
+      "well_count": 13,
+      "wells": [
+        "PEN",
+        "GLU",
+        "FRU",
+        "MAL",
+        "SAC",
+        "ODC",
+        "URE",
+        "LIP",
+        "PAL",
+        "beta GAL",
+        "ProA",
+        "GGT",
+        "IND"
+      ],
+      "occurrence_count": 1407
+    },
+    {
+      "kit_name": "API ID32STA",
+      "description": "Identification of Staphylococcus and related cocci with 32 tests",
+      "category": "Bacterial identification",
+      "well_count": 26,
+      "wells": [
+        "URE",
+        "ADH Arg",
+        "ODC",
+        "ESC",
+        "GLU",
+        "FRU",
+        "MNE",
+        "MAL",
+        "LAC",
+        "TRE",
+        "MAN",
+        "RAF",
+        "RIB",
+        "CEL",
+        "NIT",
+        "VP",
+        "beta GAL",
+        "ArgA",
+        "PAL",
+        "PyrA",
+        "NOVO",
+        "SAC",
+        "NAG",
+        "TUR",
+        "ARA",
+        "beta GUR"
+      ],
+      "occurrence_count": 839
+    },
+    {
+      "kit_name": "API CAM",
+      "description": "Identification of Campylobacter species",
+      "category": "Bacterial identification",
+      "well_count": 21,
+      "wells": [
+        "URE",
+        "NIT",
+        "EST",
+        "HIP",
+        "GGT",
+        "TTC",
+        "PYRA",
+        "ArgA",
+        "AspA",
+        "PAL",
+        "H2S",
+        "GLU",
+        "SUT",
+        "NAL",
+        "CFZ",
+        "ACE",
+        "PROP",
+        "MLT",
+        "CIT",
+        "ERO",
+        "CAT"
+      ],
+      "occurrence_count": 370
+    },
+    {
+      "kit_name": "API 20STR",
+      "description": "Identification of Streptococcus species with 20 tests",
+      "category": "Bacterial identification",
+      "well_count": 20,
+      "wells": [
+        "VP",
+        "HIP",
+        "ESC",
+        "PYRA",
+        "alpha GAL",
+        "beta GUR",
+        "beta GAL",
+        "PAL",
+        "LAP",
+        "ADH",
+        "RIB",
+        "ARA",
+        "MAN",
+        "SOR",
+        "LAC",
+        "TRE",
+        "INU",
+        "RAF",
+        "AMD",
+        "GLYG"
+      ],
+      "occurrence_count": 311
+    },
+    {
+      "kit_name": "API LIST",
+      "description": "Identification of Listeria species",
+      "category": "Bacterial identification",
+      "well_count": 10,
+      "wells": [
+        "DIM",
+        "ESC",
+        "alpha MAN",
+        "DARL",
+        "XYL",
+        "RHA",
+        "MDG",
+        "RIB",
+        "G1P",
+        "TAG"
+      ],
+      "occurrence_count": 270
+    },
+    {
+      "kit_name": "API STA",
+      "description": "Identification of Staphylococcus species",
+      "category": "Bacterial identification",
+      "well_count": 20,
+      "wells": [
+        "GLU",
+        "FRU",
+        "MNE",
+        "MAL",
+        "LAC",
+        "TRE",
+        "MAN",
+        "XLT",
+        "MEL",
+        "NIT",
+        "PAL",
+        "VP",
+        "RAF",
+        "XYL",
+        "SAC",
+        "MDG",
+        "NAG",
+        "ADH",
+        "URE",
+        "LSTR"
+      ],
+      "occurrence_count": 220
+    },
+    {
+      "kit_name": "API 20A",
+      "description": "Identification of anaerobic bacteria with 20 tests",
+      "category": "Bacterial identification",
+      "well_count": 21,
+      "wells": [
+        "IND",
+        "URE",
+        "GLU",
+        "MAN",
+        "LAC",
+        "SAC",
+        "MAL",
+        "SAL",
+        "XYL",
+        "ARA",
+        "GEL",
+        "ESC",
+        "GLY",
+        "CEL",
+        "MNE",
+        "MLZ",
+        "RAF",
+        "SOR",
+        "RHA",
+        "TRE",
+        "CAT"
+      ],
+      "occurrence_count": 185
+    },
+    {
+      "kit_name": "API 50CHas",
+      "description": "Carbohydrate assimilation test with 50 different carbohydrates",
+      "category": "Carbohydrate assimilation",
+      "well_count": 50,
+      "wells": [
+        "Q",
+        "GLY",
+        "ERY",
+        "DARA",
+        "LARA",
+        "RIB",
+        "DXYL",
+        "LXYL",
+        "ADO",
+        "MDX",
+        "GAL",
+        "GLU",
+        "FRU",
+        "MNE",
+        "SBE",
+        "RHA",
+        "DUL",
+        "INO",
+        "MAN",
+        "SOR",
+        "MDM",
+        "MDG",
+        "NAG",
+        "AMY",
+        "ARB",
+        "ESC",
+        "SAL",
+        "CEL",
+        "MAL",
+        "LAC",
+        "MEL",
+        "SAC",
+        "TRE",
+        "INU",
+        "MLZ",
+        "RAF",
+        "AMD",
+        "GLYG",
+        "XLT",
+        "GEN",
+        "TUR",
+        "LYX",
+        "TAG",
+        "DFUC",
+        "LFUC",
+        "DARL",
+        "LARL",
+        "GNT",
+        "2KG",
+        "5KG"
+      ],
+      "occurrence_count": 13
+    }
+  ],
+  "wells": {
+    "Control": {
+      "code": "Control",
+      "label": "Control well (no substrate)",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Control well (no substrate)",
+      "used_in_kits": [
+        "API STA",
+        "API coryne",
+        "API zym"
+      ]
+    },
+    "Alkaline phosphatase": {
+      "code": "Alkaline phosphatase",
+      "label": "Alkaline phosphatase",
+      "well_type": "enzyme",
+      "description": "Tests for Alkaline phosphatase activity",
+      "enzyme_ids": {
+        "ec_number": "3.1.3.1",
+        "rhea_ids": [],
+        "enzyme_name": "Alkaline phosphatase",
+        "go_terms": [
+          "GO:0004035"
+        ],
+        "go_names": [
+          "alkaline phosphatase activity"
+        ],
+        "kegg_ko": "K01077",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Esterase": {
+      "code": "Esterase",
+      "label": "Esterase",
+      "well_type": "enzyme",
+      "description": "Tests for Esterase activity",
+      "enzyme_ids": {
+        "ec_number": "3.1.1.1",
+        "rhea_ids": [],
+        "enzyme_name": "Esterase",
+        "go_terms": [
+          "GO:0016788"
+        ],
+        "go_names": [
+          "hydrolase activity, acting on ester bonds"
+        ],
+        "kegg_ko": "K01066",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Esterase Lipase": {
+      "code": "Esterase Lipase",
+      "label": "Esterase Lipase",
+      "well_type": "enzyme",
+      "description": "Tests for Esterase Lipase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Esterase Lipase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Lipase": {
+      "code": "Lipase",
+      "label": "Lipase",
+      "well_type": "enzyme",
+      "description": "Tests for Lipase activity",
+      "enzyme_ids": {
+        "ec_number": "3.1.1.3",
+        "rhea_ids": [],
+        "enzyme_name": "Lipase",
+        "go_terms": [
+          "GO:0004806"
+        ],
+        "go_names": [
+          "triglyceride lipase activity"
+        ],
+        "kegg_ko": "K01046",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Leucine arylamidase": {
+      "code": "Leucine arylamidase",
+      "label": "Leucine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Leucine arylamidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.4.11.1",
+        "rhea_ids": [],
+        "enzyme_name": "Leucine arylamidase",
+        "go_terms": [
+          "GO:0004177",
+          "GO:0070006"
+        ],
+        "go_names": [
+          "aminopeptidase activity",
+          "metalloaminopeptidase activity"
+        ],
+        "kegg_ko": "K01255",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Valine arylamidase": {
+      "code": "Valine arylamidase",
+      "label": "Valine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Valine arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Valine arylamidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Cystine arylamidase": {
+      "code": "Cystine arylamidase",
+      "label": "Cystine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Cystine arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Cystine arylamidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Trypsin": {
+      "code": "Trypsin",
+      "label": "Trypsin activity",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Trypsin activity",
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "alpha- Chymotrypsin": {
+      "code": "alpha- Chymotrypsin",
+      "label": "alpha- Chymotrypsin",
+      "well_type": "enzyme",
+      "description": "Tests for alpha- Chymotrypsin activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha- Chymotrypsin",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Acid phosphatase": {
+      "code": "Acid phosphatase",
+      "label": "Acid phosphatase",
+      "well_type": "enzyme",
+      "description": "Tests for Acid phosphatase activity",
+      "enzyme_ids": {
+        "ec_number": "3.1.3.2",
+        "rhea_ids": [],
+        "enzyme_name": "Acid phosphatase",
+        "go_terms": [
+          "GO:0003993"
+        ],
+        "go_names": [
+          "acid phosphatase activity"
+        ],
+        "kegg_ko": "K01078",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "Naphthol-AS-BI-phosphohydrolase": {
+      "code": "Naphthol-AS-BI-phosphohydrolase",
+      "label": "Naphthol-AS-BI-phosphohydrolase",
+      "well_type": "enzyme",
+      "description": "Tests for Naphthol-AS-BI-phosphohydrolase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Naphthol-AS-BI-phosphohydrolase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "alpha- Galactosidase": {
+      "code": "alpha- Galactosidase",
+      "label": "alpha- Galactosidase",
+      "well_type": "enzyme",
+      "description": "Tests for alpha- Galactosidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha- Galactosidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "beta- Galactosidase": {
+      "code": "beta- Galactosidase",
+      "label": "beta- Galactosidase",
+      "well_type": "enzyme",
+      "description": "Tests for beta- Galactosidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta- Galactosidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "beta- Glucuronidase": {
+      "code": "beta- Glucuronidase",
+      "label": "beta- Glucuronidase",
+      "well_type": "enzyme",
+      "description": "Tests for beta- Glucuronidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta- Glucuronidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "alpha- Glucosidase": {
+      "code": "alpha- Glucosidase",
+      "label": "alpha- Glucosidase",
+      "well_type": "enzyme",
+      "description": "Tests for alpha- Glucosidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha- Glucosidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "beta- Glucosidase": {
+      "code": "beta- Glucosidase",
+      "label": "beta- Glucosidase",
+      "well_type": "enzyme",
+      "description": "Tests for beta- Glucosidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta- Glucosidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "N-acetyl-beta- glucosaminidase": {
+      "code": "N-acetyl-beta- glucosaminidase",
+      "label": "N-acetyl-beta- glucosaminidase",
+      "well_type": "enzyme",
+      "description": "Tests for N-acetyl-beta- glucosaminidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "N-acetyl-beta- glucosaminidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "alpha- Mannosidase": {
+      "code": "alpha- Mannosidase",
+      "label": "alpha- Mannosidase",
+      "well_type": "enzyme",
+      "description": "Tests for alpha- Mannosidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha- Mannosidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "alpha- Fucosidase": {
+      "code": "alpha- Fucosidase",
+      "label": "alpha- Fucosidase",
+      "well_type": "enzyme",
+      "description": "Tests for alpha- Fucosidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha- Fucosidase",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API zym"
+      ]
+    },
+    "URE": {
+      "code": "URE",
+      "label": "Urea",
+      "well_type": "enzyme",
+      "description": "Tests for Urea activity",
+      "enzyme_ids": {
+        "ec_number": "3.5.1.5",
+        "rhea_ids": [],
+        "enzyme_name": "Urease",
+        "go_terms": [
+          "GO:0009039"
+        ],
+        "go_names": [
+          "urease activity"
+        ],
+        "kegg_ko": "K01428",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20E",
+        "API 20NE",
+        "API CAM",
+        "API ID32E",
+        "API ID32STA",
+        "API NH",
+        "API STA",
+        "API coryne",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "ADH Arg": {
+      "code": "ADH Arg",
+      "label": "Arginine dihydrolase",
+      "well_type": "enzyme",
+      "description": "Tests for Arginine dihydrolase activity",
+      "enzyme_ids": {
+        "ec_number": "3.5.3.6",
+        "rhea_ids": [],
+        "enzyme_name": "Arginine dihydrolase",
+        "go_terms": [
+          "GO:0008792"
+        ],
+        "go_names": [
+          "arginine deiminase activity"
+        ],
+        "kegg_ko": "K01478",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API 20NE",
+        "API ID32E",
+        "API ID32STA",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "alpha GAL": {
+      "code": "alpha GAL",
+      "label": "alpha GAL",
+      "well_type": "enzyme",
+      "description": "Tests for alpha GAL activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha GAL",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API ID32E",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "beta GAL": {
+      "code": "beta GAL",
+      "label": "beta GAL",
+      "well_type": "enzyme",
+      "description": "Tests for beta GAL activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta GAL",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API ID32E",
+        "API ID32STA",
+        "API NH",
+        "API coryne",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "beta GP": {
+      "code": "beta GP",
+      "label": "beta GP",
+      "well_type": "enzyme",
+      "description": "Tests for beta GP activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta GP",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "alpha GLU": {
+      "code": "alpha GLU",
+      "label": "alpha GLU",
+      "well_type": "enzyme",
+      "description": "Tests for alpha GLU activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha GLU",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API ID32E",
+        "API coryne",
+        "API rID32A"
+      ]
+    },
+    "beta GLU": {
+      "code": "beta GLU",
+      "label": "beta GLU",
+      "well_type": "enzyme",
+      "description": "Tests for beta GLU activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta GLU",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API ID32E",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "alpha ARA": {
+      "code": "alpha ARA",
+      "label": "alpha ARA",
+      "well_type": "enzyme",
+      "description": "Tests for alpha ARA activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha ARA",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "beta GUR": {
+      "code": "beta GUR",
+      "label": "beta GUR",
+      "well_type": "enzyme",
+      "description": "Tests for beta GUR activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta GUR",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API ID32E",
+        "API ID32STA",
+        "API coryne",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "beta NAG": {
+      "code": "beta NAG",
+      "label": "beta NAG",
+      "well_type": "enzyme",
+      "description": "Tests for beta NAG activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta NAG",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API ID32E",
+        "API coryne",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "MNE": {
+      "code": "MNE",
+      "label": "D-Mannitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Mannitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16899",
+        "chebi_name": "D-Mannitol",
+        "pubchem_cid": "6251",
+        "pubchem_name": "D-Mannitol"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20NE",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32STA",
+        "API STA",
+        "API biotype100",
+        "API rID32A"
+      ]
+    },
+    "RAF": {
+      "code": "RAF",
+      "label": "Raffinose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Raffinose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16634",
+        "chebi_name": "Raffinose",
+        "pubchem_cid": "439242",
+        "pubchem_name": "Raffinose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32STA",
+        "API STA",
+        "API biotype100",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "GDC": {
+      "code": "GDC",
+      "label": "Gluconic acid",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Gluconic acid",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:33198",
+        "chebi_name": "Gluconic acid",
+        "pubchem_cid": "10690",
+        "pubchem_name": "Gluconic acid"
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "alpha FUC": {
+      "code": "alpha FUC",
+      "label": "alpha FUC",
+      "well_type": "enzyme",
+      "description": "Tests for alpha FUC activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha FUC",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "NIT": {
+      "code": "NIT",
+      "label": "Nitrate reductase",
+      "well_type": "enzyme",
+      "description": "Tests for Nitrate reductase activity",
+      "enzyme_ids": {
+        "ec_number": "1.7.99.4",
+        "rhea_ids": [],
+        "enzyme_name": "Nitrate reductase",
+        "go_terms": [
+          "GO:0008940"
+        ],
+        "go_names": [
+          "nitrate reductase activity"
+        ],
+        "kegg_ko": "K00370",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API CAM",
+        "API ID32STA",
+        "API STA",
+        "API coryne",
+        "API rID32A"
+      ]
+    },
+    "IND": {
+      "code": "IND",
+      "label": "Indole production",
+      "well_type": "enzyme",
+      "description": "Tests for Indole production activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Indole production",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20E",
+        "API ID32E",
+        "API NH",
+        "API rID32A"
+      ]
+    },
+    "PAL": {
+      "code": "PAL",
+      "label": "Phenylalanine deaminase",
+      "well_type": "enzyme",
+      "description": "Tests for Phenylalanine deaminase activity",
+      "enzyme_ids": {
+        "ec_number": "4.3.1.24",
+        "rhea_ids": [],
+        "enzyme_name": "Phenylalanine deaminase",
+        "go_terms": [
+          "GO:0004664"
+        ],
+        "go_names": [
+          "phenylalanine ammonia-lyase activity"
+        ],
+        "kegg_ko": "K10775",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API CAM",
+        "API ID32STA",
+        "API NH",
+        "API STA",
+        "API coryne",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "ArgA": {
+      "code": "ArgA",
+      "label": "Arginine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Arginine arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Arginine arylamidase",
+        "go_terms": [
+          "GO:0070006"
+        ],
+        "go_names": [
+          "metalloaminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API CAM",
+        "API ID32STA",
+        "API rID32A"
+      ]
+    },
+    "ProA": {
+      "code": "ProA",
+      "label": "Proline arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Proline arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Proline arylamidase",
+        "go_terms": [
+          "GO:0016805"
+        ],
+        "go_names": [
+          "dipeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API NH",
+        "API rID32A"
+      ]
+    },
+    "LGA": {
+      "code": "LGA",
+      "label": "Glutamyl glutamic acid arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Glutamyl glutamic acid arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Glutamyl glutamic acid arylamidase",
+        "go_terms": [
+          "GO:0004177"
+        ],
+        "go_names": [
+          "aminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "PheA": {
+      "code": "PheA",
+      "label": "Phenylalanine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Phenylalanine arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Phenylalanine arylamidase",
+        "go_terms": [
+          "GO:0070006"
+        ],
+        "go_names": [
+          "metalloaminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "LeuA": {
+      "code": "LeuA",
+      "label": "Leucine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Leucine arylamidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.4.11.1",
+        "rhea_ids": [],
+        "enzyme_name": "Leucine arylamidase",
+        "go_terms": [
+          "GO:0004177",
+          "GO:0070006"
+        ],
+        "go_names": [
+          "aminopeptidase activity",
+          "metalloaminopeptidase activity"
+        ],
+        "kegg_ko": "K01255",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "PyrA": {
+      "code": "PyrA",
+      "label": "Pyroglutamic acid arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Pyroglutamic acid arylamidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.4.19.3",
+        "rhea_ids": [],
+        "enzyme_name": "Pyroglutamic acid arylamidase",
+        "go_terms": [
+          "GO:0017095"
+        ],
+        "go_names": [
+          "pyroglutamyl-peptidase I activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API ID32STA",
+        "API rID32A",
+        "API rID32STR"
+      ]
+    },
+    "TyrA": {
+      "code": "TyrA",
+      "label": "Tyrosine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Tyrosine arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Tyrosine arylamidase",
+        "go_terms": [
+          "GO:0070006"
+        ],
+        "go_names": [
+          "metalloaminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "AlaA": {
+      "code": "AlaA",
+      "label": "Alanine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Alanine arylamidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.4.11.2",
+        "rhea_ids": [],
+        "enzyme_name": "Alanine arylamidase",
+        "go_terms": [
+          "GO:0004177"
+        ],
+        "go_names": [
+          "aminopeptidase activity"
+        ],
+        "kegg_ko": "K01256",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "GlyA": {
+      "code": "GlyA",
+      "label": "Glycine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Glycine arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Glycine arylamidase",
+        "go_terms": [
+          "GO:0004177"
+        ],
+        "go_names": [
+          "aminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "HisA": {
+      "code": "HisA",
+      "label": "Histidine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Histidine arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Histidine arylamidase",
+        "go_terms": [
+          "GO:0070006"
+        ],
+        "go_names": [
+          "metalloaminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "GGA": {
+      "code": "GGA",
+      "label": "GGA",
+      "well_type": "other",
+      "description": "Biochemical test: GGA",
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "SerA": {
+      "code": "SerA",
+      "label": "Serine arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Serine arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Serine arylamidase",
+        "go_terms": [
+          "GO:0004177"
+        ],
+        "go_names": [
+          "aminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32A"
+      ]
+    },
+    "GLY": {
+      "code": "GLY",
+      "label": "Glycerol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Glycerol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17754",
+        "chebi_name": "Glycerol",
+        "pubchem_cid": "753",
+        "pubchem_name": "Glycerol"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "ERY": {
+      "code": "ERY",
+      "label": "Erythritol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Erythritol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17113",
+        "chebi_name": "Erythritol",
+        "pubchem_cid": "222285",
+        "pubchem_name": "Erythritol"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "DARA": {
+      "code": "DARA",
+      "label": "D-Arabinose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Arabinose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16731",
+        "chebi_name": "D-Arabinose",
+        "pubchem_cid": "439197",
+        "pubchem_name": "D-Arabinose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "LARA": {
+      "code": "LARA",
+      "label": "L-Arabinose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Arabinose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17553",
+        "chebi_name": "L-Arabinose",
+        "pubchem_cid": "439195",
+        "pubchem_name": "L-Arabinose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API rID32STR"
+      ]
+    },
+    "RIB": {
+      "code": "RIB",
+      "label": "D-Ribose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Ribose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:47013",
+        "chebi_name": "D-Ribose",
+        "pubchem_cid": "5779",
+        "pubchem_name": "D-Ribose"
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32STA",
+        "API LIST",
+        "API biotype100",
+        "API coryne",
+        "API rID32STR"
+      ]
+    },
+    "DXYL": {
+      "code": "DXYL",
+      "label": "D-Xylose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Xylose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17140",
+        "chebi_name": "D-Xylose",
+        "pubchem_cid": "135191",
+        "pubchem_name": "D-Xylose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "LXYL": {
+      "code": "LXYL",
+      "label": "L-Xylose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Xylose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:33917",
+        "chebi_name": "L-Xylose",
+        "pubchem_cid": "5289597",
+        "pubchem_name": "L-Xylose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "ADO": {
+      "code": "ADO",
+      "label": "Adonitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Adonitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:2509",
+        "chebi_name": "Adonitol",
+        "pubchem_cid": "64639",
+        "pubchem_name": "Adonitol"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API biotype100"
+      ]
+    },
+    "MDX": {
+      "code": "MDX",
+      "label": "Methyl-D-xyloside",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Methyl-D-xyloside",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:73011",
+        "chebi_name": "Methyl-D-xyloside",
+        "pubchem_cid": "92816",
+        "pubchem_name": "Methyl-D-xyloside"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "GAL": {
+      "code": "GAL",
+      "label": "D-Galactose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Galactose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:28061",
+        "chebi_name": "D-Galactose",
+        "pubchem_cid": "6036",
+        "pubchem_name": "D-Galactose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "GLU": {
+      "code": "GLU",
+      "label": "D-Glucose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Glucose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17234",
+        "chebi_name": "D-Glucose",
+        "pubchem_cid": "5793",
+        "pubchem_name": "D-Glucose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20E",
+        "API 50CHac",
+        "API 50CHas",
+        "API CAM",
+        "API ID32E",
+        "API ID32STA",
+        "API NH",
+        "API STA",
+        "API biotype100",
+        "API coryne"
+      ]
+    },
+    "FRU": {
+      "code": "FRU",
+      "label": "D-Fructose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Fructose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:15824",
+        "chebi_name": "D-Fructose",
+        "pubchem_cid": "5984",
+        "pubchem_name": "D-Fructose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32STA",
+        "API NH",
+        "API STA",
+        "API biotype100"
+      ]
+    },
+    "SBE": {
+      "code": "SBE",
+      "label": "D-Sorbose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Sorbose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17262",
+        "chebi_name": "D-Sorbose",
+        "pubchem_cid": "439192",
+        "pubchem_name": "D-Sorbose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "RHA": {
+      "code": "RHA",
+      "label": "L-Rhamnose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Rhamnose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:27907",
+        "chebi_name": "L-Rhamnose",
+        "pubchem_cid": "25310",
+        "pubchem_name": "L-Rhamnose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20E",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API LIST",
+        "API biotype100"
+      ]
+    },
+    "DUL": {
+      "code": "DUL",
+      "label": "Dulcitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Dulcitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:42118",
+        "chebi_name": "Dulcitol",
+        "pubchem_cid": "11850",
+        "pubchem_name": "Dulcitol"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "INO": {
+      "code": "INO",
+      "label": "myo-Inositol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of myo-Inositol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17268",
+        "chebi_name": "myo-Inositol",
+        "pubchem_cid": "892",
+        "pubchem_name": "myo-Inositol"
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API biotype100"
+      ]
+    },
+    "MAN": {
+      "code": "MAN",
+      "label": "D-Mannose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Mannose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:4208",
+        "chebi_name": "D-Mannose",
+        "pubchem_cid": "18950",
+        "pubchem_name": "D-Mannose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20E",
+        "API 20NE",
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API ID32STA",
+        "API STA",
+        "API biotype100",
+        "API coryne",
+        "API rID32STR"
+      ]
+    },
+    "SOR": {
+      "code": "SOR",
+      "label": "D-Sorbitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Sorbitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17924",
+        "chebi_name": "D-Sorbitol",
+        "pubchem_cid": "5780",
+        "pubchem_name": "D-Sorbitol"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API biotype100",
+        "API rID32STR"
+      ]
+    },
+    "MDM": {
+      "code": "MDM",
+      "label": "Methyl-\u03b1-D-mannopyranoside",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Methyl-\u03b1-D-mannopyranoside",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:50031",
+        "chebi_name": "Methyl-\u03b1-D-mannopyranoside",
+        "pubchem_cid": "97143",
+        "pubchem_name": "Methyl-\u03b1-D-mannopyranoside"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "MDG": {
+      "code": "MDG",
+      "label": "Methyl-\u03b1-D-glucopyranoside",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Methyl-\u03b1-D-glucopyranoside",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:27960",
+        "chebi_name": "Methyl-\u03b1-D-glucopyranoside",
+        "pubchem_cid": "11266",
+        "pubchem_name": "Methyl-\u03b1-D-glucopyranoside"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API LIST",
+        "API STA",
+        "API biotype100"
+      ]
+    },
+    "NAG": {
+      "code": "NAG",
+      "label": "N-Acetyl-D-glucosamine",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of N-Acetyl-D-glucosamine",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:28009",
+        "chebi_name": "N-Acetyl-D-glucosamine",
+        "pubchem_cid": "24139",
+        "pubchem_name": "N-Acetyl-D-glucosamine"
+      },
+      "used_in_kits": [
+        "API 20NE",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32STA",
+        "API STA",
+        "API biotype100"
+      ]
+    },
+    "AMY": {
+      "code": "AMY",
+      "label": "Starch (Amylose)",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Starch (Amylose)",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:28017",
+        "chebi_name": "Starch (Amylose)",
+        "pubchem_cid": "24836924",
+        "pubchem_name": "Starch (Amylose)"
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "ARB": {
+      "code": "ARB",
+      "label": "Arbutin",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Arbutin",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:2599",
+        "chebi_name": "Arbutin",
+        "pubchem_cid": "440936",
+        "pubchem_name": "Arbutin"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "ESC": {
+      "code": "ESC",
+      "label": "Esculin",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Esculin",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:4806",
+        "chebi_name": "Esculin",
+        "pubchem_cid": "5281417",
+        "pubchem_name": "Esculin"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20NE",
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32STA",
+        "API LIST",
+        "API biotype100",
+        "API coryne"
+      ]
+    },
+    "SAL": {
+      "code": "SAL",
+      "label": "Salicin",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Salicin",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17814",
+        "chebi_name": "Salicin",
+        "pubchem_cid": "439503",
+        "pubchem_name": "Salicin"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "CEL": {
+      "code": "CEL",
+      "label": "Cellobiose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Cellobiose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17057",
+        "chebi_name": "Cellobiose",
+        "pubchem_cid": "10712",
+        "pubchem_name": "Cellobiose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API ID32STA",
+        "API biotype100"
+      ]
+    },
+    "MAL": {
+      "code": "MAL",
+      "label": "Maltose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Maltose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17306",
+        "chebi_name": "Maltose",
+        "pubchem_cid": "6255",
+        "pubchem_name": "Maltose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20NE",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API ID32STA",
+        "API NH",
+        "API STA",
+        "API biotype100",
+        "API coryne",
+        "API rID32STR"
+      ]
+    },
+    "LAC": {
+      "code": "LAC",
+      "label": "Lactose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Lactose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17716",
+        "chebi_name": "Lactose",
+        "pubchem_cid": "6134",
+        "pubchem_name": "Lactose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32STA",
+        "API STA",
+        "API biotype100",
+        "API coryne",
+        "API rID32STR"
+      ]
+    },
+    "MEL": {
+      "code": "MEL",
+      "label": "Melibiose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Melibiose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:28117",
+        "chebi_name": "Melibiose",
+        "pubchem_cid": "440658",
+        "pubchem_name": "Melibiose"
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API 50CHac",
+        "API 50CHas",
+        "API STA",
+        "API biotype100",
+        "API rID32STR"
+      ]
+    },
+    "SAC": {
+      "code": "SAC",
+      "label": "Sucrose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Sucrose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17992",
+        "chebi_name": "Sucrose",
+        "pubchem_cid": "5988",
+        "pubchem_name": "Sucrose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20E",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API ID32STA",
+        "API NH",
+        "API STA",
+        "API biotype100",
+        "API coryne",
+        "API rID32STR"
+      ]
+    },
+    "TRE": {
+      "code": "TRE",
+      "label": "Trehalose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Trehalose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16551",
+        "chebi_name": "Trehalose",
+        "pubchem_cid": "7427",
+        "pubchem_name": "Trehalose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API ID32STA",
+        "API STA",
+        "API biotype100",
+        "API rID32STR"
+      ]
+    },
+    "INU": {
+      "code": "INU",
+      "label": "Inulin",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Inulin",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:15443",
+        "chebi_name": "Inulin",
+        "pubchem_cid": "24763",
+        "pubchem_name": "Inulin"
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "MLZ": {
+      "code": "MLZ",
+      "label": "Melezitose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Melezitose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:28283",
+        "chebi_name": "Melezitose",
+        "pubchem_cid": "92817",
+        "pubchem_name": "Melezitose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100",
+        "API rID32STR"
+      ]
+    },
+    "AMD": {
+      "code": "AMD",
+      "label": "Amidon",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Amidon",
+      "chemical_ids": {
+        "chebi_name": "Amidon",
+        "pubchem_name": "Amidon"
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "GLYG": {
+      "code": "GLYG",
+      "label": "Glycogen",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Glycogen",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:28087",
+        "chebi_name": "Glycogen",
+        "pubchem_cid": "439177",
+        "pubchem_name": "Glycogen"
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API 50CHac",
+        "API 50CHas",
+        "API coryne",
+        "API rID32STR"
+      ]
+    },
+    "XLT": {
+      "code": "XLT",
+      "label": "Xylitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Xylitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17151",
+        "chebi_name": "Xylitol",
+        "pubchem_cid": "6912",
+        "pubchem_name": "Xylitol"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API STA",
+        "API biotype100"
+      ]
+    },
+    "GEN": {
+      "code": "GEN",
+      "label": "Gentiobiose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Gentiobiose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:18296",
+        "chebi_name": "Gentiobiose",
+        "pubchem_cid": "53234",
+        "pubchem_name": "Gentiobiose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "TUR": {
+      "code": "TUR",
+      "label": "Turanose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Turanose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:27806",
+        "chebi_name": "Turanose",
+        "pubchem_cid": "439532",
+        "pubchem_name": "Turanose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32STA",
+        "API biotype100"
+      ]
+    },
+    "LYX": {
+      "code": "LYX",
+      "label": "D-Lyxose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Lyxose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:12301",
+        "chebi_name": "D-Lyxose",
+        "pubchem_cid": "439236",
+        "pubchem_name": "D-Lyxose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "TAG": {
+      "code": "TAG",
+      "label": "D-Tagatose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Tagatose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17004",
+        "chebi_name": "D-Tagatose",
+        "pubchem_cid": "439654",
+        "pubchem_name": "D-Tagatose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API LIST",
+        "API biotype100",
+        "API rID32STR"
+      ]
+    },
+    "DFUC": {
+      "code": "DFUC",
+      "label": "D-Fucose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Fucose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:42589",
+        "chebi_name": "D-Fucose",
+        "pubchem_cid": "246422",
+        "pubchem_name": "D-Fucose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "LFUC": {
+      "code": "LFUC",
+      "label": "L-Fucose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Fucose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:2181",
+        "chebi_name": "L-Fucose",
+        "pubchem_cid": "17106",
+        "pubchem_name": "L-Fucose"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "DARL": {
+      "code": "DARL",
+      "label": "D-Arabitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Arabitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16708",
+        "chebi_name": "D-Arabitol",
+        "pubchem_cid": "94154",
+        "pubchem_name": "D-Arabitol"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API LIST",
+        "API biotype100",
+        "API rID32STR"
+      ]
+    },
+    "LARL": {
+      "code": "LARL",
+      "label": "L-Arabitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Arabitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:18087",
+        "chebi_name": "L-Arabitol",
+        "pubchem_cid": "439255",
+        "pubchem_name": "L-Arabitol"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API biotype100"
+      ]
+    },
+    "GNT": {
+      "code": "GNT",
+      "label": "Gluconate",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Gluconate",
+      "used_in_kits": [
+        "API 20NE",
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "2KG": {
+      "code": "2KG",
+      "label": "2-Ketogluconic acid",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of 2-Ketogluconic acid",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17978",
+        "chebi_name": "2-Ketogluconic acid",
+        "pubchem_cid": "7427",
+        "pubchem_name": "2-Ketogluconic acid"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API biotype100"
+      ]
+    },
+    "5KG": {
+      "code": "5KG",
+      "label": "5-Ketogluconic acid",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of 5-Ketogluconic acid",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17991",
+        "chebi_name": "5-Ketogluconic acid",
+        "pubchem_cid": "160957",
+        "pubchem_name": "5-Ketogluconic acid"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas",
+        "API ID32E",
+        "API biotype100"
+      ]
+    },
+    "MTE": {
+      "code": "MTE",
+      "label": "Maltose variant test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Maltose variant test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "LTE": {
+      "code": "LTE",
+      "label": "Lactose variant test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Lactose variant test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "MbGa": {
+      "code": "MbGa",
+      "label": "\u03b2-galactosidase",
+      "well_type": "enzyme",
+      "description": "Tests for \u03b2-galactosidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.2.1.23",
+        "rhea_ids": [],
+        "enzyme_name": "\u03b2-galactosidase",
+        "go_terms": [
+          "GO:0004565"
+        ],
+        "go_names": [
+          "beta-galactosidase activity"
+        ],
+        "kegg_ko": "K01190",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "MaGa": {
+      "code": "MaGa",
+      "label": "\u03b1-galactosidase (Mannosidase)",
+      "well_type": "enzyme",
+      "description": "Tests for \u03b1-galactosidase (Mannosidase) activity",
+      "enzyme_ids": {
+        "ec_number": "3.2.1.22",
+        "rhea_ids": [],
+        "enzyme_name": "\u03b1-galactosidase (Mannosidase)",
+        "go_terms": [
+          "GO:0004557"
+        ],
+        "go_names": [
+          "alpha-galactosidase activity"
+        ],
+        "kegg_ko": "K07407",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "MbGu": {
+      "code": "MbGu",
+      "label": "\u03b2-glucuronidase",
+      "well_type": "enzyme",
+      "description": "Tests for \u03b2-glucuronidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.2.1.31",
+        "rhea_ids": [],
+        "enzyme_name": "\u03b2-glucuronidase",
+        "go_terms": [
+          "GO:0004566"
+        ],
+        "go_names": [
+          "beta-glucuronidase activity"
+        ],
+        "kegg_ko": "K01195",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "ARA": {
+      "code": "ARA",
+      "label": "L-Arabinose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Arabinose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17553",
+        "chebi_name": "L-Arabinose",
+        "pubchem_cid": "439195",
+        "pubchem_name": "L-Arabinose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20E",
+        "API 20NE",
+        "API 20STR",
+        "API ID32STA",
+        "API biotype100"
+      ]
+    },
+    "XYL": {
+      "code": "XYL",
+      "label": "D-Xylose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Xylose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17140",
+        "chebi_name": "D-Xylose",
+        "pubchem_cid": "135191",
+        "pubchem_name": "D-Xylose"
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API LIST",
+        "API STA",
+        "API biotype100",
+        "API coryne"
+      ]
+    },
+    "PLE": {
+      "code": "PLE",
+      "label": "Phospholipase",
+      "well_type": "enzyme",
+      "description": "Tests for Phospholipase activity",
+      "enzyme_ids": {
+        "ec_number": "3.1.1.32",
+        "rhea_ids": [],
+        "enzyme_name": "Phospholipase",
+        "go_terms": [
+          "GO:0004620"
+        ],
+        "go_names": [
+          "phospholipase activity"
+        ],
+        "kegg_ko": "K01114",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API ID32E",
+        "API biotype100"
+      ]
+    },
+    "FUC": {
+      "code": "FUC",
+      "label": "Fucose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Fucose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:33984",
+        "chebi_name": "Fucose",
+        "pubchem_name": "Fucose"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "MTL": {
+      "code": "MTL",
+      "label": "Mannitol utilization",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Mannitol utilization",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "HBG": {
+      "code": "HBG",
+      "label": "Hemoglobin test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Hemoglobin test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "3MDG": {
+      "code": "3MDG",
+      "label": "3-Methyl-D-glucose",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: 3-Methyl-D-glucose",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "SAT": {
+      "code": "SAT",
+      "label": "Salicin variant test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Salicin variant test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "MUC": {
+      "code": "MUC",
+      "label": "Mucate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Mucate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:30850",
+        "chebi_name": "Mucate",
+        "pubchem_cid": "5460682",
+        "pubchem_name": "Mucate"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "LTAT": {
+      "code": "LTAT",
+      "label": "L-Tartrate",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: L-Tartrate",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "DTAT": {
+      "code": "DTAT",
+      "label": "D-Tartrate",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: D-Tartrate",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "MTAT": {
+      "code": "MTAT",
+      "label": "Meso-Tartrate",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Meso-Tartrate",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "DMLT": {
+      "code": "DMLT",
+      "label": "D-Malate test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: D-Malate test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "LMLT": {
+      "code": "LMLT",
+      "label": "L-Malate test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: L-Malate test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "CATE": {
+      "code": "CATE",
+      "label": "Catalase test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Catalase test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "TATE": {
+      "code": "TATE",
+      "label": "Tartrate variant test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Tartrate variant test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "TTE": {
+      "code": "TTE",
+      "label": "Trehalose variant enzyme",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Trehalose variant enzyme",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "CIT": {
+      "code": "CIT",
+      "label": "Citric acid",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Citric acid",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:30769",
+        "chebi_name": "Citric acid",
+        "pubchem_cid": "311",
+        "pubchem_name": "Citric acid"
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API 20NE",
+        "API CAM",
+        "API biotype100"
+      ]
+    },
+    "GRT": {
+      "code": "GRT",
+      "label": "Glucuronate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Glucuronate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:47926",
+        "chebi_name": "Glucuronate",
+        "pubchem_cid": "94715",
+        "pubchem_name": "Glucuronate"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "GAT": {
+      "code": "GAT",
+      "label": "Galactitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Galactitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16813",
+        "chebi_name": "Galactitol",
+        "pubchem_cid": "11850",
+        "pubchem_name": "Galactitol"
+      },
+      "used_in_kits": [
+        "API ID32E",
+        "API biotype100"
+      ]
+    },
+    "TRY": {
+      "code": "TRY",
+      "label": "L-Tryptophan",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Tryptophan",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16828",
+        "chebi_name": "L-Tryptophan",
+        "pubchem_cid": "6305",
+        "pubchem_name": "L-Tryptophan"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "PAC": {
+      "code": "PAC",
+      "label": "Phenylacetate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Phenylacetate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:30745",
+        "chebi_name": "Phenylacetate",
+        "pubchem_cid": "999",
+        "pubchem_name": "Phenylacetate"
+      },
+      "used_in_kits": [
+        "API 20NE",
+        "API biotype100"
+      ]
+    },
+    "PAT": {
+      "code": "PAT",
+      "label": "Pyruvic acid",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Pyruvic acid",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:32816",
+        "chebi_name": "Pyruvic acid",
+        "pubchem_cid": "1060",
+        "pubchem_name": "Pyruvic acid"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "pOBE": {
+      "code": "pOBE",
+      "label": "para-hydroxybenzoate",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: para-hydroxybenzoate",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "QAT": {
+      "code": "QAT",
+      "label": "Quinine test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Quinine test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "GTE": {
+      "code": "GTE",
+      "label": "Gelatin liquefaction variant",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Gelatin liquefaction variant",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "mOBE": {
+      "code": "mOBE",
+      "label": "meta-hydroxybenzoate",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: meta-hydroxybenzoate",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "BAT": {
+      "code": "BAT",
+      "label": "Beta-alanine test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Beta-alanine test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "PPAT": {
+      "code": "PPAT",
+      "label": "Phenylpyruvic acid test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Phenylpyruvic acid test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "CMT": {
+      "code": "CMT",
+      "label": "Coumarin test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Coumarin test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "TGE": {
+      "code": "TGE",
+      "label": "Trehalose variant test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Trehalose variant test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "BET": {
+      "code": "BET",
+      "label": "Betaine utilization",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Betaine utilization",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "PCE": {
+      "code": "PCE",
+      "label": "Penicillin variant",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Penicillin variant",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "ABT": {
+      "code": "ABT",
+      "label": "Arabitol",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Arabitol",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "HIN": {
+      "code": "HIN",
+      "label": "Hippurate test variant",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Hippurate test variant",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "LAT": {
+      "code": "LAT",
+      "label": "Lactic acid",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Lactic acid",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:28358",
+        "chebi_name": "Lactic acid",
+        "pubchem_cid": "612",
+        "pubchem_name": "Lactic acid"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "CAP": {
+      "code": "CAP",
+      "label": "Caprate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Caprate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:30813",
+        "chebi_name": "Caprate",
+        "pubchem_cid": "3893",
+        "pubchem_name": "Caprate"
+      },
+      "used_in_kits": [
+        "API 20NE",
+        "API biotype100"
+      ]
+    },
+    "CYT": {
+      "code": "CYT",
+      "label": "Cytochrome test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Cytochrome test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "HIS": {
+      "code": "HIS",
+      "label": "L-Histidine",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Histidine",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:15971",
+        "chebi_name": "L-Histidine",
+        "pubchem_cid": "6274",
+        "pubchem_name": "L-Histidine"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "SUC": {
+      "code": "SUC",
+      "label": "Succinic acid",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Succinic acid",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:15741",
+        "chebi_name": "Succinic acid",
+        "pubchem_cid": "1110",
+        "pubchem_name": "Succinic acid"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "FUM": {
+      "code": "FUM",
+      "label": "Fumaric acid",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Fumaric acid",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:18012",
+        "chebi_name": "Fumaric acid",
+        "pubchem_cid": "444972",
+        "pubchem_name": "Fumaric acid"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "GRE": {
+      "code": "GRE",
+      "label": "Green fluorescence",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Green fluorescence",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "GYT": {
+      "code": "GYT",
+      "label": "Glycerol test variant",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Glycerol test variant",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "AVT": {
+      "code": "AVT",
+      "label": "Arabinose variant test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Arabinose variant test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "ETN": {
+      "code": "ETN",
+      "label": "Ethanol utilization",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Ethanol utilization",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "TTN": {
+      "code": "TTN",
+      "label": "Tetanus toxin",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Tetanus toxin",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "GLN": {
+      "code": "GLN",
+      "label": "L-Glutamine",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Glutamine",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:58359",
+        "chebi_name": "L-Glutamine",
+        "pubchem_cid": "5961",
+        "pubchem_name": "L-Glutamine"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "ITA": {
+      "code": "ITA",
+      "label": "Itaconate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Itaconate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:30838",
+        "chebi_name": "Itaconate",
+        "pubchem_cid": "811",
+        "pubchem_name": "Itaconate"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "3OBU": {
+      "code": "3OBU",
+      "label": "3-Hydroxybutyrate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of 3-Hydroxybutyrate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:20067",
+        "chebi_name": "3-Hydroxybutyrate",
+        "pubchem_cid": "441",
+        "pubchem_name": "3-Hydroxybutyrate"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "APT": {
+      "code": "APT",
+      "label": "Alanine-phenylalanine-proline test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Alanine-phenylalanine-proline test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "GTT": {
+      "code": "GTT",
+      "label": "Glutamate test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Glutamate test",
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "PRO": {
+      "code": "PRO",
+      "label": "L-Proline",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Proline",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:26271",
+        "chebi_name": "L-Proline",
+        "pubchem_cid": "145742",
+        "pubchem_name": "L-Proline"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "DALA": {
+      "code": "DALA",
+      "label": "D-Alanine",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Alanine",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:15570",
+        "chebi_name": "D-Alanine",
+        "pubchem_cid": "71080",
+        "pubchem_name": "D-Alanine"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "LALA": {
+      "code": "LALA",
+      "label": "L-Alanine",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Alanine",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16449",
+        "chebi_name": "L-Alanine",
+        "pubchem_cid": "5950",
+        "pubchem_name": "L-Alanine"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "SER": {
+      "code": "SER",
+      "label": "L-Serine",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Serine",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17115",
+        "chebi_name": "L-Serine",
+        "pubchem_cid": "5951",
+        "pubchem_name": "L-Serine"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "MNT": {
+      "code": "MNT",
+      "label": "Maltotriose",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Maltotriose",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17253",
+        "chebi_name": "Maltotriose",
+        "pubchem_cid": "439586",
+        "pubchem_name": "Maltotriose"
+      },
+      "used_in_kits": [
+        "API ID32E",
+        "API biotype100"
+      ]
+    },
+    "PROP": {
+      "code": "PROP",
+      "label": "Propionate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Propionate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:30768",
+        "chebi_name": "Propionate",
+        "pubchem_cid": "1032",
+        "pubchem_name": "Propionate"
+      },
+      "used_in_kits": [
+        "API CAM",
+        "API biotype100"
+      ]
+    },
+    "TYR": {
+      "code": "TYR",
+      "label": "L-Tyrosine",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of L-Tyrosine",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17895",
+        "chebi_name": "L-Tyrosine",
+        "pubchem_cid": "6057",
+        "pubchem_name": "L-Tyrosine"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "2KT": {
+      "code": "2KT",
+      "label": "2-Ketoglutarate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of 2-Ketoglutarate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16810",
+        "chebi_name": "2-Ketoglutarate",
+        "pubchem_cid": "51",
+        "pubchem_name": "2-Ketoglutarate"
+      },
+      "used_in_kits": [
+        "API biotype100"
+      ]
+    },
+    "NO3": {
+      "code": "NO3",
+      "label": "Nitrate reduction",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Nitrate reduction",
+      "used_in_kits": [
+        "API 20NE"
+      ]
+    },
+    "TRP": {
+      "code": "TRP",
+      "label": "Tryptophan test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Tryptophan test",
+      "used_in_kits": [
+        "API 20NE"
+      ]
+    },
+    "GLU_ Ferm": {
+      "code": "GLU_ Ferm",
+      "label": "Glucose fermentation",
+      "well_type": "enzyme",
+      "description": "Tests for Glucose fermentation activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Glucose fermentation",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20NE"
+      ]
+    },
+    "GEL": {
+      "code": "GEL",
+      "label": "Gelatin",
+      "well_type": "enzyme",
+      "description": "Tests for Gelatin activity",
+      "enzyme_ids": {
+        "ec_number": "3.4.24.4",
+        "rhea_ids": [],
+        "enzyme_name": "Gelatinase",
+        "go_terms": [
+          "GO:0004222"
+        ],
+        "go_names": [
+          "metalloendopeptidase activity"
+        ],
+        "kegg_ko": "K01398",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API 20E",
+        "API 20NE",
+        "API coryne"
+      ]
+    },
+    "PNPG": {
+      "code": "PNPG",
+      "label": "\u03b2-galactosidase (PNPG)",
+      "well_type": "enzyme",
+      "description": "Tests for \u03b2-galactosidase (PNPG) activity",
+      "enzyme_ids": {
+        "ec_number": "3.2.1.23",
+        "rhea_ids": [],
+        "enzyme_name": "\u03b2-galactosidase (PNPG)",
+        "go_terms": [
+          "GO:0004565"
+        ],
+        "go_names": [
+          "beta-galactosidase activity"
+        ],
+        "kegg_ko": "K01190",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20NE"
+      ]
+    },
+    "GLU_ Assim": {
+      "code": "GLU_ Assim",
+      "label": "Glucose assimilation",
+      "well_type": "enzyme",
+      "description": "Tests for Glucose assimilation activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Glucose assimilation",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20NE"
+      ]
+    },
+    "ADI": {
+      "code": "ADI",
+      "label": "Adenosine",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Adenosine",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16335",
+        "chebi_name": "Adenosine",
+        "pubchem_cid": "60961",
+        "pubchem_name": "Adenosine"
+      },
+      "used_in_kits": [
+        "API 20NE"
+      ]
+    },
+    "MLT": {
+      "code": "MLT",
+      "label": "Malate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Malate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:30796",
+        "chebi_name": "Malate",
+        "pubchem_cid": "525",
+        "pubchem_name": "Malate"
+      },
+      "used_in_kits": [
+        "API 20NE",
+        "API CAM"
+      ]
+    },
+    "OX": {
+      "code": "OX",
+      "label": "Cytochrome oxidase",
+      "well_type": "enzyme",
+      "description": "Tests for Cytochrome oxidase activity",
+      "enzyme_ids": {
+        "ec_number": "1.9.3.1",
+        "rhea_ids": [],
+        "enzyme_name": "Cytochrome oxidase",
+        "go_terms": [
+          "GO:0004129"
+        ],
+        "go_names": [
+          "cytochrome-c oxidase activity"
+        ],
+        "kegg_ko": "K02274",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API 20NE"
+      ]
+    },
+    "ONPG": {
+      "code": "ONPG",
+      "label": "o-Nitrophenyl-\u03b2-D-galactopyranoside",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of o-Nitrophenyl-\u03b2-D-galactopyranoside",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:70697",
+        "chebi_name": "o-Nitrophenyl-\u03b2-D-galactopyranoside",
+        "pubchem_cid": "4625",
+        "pubchem_name": "o-Nitrophenyl-\u03b2-D-galactopyranoside"
+      },
+      "used_in_kits": [
+        "API 20E"
+      ]
+    },
+    "LDC Lys": {
+      "code": "LDC Lys",
+      "label": "Lysine decarboxylase",
+      "well_type": "enzyme",
+      "description": "Tests for Lysine decarboxylase activity",
+      "enzyme_ids": {
+        "ec_number": "4.1.1.18",
+        "rhea_ids": [],
+        "enzyme_name": "Lysine decarboxylase",
+        "go_terms": [
+          "GO:0008923"
+        ],
+        "go_names": [
+          "lysine decarboxylase activity"
+        ],
+        "kegg_ko": "K01582",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API ID32E"
+      ]
+    },
+    "ODC": {
+      "code": "ODC",
+      "label": "Ornithine decarboxylase",
+      "well_type": "enzyme",
+      "description": "Tests for Ornithine decarboxylase activity",
+      "enzyme_ids": {
+        "ec_number": "4.1.1.17",
+        "rhea_ids": [],
+        "enzyme_name": "Ornithine decarboxylase",
+        "go_terms": [
+          "GO:0004586"
+        ],
+        "go_names": [
+          "ornithine decarboxylase activity"
+        ],
+        "kegg_ko": "K01581",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API ID32E",
+        "API ID32STA",
+        "API NH"
+      ]
+    },
+    "H2S": {
+      "code": "H2S",
+      "label": "Hydrogen sulfide production",
+      "well_type": "enzyme",
+      "description": "Tests for Hydrogen sulfide production activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Hydrogen sulfide production",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API CAM"
+      ]
+    },
+    "TDA Trp": {
+      "code": "TDA Trp",
+      "label": "Tryptophan deaminase",
+      "well_type": "enzyme",
+      "description": "Tests for Tryptophan deaminase activity",
+      "enzyme_ids": {
+        "ec_number": "4.1.99.1",
+        "rhea_ids": [],
+        "enzyme_name": "Tryptophan deaminase",
+        "go_terms": [
+          "GO:0006569"
+        ],
+        "go_names": [
+          "tryptophan catabolic process"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E"
+      ]
+    },
+    "VP": {
+      "code": "VP",
+      "label": "Voges-Proskauer",
+      "well_type": "enzyme",
+      "description": "Tests for Voges-Proskauer activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Voges-Proskauer",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E",
+        "API 20STR",
+        "API ID32STA",
+        "API STA",
+        "API rID32STR"
+      ]
+    },
+    "Sor": {
+      "code": "Sor",
+      "label": "D-Sorbitol",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of D-Sorbitol",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17924",
+        "chebi_name": "D-Sorbitol",
+        "pubchem_cid": "5780",
+        "pubchem_name": "D-Sorbitol"
+      },
+      "used_in_kits": [
+        "API 20E"
+      ]
+    },
+    "NO2": {
+      "code": "NO2",
+      "label": "Nitrite reduction",
+      "well_type": "enzyme",
+      "description": "Tests for Nitrite reduction activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Nitrite reduction",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E"
+      ]
+    },
+    "N2": {
+      "code": "N2",
+      "label": "Nitrogen gas production",
+      "well_type": "enzyme",
+      "description": "Tests for Nitrogen gas production activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Nitrogen gas production",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20E"
+      ]
+    },
+    "beta GAR": {
+      "code": "beta GAR",
+      "label": "beta GAR",
+      "well_type": "enzyme",
+      "description": "Tests for beta GAR activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta GAR",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32STR"
+      ]
+    },
+    "CDEX": {
+      "code": "CDEX",
+      "label": "Cyclodextrin",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Cyclodextrin",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:495083",
+        "chebi_name": "Cyclodextrin",
+        "pubchem_name": "Cyclodextrin"
+      },
+      "used_in_kits": [
+        "API rID32STR"
+      ]
+    },
+    "APPA": {
+      "code": "APPA",
+      "label": "Alanine-phenylalanine-proline arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Alanine-phenylalanine-proline arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Alanine-phenylalanine-proline arylamidase",
+        "go_terms": [
+          "GO:0004177"
+        ],
+        "go_names": [
+          "aminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32STR"
+      ]
+    },
+    "GTA": {
+      "code": "GTA",
+      "label": "Glutamate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Glutamate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:29985",
+        "chebi_name": "Glutamate",
+        "pubchem_cid": "33032",
+        "pubchem_name": "Glutamate"
+      },
+      "used_in_kits": [
+        "API rID32STR"
+      ]
+    },
+    "HIP": {
+      "code": "HIP",
+      "label": "Hippurate hydrolysis",
+      "well_type": "enzyme",
+      "description": "Tests for Hippurate hydrolysis activity",
+      "enzyme_ids": {
+        "ec_number": "3.5.1.32",
+        "rhea_ids": [],
+        "enzyme_name": "Hippurate hydrolysis",
+        "go_terms": [
+          "GO:0016810"
+        ],
+        "go_names": [
+          "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API CAM",
+        "API rID32STR"
+      ]
+    },
+    "PUL": {
+      "code": "PUL",
+      "label": "Pullulan",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Pullulan",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:28653",
+        "chebi_name": "Pullulan",
+        "pubchem_name": "Pullulan"
+      },
+      "used_in_kits": [
+        "API rID32STR"
+      ]
+    },
+    "Mbeta DG": {
+      "code": "Mbeta DG",
+      "label": "\u03b2-galactosidase",
+      "well_type": "enzyme",
+      "description": "Tests for \u03b2-galactosidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.2.1.23",
+        "rhea_ids": [],
+        "enzyme_name": "\u03b2-galactosidase",
+        "go_terms": [
+          "GO:0004565"
+        ],
+        "go_names": [
+          "beta-galactosidase activity"
+        ],
+        "kegg_ko": "K01190",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32STR"
+      ]
+    },
+    "beta MAN": {
+      "code": "beta MAN",
+      "label": "beta MAN",
+      "well_type": "enzyme",
+      "description": "Tests for beta MAN activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta MAN",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API rID32STR"
+      ]
+    },
+    "PYZ": {
+      "code": "PYZ",
+      "label": "Pyrazinamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Pyrazinamidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.5.1.19",
+        "rhea_ids": [],
+        "enzyme_name": "Pyrazinamidase",
+        "go_terms": [
+          "GO:0050336"
+        ],
+        "go_names": [
+          "pyrazinamidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API coryne"
+      ]
+    },
+    "PYRA": {
+      "code": "PYRA",
+      "label": "Pyrrolidonyl arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Pyrrolidonyl arylamidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.4.19.3",
+        "rhea_ids": [],
+        "enzyme_name": "Pyrrolidonyl arylamidase",
+        "go_terms": [
+          "GO:0017095"
+        ],
+        "go_names": [
+          "pyroglutamyl-peptidase I activity"
+        ],
+        "kegg_ko": "K01304",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API CAM",
+        "API coryne"
+      ]
+    },
+    "CAT": {
+      "code": "CAT",
+      "label": "Catalase",
+      "well_type": "enzyme",
+      "description": "Tests for Catalase activity",
+      "enzyme_ids": {
+        "ec_number": "1.11.1.6",
+        "rhea_ids": [],
+        "enzyme_name": "Catalase",
+        "go_terms": [
+          "GO:0004096"
+        ],
+        "go_names": [
+          "catalase activity"
+        ],
+        "kegg_ko": "K03781",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20A",
+        "API CAM",
+        "API coryne"
+      ]
+    },
+    "PEN": {
+      "code": "PEN",
+      "label": "Penicillin resistance",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Penicillin resistance",
+      "used_in_kits": [
+        "API NH"
+      ]
+    },
+    "LIP": {
+      "code": "LIP",
+      "label": "Lipase",
+      "well_type": "enzyme",
+      "description": "Tests for Lipase activity",
+      "enzyme_ids": {
+        "ec_number": "3.1.1.3",
+        "rhea_ids": [],
+        "enzyme_name": "Lipase",
+        "go_terms": [
+          "GO:0004806"
+        ],
+        "go_names": [
+          "triglyceride lipase activity"
+        ],
+        "kegg_ko": "K01046",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API ID32E",
+        "API NH"
+      ]
+    },
+    "GGT": {
+      "code": "GGT",
+      "label": "Gamma-glutamyl transferase",
+      "well_type": "enzyme",
+      "description": "Tests for Gamma-glutamyl transferase activity",
+      "enzyme_ids": {
+        "ec_number": "2.3.2.2",
+        "rhea_ids": [],
+        "enzyme_name": "Gamma-glutamyl transferase",
+        "go_terms": [
+          "GO:0003840"
+        ],
+        "go_names": [
+          "gamma-glutamyltransferase activity"
+        ],
+        "kegg_ko": "K00681",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API CAM",
+        "API NH"
+      ]
+    },
+    "NOVO": {
+      "code": "NOVO",
+      "label": "Novobiocin resistance",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Novobiocin resistance",
+      "used_in_kits": [
+        "API ID32STA"
+      ]
+    },
+    "Q": {
+      "code": "Q",
+      "label": "Quinate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Quinate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:17521",
+        "chebi_name": "Quinate",
+        "pubchem_cid": "6508",
+        "pubchem_name": "Quinate"
+      },
+      "used_in_kits": [
+        "API 50CHac",
+        "API 50CHas"
+      ]
+    },
+    "RP": {
+      "code": "RP",
+      "label": "Reverse CAMP test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Reverse CAMP test",
+      "used_in_kits": [
+        "API ID32E"
+      ]
+    },
+    "alphaMAL": {
+      "code": "alphaMAL",
+      "label": "alphaMAL",
+      "well_type": "enzyme",
+      "description": "Tests for alphaMAL activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alphaMAL",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API ID32E"
+      ]
+    },
+    "AspA": {
+      "code": "AspA",
+      "label": "Aspartic acid arylamidase",
+      "well_type": "enzyme",
+      "description": "Tests for Aspartic acid arylamidase activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Aspartic acid arylamidase",
+        "go_terms": [
+          "GO:0070006"
+        ],
+        "go_names": [
+          "metalloaminopeptidase activity"
+        ],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API CAM",
+        "API ID32E"
+      ]
+    },
+    "ADH": {
+      "code": "ADH",
+      "label": "Arginine dihydrolase",
+      "well_type": "enzyme",
+      "description": "Tests for Arginine dihydrolase activity",
+      "enzyme_ids": {
+        "ec_number": "3.5.3.6",
+        "rhea_ids": [],
+        "enzyme_name": "Arginine dihydrolase",
+        "go_terms": [
+          "GO:0008792"
+        ],
+        "go_names": [
+          "arginine deiminase activity"
+        ],
+        "kegg_ko": "K01478",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API STA"
+      ]
+    },
+    "LSTR": {
+      "code": "LSTR",
+      "label": "L-Serine test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: L-Serine test",
+      "used_in_kits": [
+        "API STA"
+      ]
+    },
+    "EST": {
+      "code": "EST",
+      "label": "Esterase",
+      "well_type": "enzyme",
+      "description": "Tests for Esterase activity",
+      "enzyme_ids": {
+        "ec_number": "3.1.1.1",
+        "rhea_ids": [],
+        "enzyme_name": "Esterase",
+        "go_terms": [
+          "GO:0016788"
+        ],
+        "go_names": [
+          "hydrolase activity, acting on ester bonds"
+        ],
+        "kegg_ko": "K01066",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API CAM"
+      ]
+    },
+    "TTC": {
+      "code": "TTC",
+      "label": "Tetrazolium reduction",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Tetrazolium reduction",
+      "used_in_kits": [
+        "API CAM"
+      ]
+    },
+    "SUT": {
+      "code": "SUT",
+      "label": "Sucrose variant test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Sucrose variant test",
+      "used_in_kits": [
+        "API CAM"
+      ]
+    },
+    "NAL": {
+      "code": "NAL",
+      "label": "Nalidixic acid resistance",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Nalidixic acid resistance",
+      "used_in_kits": [
+        "API CAM"
+      ]
+    },
+    "CFZ": {
+      "code": "CFZ",
+      "label": "Cefoxitin resistance",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Cefoxitin resistance",
+      "used_in_kits": [
+        "API CAM"
+      ]
+    },
+    "ACE": {
+      "code": "ACE",
+      "label": "Acetate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Acetate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:30089",
+        "chebi_name": "Acetate",
+        "pubchem_cid": "176",
+        "pubchem_name": "Acetate"
+      },
+      "used_in_kits": [
+        "API CAM"
+      ]
+    },
+    "ERO": {
+      "code": "ERO",
+      "label": "Erythromycin test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Erythromycin test",
+      "used_in_kits": [
+        "API CAM"
+      ]
+    },
+    "MAC": {
+      "code": "MAC",
+      "label": "MacConkey agar",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: MacConkey agar",
+      "used_in_kits": [
+        "API 20E"
+      ]
+    },
+    "OF-O": {
+      "code": "OF-O",
+      "label": "Oxidative-fermentative (oxidative)",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Oxidative-fermentative (oxidative)",
+      "used_in_kits": [
+        "API 20E"
+      ]
+    },
+    "OF-F": {
+      "code": "OF-F",
+      "label": "Oxidative-fermentative (fermentative)",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Oxidative-fermentative (fermentative)",
+      "used_in_kits": [
+        "API 20E"
+      ]
+    },
+    "DIM": {
+      "code": "DIM",
+      "label": "Dimethyl test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Dimethyl test",
+      "used_in_kits": [
+        "API LIST"
+      ]
+    },
+    "alpha MAN": {
+      "code": "alpha MAN",
+      "label": "alpha MAN",
+      "well_type": "enzyme",
+      "description": "Tests for alpha MAN activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "alpha MAN",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API LIST"
+      ]
+    },
+    "G1P": {
+      "code": "G1P",
+      "label": "Glucose-1-phosphate",
+      "well_type": "substrate",
+      "description": "Tests for utilization/fermentation of Glucose-1-phosphate",
+      "chemical_ids": {
+        "chebi_id": "CHEBI:16077",
+        "chebi_name": "Glucose-1-phosphate",
+        "pubchem_cid": "65533",
+        "pubchem_name": "Glucose-1-phosphate"
+      },
+      "used_in_kits": [
+        "API LIST"
+      ]
+    },
+    "SPOR": {
+      "code": "SPOR",
+      "label": "Sporulation",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Sporulation",
+      "used_in_kits": [
+        "API 20A"
+      ]
+    },
+    "GRAM": {
+      "code": "GRAM",
+      "label": "Gram stain",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Gram stain",
+      "used_in_kits": [
+        "API 20A"
+      ]
+    },
+    "COCC": {
+      "code": "COCC",
+      "label": "Coagulase test",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Coagulase test",
+      "used_in_kits": [
+        "API 20A"
+      ]
+    },
+    "LAP": {
+      "code": "LAP",
+      "label": "Leucine aminopeptidase",
+      "well_type": "enzyme",
+      "description": "Tests for Leucine aminopeptidase activity",
+      "enzyme_ids": {
+        "ec_number": "3.4.11.1",
+        "rhea_ids": [],
+        "enzyme_name": "Leucine aminopeptidase",
+        "go_terms": [
+          "GO:0004177",
+          "GO:0070006"
+        ],
+        "go_names": [
+          "aminopeptidase activity",
+          "metalloaminopeptidase activity"
+        ],
+        "kegg_ko": "K01255",
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR"
+      ]
+    },
+    "beta HEM": {
+      "code": "beta HEM",
+      "label": "beta HEM",
+      "well_type": "enzyme",
+      "description": "Tests for beta HEM activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "beta HEM",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
+      "used_in_kits": [
+        "API 20STR",
+        "API LIST"
+      ]
+    },
+    "MOB": {
+      "code": "MOB",
+      "label": "Motility",
+      "well_type": "phenotypic",
+      "description": "Phenotypic test: Motility",
+      "used_in_kits": [
+        "API 20E"
+      ]
+    }
+  },
+  "enzymes": {
+    "catalase": {
+      "ec_number": "1.11.1.6",
+      "rhea_ids": [],
+      "enzyme_name": "catalase",
+      "go_terms": [
+        "GO:0004096"
+      ],
+      "go_names": [
+        "catalase activity"
+      ],
+      "kegg_ko": "K03781",
+      "metacyc_pathway": []
+    },
+    "cytochrome oxidase": {
+      "ec_number": "1.9.3.1",
+      "rhea_ids": [],
+      "enzyme_name": "cytochrome oxidase",
+      "go_terms": [
+        "GO:0004129"
+      ],
+      "go_names": [
+        "cytochrome-c oxidase activity"
+      ],
+      "kegg_ko": "K02274",
+      "metacyc_pathway": []
+    },
+    "gelatinase": {
+      "ec_number": "3.4.24.4",
+      "rhea_ids": [],
+      "enzyme_name": "gelatinase",
+      "go_terms": [
+        "GO:0004222"
+      ],
+      "go_names": [
+        "metalloendopeptidase activity"
+      ],
+      "kegg_ko": "K01398",
+      "metacyc_pathway": []
+    },
+    "N-acetyl-beta-glucosaminidase": {
+      "ec_number": "3.2.1.52",
+      "rhea_ids": [],
+      "enzyme_name": "N-acetyl-beta-glucosaminidase",
+      "go_terms": [
+        "GO:0004563"
+      ],
+      "go_names": [
+        "beta-N-acetylhexosaminidase activity"
+      ],
+      "kegg_ko": "K01207",
+      "metacyc_pathway": []
+    },
+    "alpha-mannosidase": {
+      "ec_number": "3.2.1.24",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-mannosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-glucosidase": {
+      "ec_number": "3.2.1.21",
+      "rhea_ids": [],
+      "enzyme_name": "beta-glucosidase",
+      "go_terms": [
+        "GO:0008422"
+      ],
+      "go_names": [
+        "beta-glucosidase activity"
+      ],
+      "kegg_ko": "K01188",
+      "metacyc_pathway": []
+    },
+    "beta-glucuronidase": {
+      "ec_number": "3.2.1.31",
+      "rhea_ids": [],
+      "enzyme_name": "beta-glucuronidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-glucosidase": {
+      "ec_number": "3.2.1.20",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-glucosidase",
+      "go_terms": [
+        "GO:0004558"
+      ],
+      "go_names": [
+        "alpha-glucosidase activity"
+      ],
+      "kegg_ko": "K01187",
+      "metacyc_pathway": []
+    },
+    "beta-galactosidase": {
+      "ec_number": "3.2.1.23",
+      "rhea_ids": [],
+      "enzyme_name": "beta-galactosidase",
+      "go_terms": [
+        "GO:0004565"
+      ],
+      "go_names": [
+        "beta-galactosidase activity"
+      ],
+      "kegg_ko": "K01190",
+      "metacyc_pathway": []
+    },
+    "alpha-galactosidase": {
+      "ec_number": "3.2.1.22",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-galactosidase",
+      "go_terms": [
+        "GO:0004557"
+      ],
+      "go_names": [
+        "alpha-galactosidase activity"
+      ],
+      "kegg_ko": "K07407",
+      "metacyc_pathway": []
+    },
+    "naphthol-AS-BI-phosphohydrolase": {
+      "rhea_ids": [],
+      "enzyme_name": "naphthol-AS-BI-phosphohydrolase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "acid phosphatase": {
+      "ec_number": "3.1.3.2",
+      "rhea_ids": [],
+      "enzyme_name": "acid phosphatase",
+      "go_terms": [
+        "GO:0003993"
+      ],
+      "go_names": [
+        "acid phosphatase activity"
+      ],
+      "kegg_ko": "K01078",
+      "metacyc_pathway": []
+    },
+    "alpha-chymotrypsin": {
+      "ec_number": "3.4.21.1",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-chymotrypsin",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "trypsin": {
+      "ec_number": "3.4.21.4",
+      "rhea_ids": [],
+      "enzyme_name": "trypsin",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "valine arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "valine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "cystine arylamidase": {
+      "ec_number": "3.4.11.3",
+      "rhea_ids": [],
+      "enzyme_name": "cystine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "leucine arylamidase": {
+      "ec_number": "3.4.11.1",
+      "rhea_ids": [],
+      "enzyme_name": "leucine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "lipase (C 14)": {
+      "rhea_ids": [],
+      "enzyme_name": "lipase (C 14)",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "esterase (C 4)": {
+      "rhea_ids": [],
+      "enzyme_name": "esterase (C 4)",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "esterase lipase (C 8)": {
+      "rhea_ids": [],
+      "enzyme_name": "esterase lipase (C 8)",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alkaline phosphatase": {
+      "ec_number": "3.1.3.1",
+      "rhea_ids": [],
+      "enzyme_name": "alkaline phosphatase",
+      "go_terms": [
+        "GO:0004035"
+      ],
+      "go_names": [
+        "alkaline phosphatase activity"
+      ],
+      "kegg_ko": "K01077",
+      "metacyc_pathway": []
+    },
+    "oxidase": {
+      "rhea_ids": [],
+      "enzyme_name": "oxidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "amylase": {
+      "ec_number": "3.2.1.1",
+      "rhea_ids": [],
+      "enzyme_name": "amylase",
+      "go_terms": [
+        "GO:0004556"
+      ],
+      "go_names": [
+        "alpha-amylase activity"
+      ],
+      "kegg_ko": "K01176",
+      "metacyc_pathway": []
+    },
+    "DNase": {
+      "rhea_ids": [],
+      "enzyme_name": "DNase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "caseinase": {
+      "ec_number": "3.4.21.50",
+      "rhea_ids": [],
+      "enzyme_name": "caseinase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "tween esterase": {
+      "rhea_ids": [],
+      "enzyme_name": "tween esterase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "lecithinase": {
+      "rhea_ids": [],
+      "enzyme_name": "lecithinase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "lipase": {
+      "rhea_ids": [],
+      "enzyme_name": "lipase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "protease": {
+      "rhea_ids": [],
+      "enzyme_name": "protease",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "urease": {
+      "ec_number": "3.5.1.5",
+      "rhea_ids": [],
+      "enzyme_name": "urease",
+      "go_terms": [
+        "GO:0009039"
+      ],
+      "go_names": [
+        "urease activity"
+      ],
+      "kegg_ko": "K01428",
+      "metacyc_pathway": []
+    },
+    "phenylalanine arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "phenylalanine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "leucyl glycin arylamidase": {
+      "ec_number": "3.4.11.1",
+      "rhea_ids": [],
+      "enzyme_name": "leucyl glycin arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "L-arginine arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "L-arginine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glutamate decarboxylase": {
+      "ec_number": "4.1.1.15",
+      "rhea_ids": [],
+      "enzyme_name": "glutamate decarboxylase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-fucosidase": {
+      "ec_number": "3.2.1.51",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-fucosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "serine arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "serine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glutamyl-glutamate arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glutamyl-glutamate arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "histidine arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "histidine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glycin arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glycin arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alanine arylamidase": {
+      "ec_number": "3.4.11.2",
+      "rhea_ids": [],
+      "enzyme_name": "alanine arylamidase",
+      "go_terms": [
+        "GO:0004177"
+      ],
+      "go_names": [
+        "aminopeptidase activity"
+      ],
+      "kegg_ko": "K01256",
+      "metacyc_pathway": []
+    },
+    "tyrosine arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "tyrosine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "proline-arylamidase": {
+      "ec_number": "3.4.11.5",
+      "rhea_ids": [],
+      "enzyme_name": "proline-arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "tryptophan deaminase": {
+      "ec_number": "4.1.99.1",
+      "rhea_ids": [],
+      "enzyme_name": "tryptophan deaminase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-arabinosidase": {
+      "ec_number": "3.2.1.55",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-arabinosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-Galactosidase 6-phosphate": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-Galactosidase 6-phosphate",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "arginine dihydrolase": {
+      "ec_number": "3.5.3.6",
+      "rhea_ids": [],
+      "enzyme_name": "arginine dihydrolase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alcohol dehydrogenase": {
+      "ec_number": "1.1.1.1",
+      "rhea_ids": [],
+      "enzyme_name": "alcohol dehydrogenase",
+      "go_terms": [
+        "GO:0004022"
+      ],
+      "go_names": [
+        "alcohol dehydrogenase (NAD+) activity"
+      ],
+      "kegg_ko": "K00001",
+      "metacyc_pathway": []
+    },
+    "gamma-glutamyltransferase": {
+      "ec_number": "2.3.2.2",
+      "rhea_ids": [],
+      "enzyme_name": "gamma-glutamyltransferase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "lysine decarboxylase": {
+      "ec_number": "4.1.1.18",
+      "rhea_ids": [],
+      "enzyme_name": "lysine decarboxylase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "ornithine decarboxylase": {
+      "ec_number": "4.1.1.17",
+      "rhea_ids": [],
+      "enzyme_name": "ornithine decarboxylase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "pyrrolidonyl arylamidase": {
+      "ec_number": "3.4.19.3",
+      "rhea_ids": [],
+      "enzyme_name": "pyrrolidonyl arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "esterase": {
+      "rhea_ids": [],
+      "enzyme_name": "esterase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "phosphatidate phosphatase": {
+      "ec_number": "3.1.3.4",
+      "rhea_ids": [],
+      "enzyme_name": "phosphatidate phosphatase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "cytochrome-c oxidase": {
+      "ec_number": "1.9.3.1",
+      "rhea_ids": [],
+      "enzyme_name": "cytochrome-c oxidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "Alkaline phosphatase": {
+      "ec_number": "3.1.3.1",
+      "rhea_ids": [],
+      "enzyme_name": "Alkaline phosphatase",
+      "go_terms": [
+        "GO:0004035"
+      ],
+      "go_names": [
+        "alkaline phosphatase activity"
+      ],
+      "kegg_ko": "K01077",
+      "metacyc_pathway": []
+    },
+    "phenylalanine ammonia-lyase": {
+      "ec_number": "4.3.1.24",
+      "rhea_ids": [],
+      "enzyme_name": "phenylalanine ammonia-lyase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "Ribulose-bisphosphate carboxylase": {
+      "ec_number": "4.1.1.39",
+      "rhea_ids": [],
+      "enzyme_name": "Ribulose-bisphosphate carboxylase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "Dnase": {
+      "rhea_ids": [],
+      "enzyme_name": "Dnase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "arginine decarboxylase": {
+      "ec_number": "4.1.1.19",
+      "rhea_ids": [],
+      "enzyme_name": "arginine decarboxylase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "phenylalanine deaminase": {
+      "ec_number": "4.3.1.5",
+      "rhea_ids": [],
+      "enzyme_name": "phenylalanine deaminase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "phosphatase": {
+      "rhea_ids": [],
+      "enzyme_name": "phosphatase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "tryptophanase": {
+      "ec_number": "4.1.99.1",
+      "rhea_ids": [],
+      "enzyme_name": "tryptophanase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "nitrate reductase": {
+      "ec_number": "1.7.99.4",
+      "rhea_ids": [],
+      "enzyme_name": "nitrate reductase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "pyrazinamidase": {
+      "ec_number": "3.5.1.B15",
+      "rhea_ids": [],
+      "enzyme_name": "pyrazinamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "6-phospho-beta-galactosidase": {
+      "ec_number": "3.2.1.85",
+      "rhea_ids": [],
+      "enzyme_name": "6-phospho-beta-galactosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-mannosidase": {
+      "ec_number": "3.2.1.25",
+      "rhea_ids": [],
+      "enzyme_name": "beta-mannosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glycyl tryptophan arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glycyl tryptophan arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "pyroglutamic acid arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "pyroglutamic acid arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "tripeptide aminopeptidase": {
+      "ec_number": "3.4.11.4",
+      "rhea_ids": [],
+      "enzyme_name": "tripeptide aminopeptidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "chymotrypsin": {
+      "ec_number": "3.4.4.5",
+      "rhea_ids": [],
+      "enzyme_name": "chymotrypsin",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "phosphoamidase": {
+      "ec_number": "3.9.1.1",
+      "rhea_ids": [],
+      "enzyme_name": "phosphoamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "Alanyl-Phenylalanyl-Proline arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "Alanyl-Phenylalanyl-Proline arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-lactamase": {
+      "ec_number": "3.5.2.6",
+      "rhea_ids": [],
+      "enzyme_name": "beta-lactamase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "Acid phosphatase": {
+      "ec_number": "3.1.3.2",
+      "rhea_ids": [],
+      "enzyme_name": "Acid phosphatase",
+      "go_terms": [
+        "GO:0003993"
+      ],
+      "go_names": [
+        "acid phosphatase activity"
+      ],
+      "kegg_ko": "K01078",
+      "metacyc_pathway": []
+    },
+    "beta-glucoronidase": {
+      "ec_number": "3.2.1.31",
+      "rhea_ids": [],
+      "enzyme_name": "beta-glucoronidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "L-aspartate arylamidase": {
+      "ec_number": "3.4.11.21",
+      "rhea_ids": [],
+      "enzyme_name": "L-aspartate arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-maltosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "alpha-maltosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "carboxylesterase": {
+      "ec_number": "3.1.1.1",
+      "rhea_ids": [],
+      "enzyme_name": "carboxylesterase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "hyaluronate lyase": {
+      "ec_number": "4.2.2.1",
+      "rhea_ids": [],
+      "enzyme_name": "hyaluronate lyase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "agarase": {
+      "ec_number": "3.2.1.81",
+      "rhea_ids": [],
+      "enzyme_name": "agarase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "L-leucyl-2-naphthylamide hydrolase": {
+      "rhea_ids": [],
+      "enzyme_name": "L-leucyl-2-naphthylamide hydrolase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "esterase Lipase (C 8)": {
+      "rhea_ids": [],
+      "enzyme_name": "esterase Lipase (C 8)",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alanine aminopeptidase": {
+      "rhea_ids": [],
+      "enzyme_name": "alanine aminopeptidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "chitinase": {
+      "ec_number": "3.2.1.14",
+      "rhea_ids": [],
+      "enzyme_name": "chitinase",
+      "go_terms": [
+        "GO:0004568"
+      ],
+      "go_names": [
+        "chitinase activity"
+      ],
+      "kegg_ko": "K01183",
+      "metacyc_pathway": []
+    },
+    "cellulase": {
+      "ec_number": "3.2.1.4",
+      "rhea_ids": [],
+      "enzyme_name": "cellulase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "endo-1,4-beta-xylanase": {
+      "ec_number": "3.2.1.8",
+      "rhea_ids": [],
+      "enzyme_name": "endo-1,4-beta-xylanase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "lipase (Tween 80)": {
+      "rhea_ids": [],
+      "enzyme_name": "lipase (Tween 80)",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "thiosulfate reductase": {
+      "ec_number": "2.8.1.5",
+      "rhea_ids": [],
+      "enzyme_name": "thiosulfate reductase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-Amylase": {
+      "ec_number": "3.2.1.1",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-Amylase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "Bam H1": {
+      "ec_number": "3.1.21.4",
+      "rhea_ids": [],
+      "enzyme_name": "Bam H1",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "cyclomaltodextrin glucanotransferase": {
+      "ec_number": "2.4.1.19",
+      "rhea_ids": [],
+      "enzyme_name": "cyclomaltodextrin glucanotransferase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alginase": {
+      "ec_number": "3.2.1.16",
+      "rhea_ids": [],
+      "enzyme_name": "alginase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "tryptophan decarboxylase": {
+      "ec_number": "4.1.1.27",
+      "rhea_ids": [],
+      "enzyme_name": "tryptophan decarboxylase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-D-fucosidase": {
+      "ec_number": "3.2.1.38",
+      "rhea_ids": [],
+      "enzyme_name": "beta-D-fucosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "arginine arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "arginine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "nitrite reductase": {
+      "ec_number": "1.7.1.4",
+      "rhea_ids": [],
+      "enzyme_name": "nitrite reductase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "hippurate hydrolase": {
+      "ec_number": "3.5.1.32",
+      "rhea_ids": [],
+      "enzyme_name": "hippurate hydrolase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "arylsulfatase": {
+      "ec_number": "3.1.6.1",
+      "rhea_ids": [],
+      "enzyme_name": "arylsulfatase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "phospholipase C": {
+      "ec_number": "3.1.4.11",
+      "rhea_ids": [],
+      "enzyme_name": "phospholipase C",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "lysozyme": {
+      "ec_number": "3.2.1.17",
+      "rhea_ids": [],
+      "enzyme_name": "lysozyme",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "benzoyl-D-arginine arylamidase": {
+      "ec_number": "3.5.1.72",
+      "rhea_ids": [],
+      "enzyme_name": "benzoyl-D-arginine arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-glucuronidase": {
+      "ec_number": "3.2.1.139",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-glucuronidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "coagulase": {
+      "rhea_ids": [],
+      "enzyme_name": "coagulase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "neuramindase": {
+      "ec_number": "3.2.1.18",
+      "rhea_ids": [],
+      "enzyme_name": "neuramindase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "carbohydrates": {
+      "ec_number": "1.14.14.9",
+      "rhea_ids": [],
+      "enzyme_name": "carbohydrates",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "2-nitrophenyl beta-D-galactopyranoside": {
+      "ec_number": "3.2.1.52",
+      "rhea_ids": [],
+      "enzyme_name": "2-nitrophenyl beta-D-galactopyranoside",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "lactosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "lactosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-maltosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-maltosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-xylosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-xylosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-xylosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "alpha-xylosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "D-aminoacylase": {
+      "ec_number": "3.5.1.14",
+      "rhea_ids": [],
+      "enzyme_name": "D-aminoacylase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-L-arabinofuranosidase": {
+      "ec_number": "3.2.1.55",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-L-arabinofuranosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-glucosaminidase": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-glucosaminidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-galactosaminidase": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-galactosaminidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-cellobiase": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-cellobiase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "galacturonidase": {
+      "rhea_ids": [],
+      "enzyme_name": "galacturonidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glucuronidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glucuronidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-L-arabinosidase": {
+      "ec_number": "3.2.1.88",
+      "rhea_ids": [],
+      "enzyme_name": "beta-L-arabinosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alpha-L-rhamnosidase": {
+      "ec_number": "3.2.1.40",
+      "rhea_ids": [],
+      "enzyme_name": "alpha-L-rhamnosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "adenylate cyclase": {
+      "ec_number": "4.6.1.1",
+      "rhea_ids": [],
+      "enzyme_name": "adenylate cyclase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "phosphohydrolase": {
+      "rhea_ids": [],
+      "enzyme_name": "phosphohydrolase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "NiFe-hydrogenase": {
+      "rhea_ids": [],
+      "enzyme_name": "NiFe-hydrogenase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "nitrogenase": {
+      "rhea_ids": [],
+      "enzyme_name": "nitrogenase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "hydrogenase": {
+      "ec_number": "1.12.99.6",
+      "rhea_ids": [],
+      "enzyme_name": "hydrogenase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "leucine aminopeptidase": {
+      "ec_number": "3.4.1.1",
+      "rhea_ids": [],
+      "enzyme_name": "leucine aminopeptidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "superoxide dismutase": {
+      "ec_number": "1.15.1.1",
+      "rhea_ids": [],
+      "enzyme_name": "superoxide dismutase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "arginine Dihydrolase": {
+      "ec_number": "3.5.3.6",
+      "rhea_ids": [],
+      "enzyme_name": "arginine Dihydrolase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "hyaluronidase": {
+      "ec_number": "3.2.1.35",
+      "rhea_ids": [],
+      "enzyme_name": "hyaluronidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "ribonuclease": {
+      "ec_number": "2.7.7.16",
+      "rhea_ids": [],
+      "enzyme_name": "ribonuclease",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glucose isomerase": {
+      "ec_number": "5.3.1.18",
+      "rhea_ids": [],
+      "enzyme_name": "glucose isomerase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "Xylanase": {
+      "ec_number": "3.2.1.8",
+      "rhea_ids": [],
+      "enzyme_name": "Xylanase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "cystine aminopeptidase": {
+      "ec_number": "3.4.11.3",
+      "rhea_ids": [],
+      "enzyme_name": "cystine aminopeptidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "valine aminopeptidase": {
+      "rhea_ids": [],
+      "enzyme_name": "valine aminopeptidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "acetate kinase": {
+      "ec_number": "2.7.2.1",
+      "rhea_ids": [],
+      "enzyme_name": "acetate kinase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-N-acetylgalactosaminidase": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-N-acetylgalactosaminidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-D-galactosidase": {
+      "ec_number": "3.2.1.23",
+      "rhea_ids": [],
+      "enzyme_name": "beta-D-galactosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-galactopyranosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-galactopyranosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "phenylalaninase": {
+      "rhea_ids": [],
+      "enzyme_name": "phenylalaninase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "skimmed milk protease": {
+      "rhea_ids": [],
+      "enzyme_name": "skimmed milk protease",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "phosphatidylinositol phospholipase C": {
+      "ec_number": "3.1.4.11",
+      "rhea_ids": [],
+      "enzyme_name": "phosphatidylinositol phospholipase C",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glu-gly-arg-arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glu-gly-arg-arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glutamyl arylamidase pNA": {
+      "rhea_ids": [],
+      "enzyme_name": "glutamyl arylamidase pNA",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "xylan 1,4-beta-xylosidase": {
+      "ec_number": "3.2.1.37",
+      "rhea_ids": [],
+      "enzyme_name": "xylan 1,4-beta-xylosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-fucosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-fucosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glutamate dehydrogenase": {
+      "ec_number": "1.4.1.4",
+      "rhea_ids": [],
+      "enzyme_name": "glutamate dehydrogenase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "methanol dehydrogenase": {
+      "ec_number": "1.1.1.244",
+      "rhea_ids": [],
+      "enzyme_name": "methanol dehydrogenase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "oxoglutarate dehydrogenase": {
+      "ec_number": "1.2.4.2",
+      "rhea_ids": [],
+      "enzyme_name": "oxoglutarate dehydrogenase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-alanine arylamidase pNA": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-alanine arylamidase pNA",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glu\u2013gly\u2013arg arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glu\u2013gly\u2013arg arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glucoronidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glucoronidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "cholesterol esterase": {
+      "ec_number": "3.1.1.13",
+      "rhea_ids": [],
+      "enzyme_name": "cholesterol esterase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "fructose-6-phosphate phosphoketolase": {
+      "ec_number": "4.1.2.22",
+      "rhea_ids": [],
+      "enzyme_name": "fructose-6-phosphate phosphoketolase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "tyrosinase": {
+      "ec_number": "1.14.18.1",
+      "rhea_ids": [],
+      "enzyme_name": "tyrosinase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glucosaminidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glucosaminidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "tellurite reductase": {
+      "rhea_ids": [],
+      "enzyme_name": "tellurite reductase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "N-acetyl-glucosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "N-acetyl-glucosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "L-arginine dihydrolase": {
+      "rhea_ids": [],
+      "enzyme_name": "L-arginine dihydrolase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glu\u2013gly\u2013arg-arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glu\u2013gly\u2013arg-arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "endo-1,3(4)-beta-glucanase": {
+      "ec_number": "3.2.1.6",
+      "rhea_ids": [],
+      "enzyme_name": "endo-1,3(4)-beta-glucanase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "heparin lyase": {
+      "ec_number": "4.2.2.7",
+      "rhea_ids": [],
+      "enzyme_name": "heparin lyase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "pectinase": {
+      "rhea_ids": [],
+      "enzyme_name": "pectinase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "beta-galactosidase-6-phosphate": {
+      "rhea_ids": [],
+      "enzyme_name": "beta-galactosidase-6-phosphate",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "P-nitroso-D-methyl galactose": {
+      "rhea_ids": [],
+      "enzyme_name": "P-nitroso-D-methyl galactose",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "4-nitrophenyl beta-D-galactopyranoside": {
+      "ec_number": "3.2.1.52",
+      "rhea_ids": [],
+      "enzyme_name": "4-nitrophenyl beta-D-galactopyranoside",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "deaminases": {
+      "rhea_ids": [],
+      "enzyme_name": "deaminases",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "l-pyrrolyldonyl-arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "l-pyrrolyldonyl-arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "alanine phenylalanin proline arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "alanine phenylalanin proline arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "penicillinase": {
+      "rhea_ids": [],
+      "enzyme_name": "penicillinase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glucosidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glucosidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "4-nitrophenyl-beta-D-galactopyranoside": {
+      "ec_number": "3.2.1.52",
+      "rhea_ids": [],
+      "enzyme_name": "4-nitrophenyl-beta-D-galactopyranoside",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "ACC deaminase": {
+      "rhea_ids": [],
+      "enzyme_name": "ACC deaminase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "peptide synthetase": {
+      "rhea_ids": [],
+      "enzyme_name": "peptide synthetase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "l-pyrrolydonyl arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "l-pyrrolydonyl arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "glutamin glycerin arginin arylamidase": {
+      "rhea_ids": [],
+      "enzyme_name": "glutamin glycerin arginin arylamidase",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    },
+    "adenyl cyclase hemolysin": {
+      "rhea_ids": [],
+      "enzyme_name": "adenyl cyclase hemolysin",
+      "go_terms": [],
+      "go_names": [],
+      "metacyc_pathway": []
+    }
+  },
+  "statistics": {
+    "total_strains": 99392,
+    "total_api_kits": 17,
+    "total_unique_wells": 218,
+    "total_unique_enzymes": 175,
+    "total_kit_occurrences": 43688
+  }
+}
