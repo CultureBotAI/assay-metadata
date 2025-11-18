@@ -11,6 +11,7 @@ from .models import (
     AssayMetadata,
     ChemicalIdentifiers,
     EnzymeIdentifiers,
+    MetaboliteIdentifiers,
     WellMetadata,
 )
 
@@ -54,12 +55,17 @@ class MetadataBuilder:
         print("Building enzyme metadata with RHEA mappings...")
         enzymes = self._build_enzymes(parsed_data)
 
-        # Step 5: Compile statistics
+        # Step 5: Build metabolite metadata
+        print("Building metabolite metadata with CHEBI/PubChem mappings...")
+        metabolites = self._build_metabolites(parsed_data)
+
+        # Step 6: Compile statistics
         statistics = {
             "total_strains": parsed_data["total_strains"],
             "total_api_kits": len(api_kits),
             "total_unique_wells": len(wells),
             "total_unique_enzymes": len(enzymes),
+            "total_unique_metabolites": len(metabolites),
             "total_kit_occurrences": sum(kit.occurrence_count for kit in api_kits),
         }
 
@@ -69,6 +75,7 @@ class MetadataBuilder:
         print(f"API Kits: {statistics['total_api_kits']}")
         print(f"Unique Wells: {statistics['total_unique_wells']}")
         print(f"Unique Enzymes: {statistics['total_unique_enzymes']}")
+        print(f"Unique Metabolites: {statistics['total_unique_metabolites']}")
         print(f"Total Strains: {statistics['total_strains']:,}")
         print("=" * 70)
 
@@ -76,6 +83,7 @@ class MetadataBuilder:
             api_kits=api_kits,
             wells=wells,
             enzymes=enzymes,
+            metabolites=metabolites,
             statistics=statistics,
         )
 
@@ -318,3 +326,48 @@ class MetadataBuilder:
             )
 
         return enzymes
+
+    def _build_metabolites(self, parsed_data: dict[str, Any]) -> dict[str, MetaboliteIdentifiers]:
+        """Build metabolite metadata with CHEBI/PubChem mappings.
+
+        Args:
+            parsed_data: Parsed data from BacDiveParser
+
+        Returns:
+            Dictionary mapping metabolite names to MetaboliteIdentifiers
+        """
+        metabolites = {}
+
+        for metabolite_name, metabolite_data in tqdm(
+            parsed_data["metabolites"].items(),
+            desc="Processing metabolites"
+        ):
+            # Get CHEBI ID from the data (if present in BacDive)
+            chebi_id_from_data = metabolite_data.get("chebi_id")
+
+            # Get enriched metabolite info from mapper
+            metabolite_info = self.chem_mapper.get_metabolite_info(
+                metabolite_name,
+                chebi_id_from_data
+            )
+
+            # Convert sets to sorted lists for JSON serialization
+            utilization_test_types = sorted(list(metabolite_data.get("utilization_test_types", set())))
+            production_values = sorted(list(metabolite_data.get("production_values", set())))
+            test_names = sorted(list(metabolite_data.get("test_names", set())))
+
+            metabolites[metabolite_name] = MetaboliteIdentifiers(
+                metabolite_name=metabolite_name,
+                chebi_id=metabolite_info.get("chebi_id"),
+                chebi_name=metabolite_info.get("chebi_name"),
+                pubchem_cid=metabolite_info.get("pubchem_cid"),
+                pubchem_name=metabolite_info.get("pubchem_name"),
+                utilization_test_types=utilization_test_types,
+                production_values=production_values,
+                test_names=test_names,
+                utilization_count=metabolite_data.get("utilization_count", 0),
+                production_count=metabolite_data.get("production_count", 0),
+                test_count=metabolite_data.get("test_count", 0),
+            )
+
+        return metabolites

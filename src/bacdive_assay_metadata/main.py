@@ -111,6 +111,20 @@ Examples:
 
     print(f"✓ Wrote {kits_path}")
 
+    # Write metabolites summary
+    metabolites_path = args.output_dir / "metabolites_list.json"
+    print(f"Writing metabolites summary to {metabolites_path}...")
+
+    metabolites_data = {
+        "total_metabolites": len(metadata.metabolites),
+        "metabolites": [met.model_dump(exclude_none=True) for met in metadata.metabolites.values()],
+    }
+
+    with open(metabolites_path, "w", encoding="utf-8") as f:
+        json.dump(metabolites_data, f, **json_kwargs)
+
+    print(f"✓ Wrote {metabolites_path}")
+
     # Optionally write individual kit files
     if args.split_kits:
         kits_dir = args.output_dir / "kits"
@@ -226,6 +240,24 @@ Examples:
 
             simple_data["api_kits"].append(kit_data)
 
+        # Add metabolites section
+        simple_data["metabolites"] = []
+        for metabolite in metadata.metabolites.values():
+            met_entry = {
+                "name": metabolite.metabolite_name,
+                "chebi_id": [metabolite.chebi_id] if metabolite.chebi_id else [],
+                "chebi_name": [metabolite.chebi_name] if metabolite.chebi_name else [],
+                "pubchem_cid": [metabolite.pubchem_cid] if metabolite.pubchem_cid else [],
+                "pubchem_name": [metabolite.pubchem_name] if metabolite.pubchem_name else [],
+                "utilization_test_types": metabolite.utilization_test_types,
+                "production_values": metabolite.production_values,
+                "test_names": metabolite.test_names,
+                "utilization_count": [metabolite.utilization_count] if metabolite.utilization_count else [],
+                "production_count": [metabolite.production_count] if metabolite.production_count else [],
+                "test_count": [metabolite.test_count] if metabolite.test_count else [],
+            }
+            simple_data["metabolites"].append(met_entry)
+
         with open(simple_path, "w", encoding="utf-8") as f:
             json.dump(simple_data, f, **json_kwargs)
 
@@ -240,6 +272,7 @@ Examples:
     print(f"API kits found: {metadata.statistics['total_api_kits']}")
     print(f"Unique wells: {metadata.statistics['total_unique_wells']}")
     print(f"Unique enzymes: {metadata.statistics['total_unique_enzymes']}")
+    print(f"Unique metabolites: {metadata.statistics['total_unique_metabolites']}")
     print(f"Total strains processed: {metadata.statistics['total_strains']:,}")
     print("=" * 70)
 

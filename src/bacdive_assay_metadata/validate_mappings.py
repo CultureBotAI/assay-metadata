@@ -244,6 +244,31 @@ class MappingValidator:
             else:
                 self.stats["enzymes_no_kegg"] += 1
 
+    def validate_metabolite_mappings(self):
+        """Validate all metabolite mappings."""
+        print("\n" + "=" * 70)
+        print("VALIDATING METABOLITE MAPPINGS")
+        print("=" * 70)
+
+        total = len(ChemicalMapper.METABOLITE_MAPPINGS)
+        print(f"Total metabolite mappings: {total}")
+
+        for metabolite_name, mapping in tqdm(ChemicalMapper.METABOLITE_MAPPINGS.items(), desc="Metabolites"):
+            self.stats["metabolites_total"] += 1
+
+            # Validate CHEBI
+            if mapping.get("chebi"):
+                self.validate_chebi(mapping["chebi"])
+            else:
+                self.stats["metabolites_no_chebi"] += 1
+
+            # Validate PubChem (with rate limiting)
+            if mapping.get("pubchem"):
+                self.validate_pubchem(mapping["pubchem"])
+                time.sleep(0.2)  # Rate limit: 5 requests/second
+            else:
+                self.stats["metabolites_no_pubchem"] += 1
+
     def print_report(self):
         """Print validation report."""
         print("\n" + "=" * 70)
@@ -264,6 +289,12 @@ class MappingValidator:
         print(f"    - GO missing: {self.stats['enzymes_no_go']}")
         print(f"    - KEGG valid: {self.stats['kegg_valid']}")
         print(f"    - KEGG missing: {self.stats['enzymes_no_kegg']}")
+
+        print(f"\n  Metabolites validated: {self.stats.get('metabolites_total', 0)}")
+        print(f"    - CHEBI valid: {self.stats.get('chebi_valid', 0)}")
+        print(f"    - CHEBI missing: {self.stats.get('metabolites_no_chebi', 0)}")
+        print(f"    - PubChem valid: {self.stats.get('pubchem_valid', 0)}")
+        print(f"    - PubChem missing: {self.stats.get('metabolites_no_pubchem', 0)}")
 
         if self.warnings:
             print(f"\n⚠️  WARNINGS ({len(self.warnings)}):")
@@ -379,6 +410,9 @@ def main():
 
     # Validate enzymes
     validator.validate_enzyme_mappings()
+
+    # Validate metabolites
+    validator.validate_metabolite_mappings()
 
     # Print report
     success = validator.print_report()

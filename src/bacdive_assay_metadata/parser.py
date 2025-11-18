@@ -25,6 +25,12 @@ class BacDiveParser:
         self.enzymes: dict[str, dict[str, Any]] = {}
         self.kit_occurrences: dict[str, int] = defaultdict(int)
 
+        # Metabolite sections
+        self.metabolites: dict[str, dict[str, Any]] = {}  # metabolite_name -> {data}
+        self.metabolite_utilization: list[dict[str, Any]] = []  # All utilization records
+        self.metabolite_production: list[dict[str, Any]] = []  # All production records
+        self.metabolite_tests: list[dict[str, Any]] = []  # All test records
+
     def parse(self) -> dict[str, Any]:
         """Parse the BacDive JSON file and extract API assay metadata.
 
@@ -46,11 +52,16 @@ class BacDiveParser:
         print(f"\nFound {len(self.api_kits)} unique API kit types")
         print(f"Found {len(self.wells)} unique wells/tests")
         print(f"Found {len(self.enzymes)} unique enzymes")
+        print(f"Found {len(self.metabolites)} unique metabolites")
+        print(f"  - Utilization records: {len(self.metabolite_utilization)}")
+        print(f"  - Production records: {len(self.metabolite_production)}")
+        print(f"  - Test records: {len(self.metabolite_tests)}")
 
         return {
             "api_kits": self.api_kits,
             "wells": self.wells,
             "enzymes": self.enzymes,
+            "metabolites": self.metabolites,
             "kit_occurrences": dict(self.kit_occurrences),
             "total_strains": total_strains,
         }
@@ -70,6 +81,19 @@ class BacDiveParser:
         enzymes = physiology.get("enzymes", [])
         if enzymes:
             self._process_enzymes(enzymes)
+
+        # Process metabolite sections
+        metabolite_util = physiology.get("metabolite utilization", [])
+        if metabolite_util:
+            self._process_metabolite_utilization(metabolite_util)
+
+        metabolite_prod = physiology.get("metabolite production", [])
+        if metabolite_prod:
+            self._process_metabolite_production(metabolite_prod)
+
+        metabolite_tests = physiology.get("metabolite tests", {})
+        if metabolite_tests:
+            self._process_metabolite_tests(metabolite_tests)
 
         # Process API assay sections
         for key, value in physiology.items():
@@ -134,6 +158,139 @@ class BacDiveParser:
             # Track which kits use which wells
             for well_code in wells:
                 self.wells[well_code].add(kit_name)
+
+    def _process_metabolite_utilization(self, utilization_data: list[dict[str, Any]]) -> None:
+        """Process metabolite utilization data.
+
+        Args:
+            utilization_data: List of metabolite utilization records
+        """
+        for record in utilization_data:
+            if not isinstance(record, dict):
+                continue
+
+            metabolite_name = record.get("metabolite", "").strip()
+            if not metabolite_name:
+                continue
+
+            chebi_id = record.get("Chebi-ID")
+            test_type = record.get("kind of utilization tested", "").strip()
+
+            # Store raw record
+            self.metabolite_utilization.append({
+                "metabolite": metabolite_name,
+                "chebi_id": chebi_id,
+                "test_type": test_type,
+                "activity": record.get("utilization activity", "").strip()
+            })
+
+            # Aggregate in metabolites dict
+            if metabolite_name not in self.metabolites:
+                self.metabolites[metabolite_name] = {
+                    "name": metabolite_name,
+                    "chebi_id": chebi_id,
+                    "utilization_test_types": set(),
+                    "production_values": set(),
+                    "test_names": set(),
+                    "utilization_count": 0,
+                    "production_count": 0,
+                    "test_count": 0
+                }
+
+            if test_type:
+                self.metabolites[metabolite_name]["utilization_test_types"].add(test_type)
+            self.metabolites[metabolite_name]["utilization_count"] += 1
+
+    def _process_metabolite_production(self, production_data: list[dict[str, Any]]) -> None:
+        """Process metabolite production data.
+
+        Args:
+            production_data: List of metabolite production records
+        """
+        for record in production_data:
+            if not isinstance(record, dict):
+                continue
+
+            metabolite_name = record.get("metabolite", "").strip()
+            if not metabolite_name:
+                continue
+
+            chebi_id = record.get("Chebi-ID")
+            production_value = record.get("production", "").strip()
+
+            # Store raw record
+            self.metabolite_production.append({
+                "metabolite": metabolite_name,
+                "chebi_id": chebi_id,
+                "production": production_value
+            })
+
+            # Aggregate in metabolites dict
+            if metabolite_name not in self.metabolites:
+                self.metabolites[metabolite_name] = {
+                    "name": metabolite_name,
+                    "chebi_id": chebi_id,
+                    "utilization_test_types": set(),
+                    "production_values": set(),
+                    "test_names": set(),
+                    "utilization_count": 0,
+                    "production_count": 0,
+                    "test_count": 0
+                }
+
+            if production_value:
+                self.metabolites[metabolite_name]["production_values"].add(production_value)
+            self.metabolites[metabolite_name]["production_count"] += 1
+
+    def _process_metabolite_tests(self, test_data: dict[str, Any] | list[dict[str, Any]]) -> None:
+        """Process metabolite test data.
+
+        Args:
+            test_data: Dictionary of metabolite test records or list of records
+        """
+        # Handle case where test_data is a list instead of a dict
+        if isinstance(test_data, list):
+            # Skip lists - we only process dict-based test data
+            return
+
+        for test_name, records in test_data.items():
+            if test_name.startswith("@") or not isinstance(records, list):
+                continue
+
+            for record in records:
+                if not isinstance(record, dict):
+                    continue
+
+                metabolite_name = record.get("metabolite", "").strip()
+                if not metabolite_name:
+                    continue
+
+                chebi_id = record.get("Chebi-ID")
+                test_value = record.get(test_name, "").strip()
+
+                # Store raw record
+                self.metabolite_tests.append({
+                    "test_name": test_name,
+                    "metabolite": metabolite_name,
+                    "chebi_id": chebi_id,
+                    "test_value": test_value
+                })
+
+                # Aggregate in metabolites dict
+                if metabolite_name not in self.metabolites:
+                    self.metabolites[metabolite_name] = {
+                        "name": metabolite_name,
+                        "chebi_id": chebi_id,
+                        "utilization_test_types": set(),
+                        "production_values": set(),
+                        "test_names": set(),
+                        "utilization_count": 0,
+                        "production_count": 0,
+                        "test_count": 0
+                    }
+
+                self.metabolites[metabolite_name]["test_names"].add(test_name)
+                self.metabolites[metabolite_name]["test_count"] += 1
 
     def get_kit_descriptions(self) -> dict[str, str]:
         """Get descriptions for API kits based on their names.

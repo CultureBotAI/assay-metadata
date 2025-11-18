@@ -77,12 +77,33 @@ class APIKitMetadata(BaseModel):
         }
 
 
+class MetaboliteIdentifiers(BaseModel):
+    """Metabolite identifiers from various databases."""
+
+    metabolite_name: str = Field(..., description="Metabolite name")
+    chebi_id: Optional[str] = Field(None, description="CHEBI identifier")
+    chebi_name: Optional[str] = Field(None, description="CHEBI preferred name")
+    pubchem_cid: Optional[str] = Field(None, description="PubChem Compound ID")
+    pubchem_name: Optional[str] = Field(None, description="PubChem compound name")
+
+    # Aggregate data from all sections
+    utilization_test_types: list[str] = Field(default_factory=list, description="Types of utilization tests")
+    production_values: list[str] = Field(default_factory=list, description="Production values observed")
+    test_names: list[str] = Field(default_factory=list, description="Metabolite test names")
+
+    # Occurrence counts
+    utilization_count: int = Field(0, description="Number of utilization occurrences")
+    production_count: int = Field(0, description="Number of production occurrences")
+    test_count: int = Field(0, description="Number of test occurrences")
+
+
 class AssayMetadata(BaseModel):
     """Complete assay metadata collection."""
 
     api_kits: list[APIKitMetadata] = Field(..., description="All API kit metadata")
     wells: dict[str, WellMetadata] = Field(..., description="All well metadata by code")
     enzymes: dict[str, EnzymeIdentifiers] = Field(..., description="All enzyme metadata")
+    metabolites: dict[str, MetaboliteIdentifiers] = Field(default_factory=dict, description="All metabolite metadata")
     statistics: dict[str, int] = Field(default_factory=dict, description="Dataset statistics")
 
     class Config:
@@ -91,10 +112,12 @@ class AssayMetadata(BaseModel):
                 "api_kits": [],
                 "wells": {},
                 "enzymes": {},
+                "metabolites": {},
                 "statistics": {
                     "total_strains": 99392,
                     "total_api_kits": 17,
-                    "total_unique_wells": 150
+                    "total_unique_wells": 150,
+                    "total_unique_metabolites": 1002
                 }
             }
         }

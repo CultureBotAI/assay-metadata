@@ -3,5 +3,6 @@
   "total_api_kits": 17,
   "total_unique_wells": 218,
   "total_unique_enzymes": 175,
+  "total_unique_metabolites": 1243,
   "total_kit_occurrences": 43688
 }
