@@ -28,7 +28,8 @@
         "alpha- Mannosidase",
         "alpha- Fucosidase"
       ],
-      "occurrence_count": 11747
+      "occurrence_count": 11747,
+      "kit_type": "enzyme"
     },
     {
       "kit_name": "API 50CHac",
@@ -86,7 +87,8 @@
         "2KG",
         "5KG"
       ],
-      "occurrence_count": 6853
+      "occurrence_count": 6853,
+      "kit_type": "chemical"
     },
     {
       "kit_name": "API 20NE",
@@ -116,7 +118,8 @@
         "PAC",
         "OX"
       ],
-      "occurrence_count": 3833
+      "occurrence_count": 3833,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API rID32STR",
@@ -157,7 +160,8 @@
         "beta MAN",
         "URE"
       ],
-      "occurrence_count": 3666
+      "occurrence_count": 3666,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API biotype100",
@@ -265,7 +269,8 @@
         "TYR",
         "2KT"
       ],
-      "occurrence_count": 3599
+      "occurrence_count": 3599,
+      "kit_type": "chemical"
     },
     {
       "kit_name": "API 20E",
@@ -293,7 +298,8 @@
         "NO2",
         "N2"
       ],
-      "occurrence_count": 3452
+      "occurrence_count": 3452,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API coryne",
@@ -323,7 +329,8 @@
         "GLYG",
         "CAT"
       ],
-      "occurrence_count": 3287
+      "occurrence_count": 3287,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API rID32A",
@@ -361,7 +368,8 @@
         "GGA",
         "SerA"
       ],
-      "occurrence_count": 2198
+      "occurrence_count": 2198,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API ID32E",
@@ -402,7 +410,8 @@
         "alphaMAL",
         "AspA"
       ],
-      "occurrence_count": 1438
+      "occurrence_count": 1438,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API NH",
@@ -424,7 +433,8 @@
         "GGT",
         "IND"
       ],
-      "occurrence_count": 1407
+      "occurrence_count": 1407,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API ID32STA",
@@ -459,7 +469,8 @@
         "ARA",
         "beta GUR"
       ],
-      "occurrence_count": 839
+      "occurrence_count": 839,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API CAM",
@@ -489,7 +500,8 @@
         "ERO",
         "CAT"
       ],
-      "occurrence_count": 370
+      "occurrence_count": 370,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API 20STR",
@@ -518,7 +530,8 @@
         "AMD",
         "GLYG"
       ],
-      "occurrence_count": 311
+      "occurrence_count": 311,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API LIST",
@@ -537,7 +550,8 @@
         "G1P",
         "TAG"
       ],
-      "occurrence_count": 270
+      "occurrence_count": 270,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API STA",
@@ -566,7 +580,8 @@
         "URE",
         "LSTR"
       ],
-      "occurrence_count": 220
+      "occurrence_count": 220,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API 20A",
@@ -596,7 +611,8 @@
         "TRE",
         "CAT"
       ],
-      "occurrence_count": 185
+      "occurrence_count": 185,
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API 50CHas",
@@ -655,7 +671,8 @@
         "2KG",
         "5KG"
       ],
-      "occurrence_count": 13
+      "occurrence_count": 13,
+      "kit_type": "chemical"
     }
   ]
 }

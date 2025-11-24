@@ -747,7 +747,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "enzyme"
     },
     {
       "kit_name": "API 50CHac",
@@ -2508,7 +2509,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "chemical"
     },
     {
       "kit_name": "API 20NE",
@@ -3251,7 +3253,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API rID32STR",
@@ -4398,7 +4401,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API biotype100",
@@ -7697,7 +7701,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "chemical"
     },
     {
       "kit_name": "API 20E",
@@ -8364,7 +8369,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API coryne",
@@ -9125,7 +9131,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API rID32A",
@@ -10138,7 +10145,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API ID32E",
@@ -11277,7 +11285,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API NH",
@@ -11750,7 +11759,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API ID32STA",
@@ -12693,7 +12703,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API CAM",
@@ -13422,7 +13433,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API 20STR",
@@ -14157,7 +14169,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API LIST",
@@ -14512,7 +14525,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API STA",
@@ -15235,7 +15249,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API 20A",
@@ -16000,7 +16015,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "mixed"
     },
     {
       "kit_name": "API 50CHas",
@@ -17797,7 +17813,8 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "kit_type": "chemical"
     }
   ],
   "metabolites": [
