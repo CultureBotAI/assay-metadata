@@ -47,7 +47,8 @@ data/*.json
 data/kits/*.json
 
 # Reference documents (can be re-downloaded)
-references/
+references/*
+!references/README.md
 
 # Validation reports (can be regenerated)
 validation_report.json
