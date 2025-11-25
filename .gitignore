@@ -46,6 +46,9 @@ bacdive_strains.json
 data/*.json
 data/kits/*.json
 
+# Reference documents (can be re-downloaded)
+references/
+
 # Validation reports (can be regenerated)
 validation_report.json
 rhea_cache.json
