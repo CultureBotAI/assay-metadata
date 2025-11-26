@@ -3322,7 +3322,9 @@
           "enzyme_name": [
             "\u03b2-glucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.21"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -4000,7 +4002,9 @@
           "enzyme_name": [
             "\u03b2-N-acetyl-glucosaminidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.52"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -4354,7 +4358,9 @@
           "enzyme_name": [
             "\u03b2-mannosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.25"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -7730,7 +7736,9 @@
           "enzyme_name": [
             "\u03b2-galactosidase (ONPG)"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.23"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -8014,7 +8022,9 @@
           "enzyme_name": [
             "Indole production"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.99.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -8623,7 +8633,9 @@
           "enzyme_name": [
             "\u03b1-glucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.20"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -8653,7 +8665,9 @@
           "enzyme_name": [
             "\u03b2-N-acetyl-glucosaminidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.52"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -9340,7 +9354,9 @@
           "enzyme_name": [
             "\u03b1-glucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.20"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -9370,7 +9386,9 @@
           "enzyme_name": [
             "\u03b2-glucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.21"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -9400,7 +9418,9 @@
           "enzyme_name": [
             "\u03b1-arabinosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.55"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -9468,7 +9488,9 @@
           "enzyme_name": [
             "\u03b2-N-acetyl-glucosaminidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.52"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -9606,7 +9628,9 @@
           "enzyme_name": [
             "\u03b1-fucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.51"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -9674,7 +9698,9 @@
           "enzyme_name": [
             "Indole production"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.99.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -10497,7 +10523,9 @@
           "enzyme_name": [
             "\u03b2-glucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.21"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -10747,7 +10775,9 @@
           "enzyme_name": [
             "Indole production"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.99.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -10777,7 +10807,9 @@
           "enzyme_name": [
             "\u03b2-N-acetyl-glucosaminidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.52"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -10989,7 +11021,9 @@
           "enzyme_name": [
             "\u03b1-glucosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.20"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -11237,7 +11271,9 @@
           "enzyme_name": [
             "\u03b1-maltosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.20"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -11744,7 +11780,9 @@
           "enzyme_name": [
             "Indole production"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.99.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -14258,7 +14296,9 @@
           "enzyme_name": [
             "\u03b1-mannosidase"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "3.2.1.24"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -15272,7 +15312,9 @@
           "enzyme_name": [
             "Indole production"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.99.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],

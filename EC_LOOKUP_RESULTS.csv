@@ -1,0 +1,31 @@
+Code,Enzyme Name,Proposed EC,Source,Validated in KG-Microbe,Category,Notes
+alpha ARA,α-arabinosidase,3.2.1.55,ExpASy ENZYME + BRENDA,Yes,Glycosidase,non-reducing end alpha-L-arabinofuranosidase
+alpha FUC,α-fucosidase,3.2.1.51,ExpASy ENZYME + BRENDA,Yes,Glycosidase,alpha-L-fucosidase
+alpha GLU,α-glucosidase,3.2.1.20,ExpASy ENZYME + BRENDA,Yes,Glycosidase,alpha-glucosidase (maltase)
+alphaMAL,α-maltosidase,3.2.1.20,ExpASy ENZYME + BRENDA,Yes,Glycosidase,Same as alpha-glucosidase (maltose-specific)
+alpha MAN,α-mannosidase,3.2.1.24,ExpASy ENZYME + BRENDA,Yes,Glycosidase,alpha-mannosidase
+beta GLU,β-glucosidase,3.2.1.21,ExpASy ENZYME + BRENDA,Yes,Glycosidase,beta-glucosidase
+beta MAN,β-mannosidase,3.2.1.25,ExpASy ENZYME + BRENDA,Yes,Glycosidase,beta-mannosidase
+beta NAG,β-N-acetyl-glucosaminidase,3.2.1.52,ExpASy ENZYME + BRENDA,Yes,Glycosidase,beta-N-acetylhexosaminidase
+ONPG,β-galactosidase (ONPG test),3.2.1.23,ExpASy ENZYME + BRENDA,Yes,Glycosidase,o-Nitrophenyl-β-D-galactopyranoside substrate
+beta GP,β-glycosidase,NONE,N/A,N/A,Glycosidase,Too generic - no specific EC number
+ArgA,Arginine arylamidase,NONE,Already has GO:0070006,N/A,Arylamidase,Metalloaminopeptidase activity (GO term sufficient)
+ProA,Proline arylamidase,NONE,Already has GO:0016805,N/A,Arylamidase,Dipeptidase activity (GO term sufficient)
+APPA,Alanine-phenylalanine-proline arylamidase,NONE,Not found,N/A,Arylamidase,Substrate-specific variant
+AspA,Aspartic acid arylamidase,NONE,Not found,N/A,Arylamidase,Substrate-specific variant
+GGA,Glutamyl glutamic acid arylamidase,NONE,Not found,N/A,Arylamidase,Substrate-specific variant
+GlyA,Glycine arylamidase,NONE,Already has GO:0004177,N/A,Arylamidase,Aminopeptidase activity (GO term sufficient)
+HisA,Histidine arylamidase,NONE,Already has GO:0070006,N/A,Arylamidase,Metalloaminopeptidase activity (GO term sufficient)
+LGA,Glutamyl glutamic acid arylamidase,NONE,Not found,N/A,Arylamidase,Substrate-specific variant (duplicate of GGA)
+PheA,Phenylalanine arylamidase,NONE,Not found,N/A,Arylamidase,Substrate-specific variant
+SerA,Serine arylamidase,NONE,Not found,N/A,Arylamidase,Substrate-specific variant
+TyrA,Tyrosine arylamidase,NONE,Already has GO:0070006,N/A,Arylamidase,Metalloaminopeptidase activity (GO term sufficient)
+NO3,Nitrate reduction,1.7.99.4,ExpASy ENZYME,Pending,Reductase,Nitrate reductase (bacterial)
+NO2,Nitrite reduction,MULTIPLE,ExpASy ENZYME,Pending,Reductase,"Multiple EC numbers possible (1.7.2.1, 1.7.5.1)"
+GLU_ Ferm,Glucose fermentation,NONE,N/A,N/A,Pathway,Multi-enzyme pathway - no single EC
+GLU_ Assim,Glucose assimilation,NONE,N/A,N/A,Pathway,Multi-enzyme pathway - no single EC
+VP,Voges-Proskauer,NONE,N/A,N/A,Pathway,Acetoin production pathway - multiple enzymes
+H2S,Hydrogen sulfide production,NONE,N/A,N/A,Pathway,Multi-enzyme pathway - no single EC
+IND,Indole production,4.1.99.1,ExpASy ENZYME,Pending,Enzyme,Tryptophanase (single enzyme test)
+N2,Nitrogen gas production,NONE,N/A,N/A,Pathway,Denitrification pathway - multiple enzymes
+TRP,Tryptophane test,NONE,bioMérieux docs,N/A,Other,Tryptophan metabolism test - unclear mechanism

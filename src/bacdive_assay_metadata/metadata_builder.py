@@ -183,9 +183,14 @@ class MetadataBuilder:
             enzyme_name = self.chem_mapper.ENZYME_ACTIVITY_TESTS[normalized]
 
         if enzyme_name:
-            enzyme_info = self.enzyme_mapper.get_enzyme_info(enzyme_name, None)
+            # Check if EC number is in ENZYME_EC_MAPPINGS (for codes without EC in ENZYME_ANNOTATIONS)
+            ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(well_code)
+            if not ec_from_mapping:
+                ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(normalized)
+
+            enzyme_info = self.enzyme_mapper.get_enzyme_info(enzyme_name, ec_from_mapping)
             enzyme_ids = EnzymeIdentifiers(
-                ec_number=enzyme_info.get("ec_number"),
+                ec_number=enzyme_info.get("ec_number") or ec_from_mapping,  # Use mapping if get_enzyme_info returns None
                 ec_name=enzyme_info.get("ec_name"),
                 rhea_ids=enzyme_info.get("rhea_ids", []),
                 enzyme_name=enzyme_name,
@@ -216,10 +221,15 @@ class MetadataBuilder:
 
         # Check if it looks like an enzyme name (contains "ase" or starts with specific prefixes)
         if "ase" in well_code.lower() or well_code.startswith(("alpha", "beta", "Alkaline", "Acid")):
-            enzyme_info = self.enzyme_mapper.get_enzyme_info(well_code, None)
+            # Check if EC number is in ENZYME_EC_MAPPINGS
+            ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(well_code)
+            if not ec_from_mapping:
+                ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(normalized)
+
+            enzyme_info = self.enzyme_mapper.get_enzyme_info(well_code, ec_from_mapping)
             enzyme_ids = EnzymeIdentifiers(
                 enzyme_name=well_code,
-                ec_number=enzyme_info.get("ec_number"),
+                ec_number=enzyme_info.get("ec_number") or ec_from_mapping,  # Use mapping if get_enzyme_info returns None
                 ec_name=enzyme_info.get("ec_name"),
                 rhea_ids=enzyme_info.get("rhea_ids", []),
                 go_terms=enzyme_info.get("go_terms", []),

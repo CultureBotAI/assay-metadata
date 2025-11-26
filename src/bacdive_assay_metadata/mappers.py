@@ -343,6 +343,28 @@ class ChemicalMapper:
         "pOBE": "para-hydroxybenzoate",
     }
 
+    # EC number mappings for enzyme tests without EC numbers
+    # Deterministic lookup from ExpASy ENZYME and BRENDA databases
+    # Generated 2025-11-26 - See EC_LOOKUP_RESULTS.csv for sources
+    ENZYME_EC_MAPPINGS = {
+        # HIGH FEASIBILITY - Glycosidases (verified in EC ontology)
+        "alpha ARA": "3.2.1.55",  # α-L-arabinofuranosidase (ExpASy ENZYME, BRENDA)
+        "alpha FUC": "3.2.1.51",  # α-L-fucosidase (ExpASy ENZYME, BRENDA)
+        "alpha GLU": "3.2.1.20",  # α-glucosidase / maltase (ExpASy ENZYME, BRENDA)
+        "alphaMAL": "3.2.1.20",   # α-maltosidase (same as α-glucosidase, ExpASy ENZYME)
+        "alpha MAN": "3.2.1.24",  # α-mannosidase (ExpASy ENZYME, BRENDA)
+        "beta GLU": "3.2.1.21",   # β-glucosidase (ExpASy ENZYME, BRENDA)
+        "beta MAN": "3.2.1.25",   # β-mannosidase (ExpASy ENZYME, BRENDA)
+        "beta NAG": "3.2.1.52",   # β-N-acetylhexosaminidase (ExpASy ENZYME, BRENDA)
+        "ONPG": "3.2.1.23",       # β-galactosidase (ONPG substrate test, ExpASy ENZYME)
+
+        # MEDIUM FEASIBILITY - Single enzyme tests
+        "IND": "4.1.99.1",        # Tryptophanase (indole production, ExpASy ENZYME)
+
+        # Note: Arylamidases (ArgA, ProA, etc.) have GO terms but no specific EC numbers
+        # Pathways (VP, H2S, GLU_Ferm, etc.) are multi-enzyme and not assigned EC numbers
+    }
+
     # Metabolite mappings for BacDive unmapped metabolites (317 total)
     # Researched CHEBI and PubChem IDs - generated 2025-11-18
     METABOLITE_MAPPINGS = {
