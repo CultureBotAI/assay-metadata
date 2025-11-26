@@ -4,20 +4,20 @@
     "sha256": "e34b4147ae727f02babcce9e22f227f1801f9409b5297682b8526055dbb36351",
     "size_bytes": 84508901,
     "size_human": "80.6 MB",
-    "modified_time": 1763446503.8281963
+    "modified_time": 1764119509.1740363
   },
   "ec_nodes.tsv": {
     "path": "/Users/marcin/Documents/VIMSS/ontology/KG-Hub/KG-Microbe/kg-microbe/data/transformed/ontologies/ec_nodes.tsv",
     "sha256": "03d750c44eb04f487f98153d827fbd17357024200a20f8ecf9348bdb6544fba9",
     "size_bytes": 12502235,
     "size_human": "11.9 MB",
-    "modified_time": 1763446543.0216787
+    "modified_time": 1764119547.204182
   },
   "go_nodes.tsv": {
     "path": "/Users/marcin/Documents/VIMSS/ontology/KG-Hub/KG-Microbe/kg-microbe/data/transformed/ontologies/go_nodes.tsv",
     "sha256": "4aa596ac02cd8a43f53d58905031f7922aece80cbdb5e7f1bf7d98ea5e3b2d14",
     "size_bytes": 21312775,
     "size_human": "20.3 MB",
-    "modified_time": 1763446518.3726597
+    "modified_time": 1764119523.1457746
   }
 }
