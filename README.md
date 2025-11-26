@@ -267,9 +267,14 @@ uv run pytest
 
 ### Enzyme Identifiers (EC/RHEA)
 
-- ✅ EC numbers extracted from BacDive data
+- ✅ **EC numbers**: 129/158 enzyme wells (81.6% coverage)
+  - 10 EC numbers added via deterministic lookup (ExpASy ENZYME, BRENDA)
+  - Glycosidases: alpha-arabinofuranosidase, alpha-fucosidase, alpha-glucosidase, alpha-mannosidase, beta-glucosidase, beta-mannosidase, beta-N-acetylhexosaminidase, beta-galactosidase
+  - Other enzymes: tryptophanase (indole production)
 - ✅ RHEA reaction IDs fetched via API
-- ✅ 90+ unique enzymes cataloged
+- ✅ 175 unique enzymes cataloged
+- ✅ GO terms for arylamidases and other enzyme activities
+- ✅ All EC numbers validated against KG-Microbe EC ontology (249,191 terms)
 
 ## Data Sources
 
