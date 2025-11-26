@@ -2346,12 +2346,14 @@
     },
     "AMD": {
       "code": "AMD",
-      "label": "Amidon",
+      "label": "Amidon (Starch)",
       "well_type": "substrate",
-      "description": "Tests for utilization/fermentation of Amidon",
+      "description": "Tests for utilization/fermentation of Amidon (Starch)",
       "chemical_ids": {
-        "chebi_name": "Amidon",
-        "pubchem_name": "Amidon"
+        "chebi_id": "CHEBI:28017",
+        "chebi_name": "Amidon (Starch)",
+        "pubchem_cid": "24836924",
+        "pubchem_name": "Amidon (Starch)"
       },
       "used_in_kits": [
         "API 20STR",

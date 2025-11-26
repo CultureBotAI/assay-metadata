@@ -109,7 +109,7 @@ class ChemicalMapper:
         "SBE": {"name": "D-Sorbose", "chebi": "CHEBI:17262", "pubchem": "439192"},
         "GEN": {"name": "Gentiobiose", "chebi": "CHEBI:18296", "pubchem": "53234"},
         "TUR": {"name": "Turanose", "chebi": "CHEBI:27806", "pubchem": "439532"},
-        "AMD": {"name": "Amidon", "chebi": None, "pubchem": None},  # Alternative name for starch
+        "AMD": {"name": "Amidon (Starch)", "chebi": "CHEBI:28017", "pubchem": "24836924"},  # Alternative name for starch (same as AMYL)
         "XLT": {"name": "Xylitol", "chebi": "CHEBI:17151", "pubchem": "6912"},
         "DARL": {"name": "D-Arabitol", "chebi": "CHEBI:16708", "pubchem": "94154"},
         "LARL": {"name": "L-Arabitol", "chebi": "CHEBI:18087", "pubchem": "439255"},
