@@ -2541,7 +2541,9 @@
           "enzyme_name": [
             "Nitrate reduction"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "1.7.5.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -2571,7 +2573,9 @@
           "enzyme_name": [
             "Tryptophane test"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.99.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -2603,8 +2607,12 @@
           ],
           "ec_number": [],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
+          "go_terms": [
+            "GO:0019660"
+          ],
+          "go_names": [
+            "glycolytic fermentation"
+          ],
           "kegg_ko": [],
           "kegg_reaction": [],
           "rhea_ids": [],
@@ -2821,8 +2829,12 @@
           ],
           "ec_number": [],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
+          "go_terms": [
+            "GO:1904659"
+          ],
+          "go_names": [
+            "glucose transmembrane transport"
+          ],
           "kegg_ko": [],
           "kegg_reaction": [],
           "rhea_ids": [],
@@ -3864,7 +3876,9 @@
           "enzyme_name": [
             "Voges-Proskauer"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.1.5"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -7918,7 +7932,9 @@
           "enzyme_name": [
             "Hydrogen sulfide production"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.4.1.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -8054,7 +8070,9 @@
           "enzyme_name": [
             "Voges-Proskauer"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.1.5"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -8338,7 +8356,9 @@
           "enzyme_name": [
             "Nitrite reduction"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "1.7.2.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -8368,7 +8388,9 @@
           "enzyme_name": [
             "Nitrogen gas production"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "1.7.2.4"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -9326,8 +9348,12 @@
           ],
           "ec_number": [],
           "ec_name": [],
-          "go_terms": [],
-          "go_names": [],
+          "go_terms": [
+            "GO:0004553"
+          ],
+          "go_names": [
+            "hydrolase activity, hydrolyzing O-glycosyl compounds"
+          ],
           "kegg_ko": [],
           "kegg_reaction": [],
           "rhea_ids": [],
@@ -12369,7 +12395,9 @@
           "enzyme_name": [
             "Voges-Proskauer"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.1.5"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -13124,7 +13152,9 @@
           "enzyme_name": [
             "Hydrogen sulfide production"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.4.1.1"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -13493,7 +13523,9 @@
           "enzyme_name": [
             "Voges-Proskauer"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.1.5"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],
@@ -14989,7 +15021,9 @@
           "enzyme_name": [
             "Voges-Proskauer"
           ],
-          "ec_number": [],
+          "ec_number": [
+            "4.1.1.5"
+          ],
           "ec_name": [],
           "go_terms": [],
           "go_names": [],

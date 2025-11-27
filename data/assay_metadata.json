@@ -1195,8 +1195,12 @@
       "enzyme_ids": {
         "rhea_ids": [],
         "enzyme_name": "\u03b2-glycosidase",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0004553"
+        ],
+        "go_names": [
+          "hydrolase activity, hydrolyzing O-glycosyl compounds"
+        ],
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -3399,6 +3403,7 @@
       "well_type": "enzyme",
       "description": "Tests for Nitrate reduction activity",
       "enzyme_ids": {
+        "ec_number": "1.7.5.1",
         "rhea_ids": [],
         "enzyme_name": "Nitrate reduction",
         "go_terms": [],
@@ -3415,6 +3420,7 @@
       "well_type": "enzyme",
       "description": "Tests for Tryptophane test activity",
       "enzyme_ids": {
+        "ec_number": "4.1.99.1",
         "rhea_ids": [],
         "enzyme_name": "Tryptophane test",
         "go_terms": [],
@@ -3433,8 +3439,12 @@
       "enzyme_ids": {
         "rhea_ids": [],
         "enzyme_name": "Glucose fermentation",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:0019660"
+        ],
+        "go_names": [
+          "glycolytic fermentation"
+        ],
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -3496,8 +3506,12 @@
       "enzyme_ids": {
         "rhea_ids": [],
         "enzyme_name": "Glucose assimilation",
-        "go_terms": [],
-        "go_names": [],
+        "go_terms": [
+          "GO:1904659"
+        ],
+        "go_names": [
+          "glucose transmembrane transport"
+        ],
         "metacyc_pathway": []
       },
       "used_in_kits": [
@@ -3629,6 +3643,7 @@
       "well_type": "enzyme",
       "description": "Tests for Hydrogen sulfide production activity",
       "enzyme_ids": {
+        "ec_number": "4.4.1.1",
         "rhea_ids": [],
         "enzyme_name": "Hydrogen sulfide production",
         "go_terms": [],
@@ -3667,6 +3682,7 @@
       "well_type": "enzyme",
       "description": "Tests for Voges-Proskauer activity",
       "enzyme_ids": {
+        "ec_number": "4.1.1.5",
         "rhea_ids": [],
         "enzyme_name": "Voges-Proskauer",
         "go_terms": [],
@@ -3702,6 +3718,7 @@
       "well_type": "enzyme",
       "description": "Tests for Nitrite reduction activity",
       "enzyme_ids": {
+        "ec_number": "1.7.2.1",
         "rhea_ids": [],
         "enzyme_name": "Nitrite reduction",
         "go_terms": [],
@@ -3718,6 +3735,7 @@
       "well_type": "enzyme",
       "description": "Tests for Nitrogen gas production activity",
       "enzyme_ids": {
+        "ec_number": "1.7.2.4",
         "rhea_ids": [],
         "enzyme_name": "Nitrogen gas production",
         "go_terms": [],

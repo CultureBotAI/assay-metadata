@@ -188,19 +188,41 @@ class MetadataBuilder:
             if not ec_from_mapping:
                 ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(normalized)
 
+            # Check if GO term mapping exists (for tests without EC numbers)
+            go_mapping = self.chem_mapper.GO_TERM_MAPPINGS.get(well_code)
+            if not go_mapping:
+                go_mapping = self.chem_mapper.GO_TERM_MAPPINGS.get(normalized)
+
             enzyme_info = self.enzyme_mapper.get_enzyme_info(enzyme_name, ec_from_mapping)
-            enzyme_ids = EnzymeIdentifiers(
-                ec_number=enzyme_info.get("ec_number") or ec_from_mapping,  # Use mapping if get_enzyme_info returns None
-                ec_name=enzyme_info.get("ec_name"),
-                rhea_ids=enzyme_info.get("rhea_ids", []),
-                enzyme_name=enzyme_name,
-                go_terms=enzyme_info.get("go_terms", []),
-                go_names=enzyme_info.get("go_names", []),
-                kegg_ko=enzyme_info.get("kegg_ko"),
-                kegg_reaction=enzyme_info.get("kegg_reaction"),
-                metacyc_reaction=enzyme_info.get("metacyc_reaction"),
-                metacyc_pathway=enzyme_info.get("metacyc_pathway", []),
-            )
+
+            # If no EC found but GO mapping exists, use GO terms
+            if not (enzyme_info.get("ec_number") or ec_from_mapping) and go_mapping:
+                enzyme_ids = EnzymeIdentifiers(
+                    ec_number=None,
+                    ec_name=None,
+                    rhea_ids=[],
+                    enzyme_name=enzyme_name,
+                    go_terms=[go_mapping["go_id"]],
+                    go_names=[go_mapping["go_name"]],
+                    kegg_ko=None,
+                    kegg_reaction=None,
+                    metacyc_reaction=None,
+                    metacyc_pathway=[],
+                )
+            else:
+                # Standard enzyme IDs with EC (or GO from enzyme_info)
+                enzyme_ids = EnzymeIdentifiers(
+                    ec_number=enzyme_info.get("ec_number") or ec_from_mapping,  # Use mapping if get_enzyme_info returns None
+                    ec_name=enzyme_info.get("ec_name"),
+                    rhea_ids=enzyme_info.get("rhea_ids", []),
+                    enzyme_name=enzyme_name,
+                    go_terms=enzyme_info.get("go_terms", []),
+                    go_names=enzyme_info.get("go_names", []),
+                    kegg_ko=enzyme_info.get("kegg_ko"),
+                    kegg_reaction=enzyme_info.get("kegg_reaction"),
+                    metacyc_reaction=enzyme_info.get("metacyc_reaction"),
+                    metacyc_pathway=enzyme_info.get("metacyc_pathway", []),
+                )
             return "enzyme", None, enzyme_ids
 
         # Check if it's a phenotypic test
@@ -238,6 +260,28 @@ class MetadataBuilder:
                 kegg_reaction=enzyme_info.get("kegg_reaction"),
                 metacyc_reaction=enzyme_info.get("metacyc_reaction"),
                 metacyc_pathway=enzyme_info.get("metacyc_pathway", []),
+            )
+            return "enzyme", None, enzyme_ids
+
+        # Check if well_code has a GO term mapping (for pathway tests or generic activities)
+        # Priority: EC > GO, so we check GO_TERM_MAPPINGS after EC checks
+        go_mapping = self.chem_mapper.GO_TERM_MAPPINGS.get(well_code)
+        if not go_mapping:
+            go_mapping = self.chem_mapper.GO_TERM_MAPPINGS.get(normalized)
+
+        if go_mapping:
+            # Create enzyme IDs with GO term but no EC number
+            enzyme_ids = EnzymeIdentifiers(
+                enzyme_name=well_code,
+                ec_number=None,
+                ec_name=None,
+                rhea_ids=[],
+                go_terms=[go_mapping["go_id"]],
+                go_names=[go_mapping["go_name"]],
+                kegg_ko=None,
+                kegg_reaction=None,
+                metacyc_reaction=None,
+                metacyc_pathway=[],
             )
             return "enzyme", None, enzyme_ids
 

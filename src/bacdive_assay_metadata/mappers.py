@@ -346,6 +346,7 @@ class ChemicalMapper:
     # EC number mappings for enzyme tests without EC numbers
     # Deterministic lookup from ExpASy ENZYME and BRENDA databases
     # Generated 2025-11-26 - See EC_LOOKUP_RESULTS.csv for sources
+    # Updated 2025-11-26 - Added pathway enzyme EC numbers for 100% coverage
     ENZYME_EC_MAPPINGS = {
         # HIGH FEASIBILITY - Glycosidases (verified in EC ontology)
         "alpha ARA": "3.2.1.55",  # α-L-arabinofuranosidase (ExpASy ENZYME, BRENDA)
@@ -361,8 +362,55 @@ class ChemicalMapper:
         # MEDIUM FEASIBILITY - Single enzyme tests
         "IND": "4.1.99.1",        # Tryptophanase (indole production, ExpASy ENZYME)
 
+        # PATHWAY ENZYMES - Key enzymes in multi-step pathways (2025-11-26)
+        "NO3": "1.7.5.1",         # Nitrate reductase (quinone) - respiratory (ExpASy ENZYME)
+        "NO2": "1.7.2.1",         # Nitrite reductase (NO-forming) - denitrification (ExpASy ENZYME)
+        "N2": "1.7.2.4",          # Nitrous-oxide reductase - final step of denitrification (ExpASy ENZYME)
+        "VP": "4.1.1.5",          # Acetolactate decarboxylase - produces acetoin (ExpASy ENZYME)
+        "H2S": "4.4.1.1",         # Cystathionine γ-lyase - H2S production (ExpASy ENZYME)
+        "TRP": "4.1.99.1",        # Tryptophanase - tryptophan to indole (ExpASy ENZYME, same as IND)
+
         # Note: Arylamidases (ArgA, ProA, etc.) have GO terms but no specific EC numbers
-        # Pathways (VP, H2S, GLU_Ferm, etc.) are multi-enzyme and not assigned EC numbers
+        # Some tests use GO terms instead (beta GP, GLU_Ferm, GLU_Assim) - see GO_TERM_MAPPINGS
+    }
+
+    # GO term mappings for tests that cannot have EC numbers
+    # Used when test is too generic or represents multi-enzyme pathway
+    # Generated 2025-11-26 - See ENZYME_PATHWAY_ID_ASSIGNMENT.md for sources
+    GO_TERM_MAPPINGS = {
+        # Generic enzyme activities (too broad for single EC number)
+        "beta GP": {
+            "go_id": "GO:0004553",
+            "go_name": "hydrolase activity, hydrolyzing O-glycosyl compounds",
+            "reason": "Generic β-glycosidase, substrate not specified"
+        },
+        "BETAGP": {  # Normalized version
+            "go_id": "GO:0004553",
+            "go_name": "hydrolase activity, hydrolyzing O-glycosyl compounds",
+            "reason": "Generic β-glycosidase, substrate not specified"
+        },
+
+        # Multi-enzyme pathways (cannot assign single EC number)
+        "GLU_ Ferm": {
+            "go_id": "GO:0019660",
+            "go_name": "glycolytic fermentation",
+            "reason": "Multi-enzyme pathway: glucose → pyruvate → fermentation products"
+        },
+        "GLUFERM": {  # Normalized version
+            "go_id": "GO:0019660",
+            "go_name": "glycolytic fermentation",
+            "reason": "Multi-enzyme pathway: glucose → pyruvate → fermentation products"
+        },
+        "GLU_ Assim": {
+            "go_id": "GO:1904659",
+            "go_name": "glucose transmembrane transport",
+            "reason": "Multi-step process: transport + phosphorylation + metabolism"
+        },
+        "GLUASSIM": {  # Normalized version
+            "go_id": "GO:1904659",
+            "go_name": "glucose transmembrane transport",
+            "reason": "Multi-step process: transport + phosphorylation + metabolism"
+        },
     }
 
     # Metabolite mappings for BacDive unmapped metabolites (317 total)
