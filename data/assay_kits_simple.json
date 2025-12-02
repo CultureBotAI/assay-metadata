@@ -747,7 +747,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000302",
+          "label": "shows activity of"
+        },
+        "negative": {
+          "id": "METPO:2000303",
+          "label": "does not show activity of"
+        }
+      }
     },
     {
       "kit_name": "API 50CHac",
@@ -762,7 +772,7 @@
             "Glycerol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycerol"
@@ -798,7 +808,7 @@
             "Erythritol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Erythritol"
@@ -834,7 +844,7 @@
             "D-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Arabinose"
@@ -870,7 +880,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -906,7 +916,7 @@
             "D-Ribose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Ribose"
@@ -942,7 +952,7 @@
             "D-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Xylose"
@@ -978,7 +988,7 @@
             "L-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Xylose"
@@ -1014,7 +1024,7 @@
             "Adonitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Adonitol"
@@ -1050,7 +1060,7 @@
             "Methyl-D-xyloside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-D-xyloside"
@@ -1086,7 +1096,7 @@
             "D-Galactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Galactose"
@@ -1122,7 +1132,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -1158,7 +1168,7 @@
             "D-Fructose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Fructose"
@@ -1194,7 +1204,7 @@
             "D-Mannose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannose"
@@ -1230,7 +1240,7 @@
             "D-Sorbose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbose"
@@ -1266,7 +1276,7 @@
             "L-Rhamnose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Rhamnose"
@@ -1302,7 +1312,7 @@
             "Dulcitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Dulcitol"
@@ -1338,7 +1348,7 @@
             "myo-Inositol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of myo-Inositol"
@@ -1374,7 +1384,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -1410,7 +1420,7 @@
             "D-Sorbitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbitol"
@@ -1446,7 +1456,7 @@
             "Methyl-\u03b1-D-mannopyranoside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-\u03b1-D-mannopyranoside"
@@ -1482,7 +1492,7 @@
             "Methyl-\u03b1-D-glucopyranoside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-\u03b1-D-glucopyranoside"
@@ -1518,7 +1528,7 @@
             "N-Acetyl-D-glucosamine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of N-Acetyl-D-glucosamine"
@@ -1554,7 +1564,7 @@
             "Amygdalin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Amygdalin"
@@ -1590,7 +1600,7 @@
             "Arbutin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Arbutin"
@@ -1626,7 +1636,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -1662,7 +1672,7 @@
             "Salicin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Salicin"
@@ -1698,7 +1708,7 @@
             "Cellobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Cellobiose"
@@ -1734,7 +1744,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -1770,7 +1780,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -1806,7 +1816,7 @@
             "Melibiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melibiose"
@@ -1842,7 +1852,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -1878,7 +1888,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -1914,7 +1924,7 @@
             "Inulin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Inulin"
@@ -1950,7 +1960,7 @@
             "Melezitose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melezitose"
@@ -1986,7 +1996,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -2022,7 +2032,7 @@
             "Amidon (Starch)"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Amidon (Starch)"
@@ -2058,7 +2068,7 @@
             "Glycogen"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycogen"
@@ -2094,7 +2104,7 @@
             "Xylitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Xylitol"
@@ -2130,7 +2140,7 @@
             "Gentiobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Gentiobiose"
@@ -2166,7 +2176,7 @@
             "Turanose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Turanose"
@@ -2202,7 +2212,7 @@
             "D-Lyxose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Lyxose"
@@ -2238,7 +2248,7 @@
             "D-Tagatose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Tagatose"
@@ -2274,7 +2284,7 @@
             "D-Fucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Fucose"
@@ -2310,7 +2320,7 @@
             "L-Fucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Fucose"
@@ -2346,7 +2356,7 @@
             "D-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Arabitol"
@@ -2382,7 +2392,7 @@
             "L-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabitol"
@@ -2446,7 +2456,7 @@
             "2-Ketogluconic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 2-Ketogluconic acid"
@@ -2482,7 +2492,7 @@
             "5-Ketogluconic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 5-Ketogluconic acid"
@@ -2512,7 +2522,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000011",
+          "label": "ferments"
+        },
+        "negative": {
+          "id": "METPO:2000037",
+          "label": "does not ferment"
+        }
+      }
     },
     {
       "kit_name": "API 20NE",
@@ -2701,7 +2721,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -2847,7 +2867,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -2883,7 +2903,7 @@
             "D-Mannose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannose"
@@ -2919,7 +2939,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -2955,7 +2975,7 @@
             "N-Acetyl-D-glucosamine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of N-Acetyl-D-glucosamine"
@@ -2991,7 +3011,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -3055,7 +3075,7 @@
             "Caprate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Caprate"
@@ -3091,7 +3111,7 @@
             "Adipate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Adipate"
@@ -3127,7 +3147,7 @@
             "Malate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Malate"
@@ -3163,7 +3183,7 @@
             "Citrate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Citrate"
@@ -3199,7 +3219,7 @@
             "Phenylacetate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Phenylacetate"
@@ -3267,7 +3287,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API rID32STR",
@@ -3504,7 +3534,7 @@
             "D-Ribose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Ribose"
@@ -3540,7 +3570,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -3576,7 +3606,7 @@
             "D-Sorbitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbitol"
@@ -3612,7 +3642,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -3648,7 +3678,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -3684,7 +3714,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -3720,7 +3750,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -3756,7 +3786,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -3792,7 +3822,7 @@
             "D-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Arabitol"
@@ -3828,7 +3858,7 @@
             "Cyclodextrin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Cyclodextrin"
@@ -4034,7 +4064,7 @@
             "Glutamate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glutamate"
@@ -4106,7 +4136,7 @@
             "Glycogen"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycogen"
@@ -4142,7 +4172,7 @@
             "Pullulan"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Pullulan"
@@ -4176,7 +4206,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -4212,7 +4242,7 @@
             "Melibiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melibiose"
@@ -4248,7 +4278,7 @@
             "Melezitose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melezitose"
@@ -4322,7 +4352,7 @@
             "D-Tagatose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Tagatose"
@@ -4422,7 +4452,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API biotype100",
@@ -4437,7 +4477,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -4473,7 +4513,7 @@
             "D-Fructose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Fructose"
@@ -4509,7 +4549,7 @@
             "D-Galactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Galactose"
@@ -4545,7 +4585,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -4581,7 +4621,7 @@
             "D-Mannose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannose"
@@ -4617,7 +4657,7 @@
             "D-Sorbose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbose"
@@ -4653,7 +4693,7 @@
             "Melibiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melibiose"
@@ -4689,7 +4729,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -4725,7 +4765,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -4789,7 +4829,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -4825,7 +4865,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -4965,7 +5005,7 @@
             "Cellobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Cellobiose"
@@ -5001,7 +5041,7 @@
             "Gentiobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Gentiobiose"
@@ -5075,7 +5115,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -5111,7 +5151,7 @@
             "D-Ribose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Ribose"
@@ -5147,7 +5187,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -5183,7 +5223,7 @@
             "D-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Xylose"
@@ -5257,7 +5297,7 @@
             "L-Rhamnose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Rhamnose"
@@ -5293,7 +5333,7 @@
             "Fucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Fucose"
@@ -5327,7 +5367,7 @@
             "Melezitose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melezitose"
@@ -5363,7 +5403,7 @@
             "D-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Arabitol"
@@ -5399,7 +5439,7 @@
             "L-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabitol"
@@ -5435,7 +5475,7 @@
             "Xylitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Xylitol"
@@ -5471,7 +5511,7 @@
             "Dulcitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Dulcitol"
@@ -5507,7 +5547,7 @@
             "D-Tagatose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Tagatose"
@@ -5543,7 +5583,7 @@
             "Glycerol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycerol"
@@ -5579,7 +5619,7 @@
             "myo-Inositol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of myo-Inositol"
@@ -5615,7 +5655,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -5679,7 +5719,7 @@
             "Turanose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Turanose"
@@ -5715,7 +5755,7 @@
             "D-Sorbitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbitol"
@@ -5751,7 +5791,7 @@
             "Adonitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Adonitol"
@@ -5815,7 +5855,7 @@
             "D-Lyxose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Lyxose"
@@ -5851,7 +5891,7 @@
             "Erythritol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Erythritol"
@@ -5887,7 +5927,7 @@
             "Methyl-\u03b1-D-glucopyranoside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-\u03b1-D-glucopyranoside"
@@ -5979,7 +6019,7 @@
             "Mucate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Mucate"
@@ -6239,7 +6279,7 @@
             "Citrate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Citrate"
@@ -6275,7 +6315,7 @@
             "Glucuronate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glucuronate"
@@ -6311,7 +6351,7 @@
             "Galactitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Galactitol"
@@ -6347,7 +6387,7 @@
             "2-Ketogluconic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 2-Ketogluconic acid"
@@ -6383,7 +6423,7 @@
             "5-Ketogluconic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 5-Ketogluconic acid"
@@ -6419,7 +6459,7 @@
             "L-Tryptophan"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Tryptophan"
@@ -6455,7 +6495,7 @@
             "N-Acetyl-D-glucosamine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of N-Acetyl-D-glucosamine"
@@ -6519,7 +6559,7 @@
             "Phenylacetate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Phenylacetate"
@@ -6555,7 +6595,7 @@
             "Pyruvic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Pyruvic acid"
@@ -6927,7 +6967,7 @@
             "Lactate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactate"
@@ -6963,7 +7003,7 @@
             "Caprate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Caprate"
@@ -7027,7 +7067,7 @@
             "L-Histidine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Histidine"
@@ -7063,7 +7103,7 @@
             "Succinic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Succinic acid"
@@ -7099,7 +7139,7 @@
             "Fumaric acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Fumaric acid"
@@ -7275,7 +7315,7 @@
             "L-Glutamine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Glutamine"
@@ -7311,7 +7351,7 @@
             "Itaconate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Itaconate"
@@ -7347,7 +7387,7 @@
             "3-Hydroxybutyrate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 3-Hydroxybutyrate"
@@ -7439,7 +7479,7 @@
             "L-Proline"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Proline"
@@ -7475,7 +7515,7 @@
             "D-Alanine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Alanine"
@@ -7511,7 +7551,7 @@
             "L-Alanine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Alanine"
@@ -7547,7 +7587,7 @@
             "L-Serine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Serine"
@@ -7583,7 +7623,7 @@
             "Maltotriose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltotriose"
@@ -7619,7 +7659,7 @@
             "Propionate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Propionate"
@@ -7655,7 +7695,7 @@
             "L-Tyrosine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Tyrosine"
@@ -7691,7 +7731,7 @@
             "2-Ketoglutarate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 2-Ketoglutarate"
@@ -7721,7 +7761,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000012",
+          "label": "uses for growth"
+        },
+        "negative": {
+          "id": "METPO:2000038",
+          "label": "does not use for growth"
+        }
+      }
     },
     {
       "kit_name": "API 20E",
@@ -7882,7 +7932,7 @@
             "Citrate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Citrate"
@@ -8126,7 +8176,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -8162,7 +8212,7 @@
             "myo-Inositol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of myo-Inositol"
@@ -8198,7 +8248,7 @@
             "D-Sorbitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbitol"
@@ -8234,7 +8284,7 @@
             "L-Rhamnose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Rhamnose"
@@ -8270,7 +8320,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -8306,7 +8356,7 @@
             "Melibiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melibiose"
@@ -8400,7 +8450,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API coryne",
@@ -8705,7 +8765,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -8845,7 +8905,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -8881,7 +8941,7 @@
             "D-Ribose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Ribose"
@@ -8917,7 +8977,7 @@
             "D-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Xylose"
@@ -8953,7 +9013,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -8989,7 +9049,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -9025,7 +9085,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -9061,7 +9121,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -9097,7 +9157,7 @@
             "Glycogen"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycogen"
@@ -9165,7 +9225,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API rID32A",
@@ -9532,7 +9602,7 @@
             "D-Mannose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannose"
@@ -9568,7 +9638,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -9604,7 +9674,7 @@
             "Gluconic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Gluconic acid"
@@ -10194,7 +10264,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API ID32E",
@@ -10361,7 +10441,7 @@
             "L-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabitol"
@@ -10397,7 +10477,7 @@
             "Galactitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Galactitol"
@@ -10433,7 +10513,7 @@
             "5-Ketogluconic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 5-Ketogluconic acid"
@@ -10567,7 +10647,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -10603,7 +10683,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -10639,7 +10719,7 @@
             "Adonitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Adonitol"
@@ -10751,7 +10831,7 @@
             "Maltotriose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltotriose"
@@ -10889,7 +10969,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -10925,7 +11005,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -10961,7 +11041,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -10997,7 +11077,7 @@
             "D-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Arabitol"
@@ -11103,7 +11183,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -11139,7 +11219,7 @@
             "L-Rhamnose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Rhamnose"
@@ -11175,7 +11255,7 @@
             "myo-Inositol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of myo-Inositol"
@@ -11211,7 +11291,7 @@
             "Cellobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Cellobiose"
@@ -11247,7 +11327,7 @@
             "D-Sorbitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbitol"
@@ -11343,7 +11423,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API NH",
@@ -11386,7 +11476,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -11422,7 +11512,7 @@
             "D-Fructose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Fructose"
@@ -11458,7 +11548,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -11494,7 +11584,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -11818,7 +11908,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API ID32STA",
@@ -11947,7 +12047,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -11983,7 +12083,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -12019,7 +12119,7 @@
             "D-Fructose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Fructose"
@@ -12055,7 +12155,7 @@
             "D-Mannose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannose"
@@ -12091,7 +12191,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -12127,7 +12227,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -12163,7 +12263,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -12199,7 +12299,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -12235,7 +12335,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -12271,7 +12371,7 @@
             "D-Ribose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Ribose"
@@ -12307,7 +12407,7 @@
             "Cellobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Cellobiose"
@@ -12587,7 +12687,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -12623,7 +12723,7 @@
             "N-Acetyl-D-glucosamine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of N-Acetyl-D-glucosamine"
@@ -12659,7 +12759,7 @@
             "Turanose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Turanose"
@@ -12695,7 +12795,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -12763,7 +12863,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API CAM",
@@ -13170,7 +13280,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -13290,7 +13400,7 @@
             "Acetate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Acetate"
@@ -13326,7 +13436,7 @@
             "Propionate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Propionate"
@@ -13362,7 +13472,7 @@
             "Malate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Malate"
@@ -13398,7 +13508,7 @@
             "Citrate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Citrate"
@@ -13494,7 +13604,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API 20STR",
@@ -13577,7 +13697,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -13881,7 +14001,7 @@
             "D-Ribose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Ribose"
@@ -13917,7 +14037,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -13953,7 +14073,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -13989,7 +14109,7 @@
             "D-Sorbitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbitol"
@@ -14025,7 +14145,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -14061,7 +14181,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -14097,7 +14217,7 @@
             "Inulin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Inulin"
@@ -14133,7 +14253,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -14169,7 +14289,7 @@
             "Amidon (Starch)"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Amidon (Starch)"
@@ -14205,7 +14325,7 @@
             "Glycogen"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycogen"
@@ -14235,7 +14355,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API LIST",
@@ -14278,7 +14408,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -14346,7 +14476,7 @@
             "D-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Arabitol"
@@ -14382,7 +14512,7 @@
             "D-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Xylose"
@@ -14418,7 +14548,7 @@
             "L-Rhamnose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Rhamnose"
@@ -14454,7 +14584,7 @@
             "Methyl-\u03b1-D-glucopyranoside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-\u03b1-D-glucopyranoside"
@@ -14490,7 +14620,7 @@
             "D-Ribose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Ribose"
@@ -14526,7 +14656,7 @@
             "Glucose-1-phosphate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glucose-1-phosphate"
@@ -14562,7 +14692,7 @@
             "D-Tagatose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Tagatose"
@@ -14592,7 +14722,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API STA",
@@ -14607,7 +14747,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -14643,7 +14783,7 @@
             "D-Fructose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Fructose"
@@ -14679,7 +14819,7 @@
             "D-Mannose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannose"
@@ -14715,7 +14855,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -14751,7 +14891,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -14787,7 +14927,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -14823,7 +14963,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -14859,7 +14999,7 @@
             "Xylitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Xylitol"
@@ -14895,7 +15035,7 @@
             "Melibiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melibiose"
@@ -15039,7 +15179,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -15075,7 +15215,7 @@
             "D-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Xylose"
@@ -15111,7 +15251,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -15147,7 +15287,7 @@
             "Methyl-\u03b1-D-glucopyranoside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-\u03b1-D-glucopyranoside"
@@ -15183,7 +15323,7 @@
             "N-Acetyl-D-glucosamine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of N-Acetyl-D-glucosamine"
@@ -15317,7 +15457,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API 20A",
@@ -15402,7 +15552,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -15438,7 +15588,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -15474,7 +15624,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -15510,7 +15660,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -15546,7 +15696,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -15582,7 +15732,7 @@
             "Salicin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Salicin"
@@ -15618,7 +15768,7 @@
             "D-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Xylose"
@@ -15654,7 +15804,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -15728,7 +15878,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -15764,7 +15914,7 @@
             "Glycerol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycerol"
@@ -15800,7 +15950,7 @@
             "Cellobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Cellobiose"
@@ -15836,7 +15986,7 @@
             "D-Mannose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannose"
@@ -15872,7 +16022,7 @@
             "Melezitose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melezitose"
@@ -15908,7 +16058,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -15944,7 +16094,7 @@
             "D-Sorbitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbitol"
@@ -15980,7 +16130,7 @@
             "L-Rhamnose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Rhamnose"
@@ -16016,7 +16166,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -16084,7 +16234,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API 50CHas",
@@ -16099,7 +16259,7 @@
             "Quinate"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Quinate"
@@ -16135,7 +16295,7 @@
             "Glycerol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycerol"
@@ -16171,7 +16331,7 @@
             "Erythritol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Erythritol"
@@ -16207,7 +16367,7 @@
             "D-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Arabinose"
@@ -16243,7 +16403,7 @@
             "L-Arabinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabinose"
@@ -16279,7 +16439,7 @@
             "D-Ribose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Ribose"
@@ -16315,7 +16475,7 @@
             "D-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Xylose"
@@ -16351,7 +16511,7 @@
             "L-Xylose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Xylose"
@@ -16387,7 +16547,7 @@
             "Adonitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Adonitol"
@@ -16423,7 +16583,7 @@
             "Methyl-D-xyloside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-D-xyloside"
@@ -16459,7 +16619,7 @@
             "D-Galactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Galactose"
@@ -16495,7 +16655,7 @@
             "D-Glucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Glucose"
@@ -16531,7 +16691,7 @@
             "D-Fructose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Fructose"
@@ -16567,7 +16727,7 @@
             "D-Mannose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannose"
@@ -16603,7 +16763,7 @@
             "D-Sorbose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbose"
@@ -16639,7 +16799,7 @@
             "L-Rhamnose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Rhamnose"
@@ -16675,7 +16835,7 @@
             "Dulcitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Dulcitol"
@@ -16711,7 +16871,7 @@
             "myo-Inositol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of myo-Inositol"
@@ -16747,7 +16907,7 @@
             "D-Mannitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Mannitol"
@@ -16783,7 +16943,7 @@
             "D-Sorbitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Sorbitol"
@@ -16819,7 +16979,7 @@
             "Methyl-\u03b1-D-mannopyranoside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-\u03b1-D-mannopyranoside"
@@ -16855,7 +17015,7 @@
             "Methyl-\u03b1-D-glucopyranoside"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Methyl-\u03b1-D-glucopyranoside"
@@ -16891,7 +17051,7 @@
             "N-Acetyl-D-glucosamine"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of N-Acetyl-D-glucosamine"
@@ -16927,7 +17087,7 @@
             "Amygdalin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Amygdalin"
@@ -16963,7 +17123,7 @@
             "Arbutin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Arbutin"
@@ -16999,7 +17159,7 @@
             "Esculin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Esculin"
@@ -17035,7 +17195,7 @@
             "Salicin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Salicin"
@@ -17071,7 +17231,7 @@
             "Cellobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Cellobiose"
@@ -17107,7 +17267,7 @@
             "Maltose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Maltose"
@@ -17143,7 +17303,7 @@
             "Lactose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Lactose"
@@ -17179,7 +17339,7 @@
             "Melibiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melibiose"
@@ -17215,7 +17375,7 @@
             "Sucrose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Sucrose"
@@ -17251,7 +17411,7 @@
             "Trehalose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Trehalose"
@@ -17287,7 +17447,7 @@
             "Inulin"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Inulin"
@@ -17323,7 +17483,7 @@
             "Melezitose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Melezitose"
@@ -17359,7 +17519,7 @@
             "Raffinose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Raffinose"
@@ -17395,7 +17555,7 @@
             "Amidon (Starch)"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Amidon (Starch)"
@@ -17431,7 +17591,7 @@
             "Glycogen"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Glycogen"
@@ -17467,7 +17627,7 @@
             "Xylitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Xylitol"
@@ -17503,7 +17663,7 @@
             "Gentiobiose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Gentiobiose"
@@ -17539,7 +17699,7 @@
             "Turanose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of Turanose"
@@ -17575,7 +17735,7 @@
             "D-Lyxose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Lyxose"
@@ -17611,7 +17771,7 @@
             "D-Tagatose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Tagatose"
@@ -17647,7 +17807,7 @@
             "D-Fucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Fucose"
@@ -17683,7 +17843,7 @@
             "L-Fucose"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Fucose"
@@ -17719,7 +17879,7 @@
             "D-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of D-Arabitol"
@@ -17755,7 +17915,7 @@
             "L-Arabitol"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of L-Arabitol"
@@ -17819,7 +17979,7 @@
             "2-Ketogluconic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 2-Ketogluconic acid"
@@ -17855,7 +18015,7 @@
             "5-Ketogluconic acid"
           ],
           "type": [
-            "substrate"
+            "chemical"
           ],
           "description": [
             "Tests for utilization/fermentation of 5-Ketogluconic acid"
@@ -17885,7 +18045,17 @@
           "metacyc_reaction": [],
           "metacyc_pathway": []
         }
-      ]
+      ],
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     }
   ],
   "metabolites": [

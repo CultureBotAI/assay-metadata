@@ -181,6 +181,19 @@ Examples:
                 "wells": []
             }
 
+            # Add METPO predicates if available
+            if kit.metpo_predicates:
+                kit_data["metpo_predicates"] = {
+                    "positive": {
+                        "id": kit.metpo_predicates.positive.id,
+                        "label": kit.metpo_predicates.positive.label
+                    },
+                    "negative": {
+                        "id": kit.metpo_predicates.negative.id,
+                        "label": kit.metpo_predicates.negative.label
+                    }
+                }
+
             # Add well details for each well in this kit
             for well_code in kit.wells:
                 if well_code in metadata.wells:
