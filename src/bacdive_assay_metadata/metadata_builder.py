@@ -12,6 +12,8 @@ from .models import (
     ChemicalIdentifiers,
     EnzymeIdentifiers,
     MetaboliteIdentifiers,
+    METBOPredicate,
+    METBOPredicates,
     WellMetadata,
 )
 
@@ -101,13 +103,36 @@ class MetadataBuilder:
         categories = self.parser.get_kit_categories()
 
         for kit_name, kit_data in parsed_data["api_kits"].items():
+            # Get kit category for METPO predicate mapping
+            kit_category = categories.get(kit_name, "Unknown")
+
+            # Get METPO predicates for this kit
+            metpo_dict = self.chem_mapper.get_metpo_predicates(
+                kit_category=kit_category,
+                well_code="",  # Kit-level predicates use category
+                well_type=""
+            )
+
+            # Create METPO predicate objects
+            metpo_predicates = METBOPredicates(
+                positive=METBOPredicate(
+                    id=metpo_dict["positive"]["id"],
+                    label=metpo_dict["positive"]["label"]
+                ),
+                negative=METBOPredicate(
+                    id=metpo_dict["negative"]["id"],
+                    label=metpo_dict["negative"]["label"]
+                )
+            )
+
             api_kit = APIKitMetadata(
                 kit_name=kit_name,
                 description=descriptions.get(kit_name, "Unknown API kit"),
-                category=categories.get(kit_name, "Unknown"),
+                category=kit_category,
                 well_count=kit_data["well_count"],
                 wells=kit_data["wells"],
                 occurrence_count=parsed_data["kit_occurrences"].get(kit_name, 0),
+                metpo_predicates=metpo_predicates,
             )
             api_kits.append(api_kit)
 
@@ -230,7 +255,7 @@ class MetadataBuilder:
             # Phenotypic tests don't have chemical or enzyme IDs
             return "phenotypic", None, None
 
-        # Check if it's a known substrate (try normalized code)
+        # Check if it's a known chemical (try normalized code)
         chem_info = self.chem_mapper.get_chemical_info(normalized, well_code)
         if chem_info:
             chem_ids = ChemicalIdentifiers(
@@ -239,7 +264,7 @@ class MetadataBuilder:
                 pubchem_cid=chem_info.get("pubchem_cid"),
                 pubchem_name=chem_info.get("pubchem_name"),
             )
-            return "substrate", chem_ids, None
+            return "chemical", chem_ids, None
 
         # Check if it looks like an enzyme name (contains "ase" or starts with specific prefixes)
         if "ase" in well_code.lower() or well_code.startswith(("alpha", "beta", "Alkaline", "Acid")):
@@ -337,7 +362,7 @@ class MetadataBuilder:
         """
         label = self._create_well_label(well_code)
 
-        if well_type == "substrate":
+        if well_type == "chemical":
             return f"Tests for utilization/fermentation of {label}"
         elif well_type == "enzyme":
             return f"Tests for {label} activity"

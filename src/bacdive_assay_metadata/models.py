@@ -41,7 +41,7 @@ class WellMetadata(BaseModel):
 
     code: str = Field(..., description="Well code (e.g., GLU, URE)")
     label: str = Field(..., description="Human-readable label")
-    well_type: str = Field(..., description="Type: substrate, enzyme, or other")
+    well_type: str = Field(..., description="Type: chemical, enzyme, or other")
     description: Optional[str] = Field(None, description="Description of the test")
 
     # Chemical identifiers (for substrate wells)
@@ -54,6 +54,20 @@ class WellMetadata(BaseModel):
     used_in_kits: list[str] = Field(default_factory=list, description="API kit names")
 
 
+class METBOPredicate(BaseModel):
+    """METPO ontology predicate information."""
+
+    id: str = Field(..., description="METPO predicate ID (e.g., METPO:2000011)")
+    label: str = Field(..., description="METPO predicate label (e.g., ferments)")
+
+
+class METBOPredicates(BaseModel):
+    """METPO predicates for positive and negative assay results."""
+
+    positive: METBOPredicate = Field(..., description="Predicate for positive results")
+    negative: METBOPredicate = Field(..., description="Predicate for negative results")
+
+
 class APIKitMetadata(BaseModel):
     """Metadata for an API assay kit."""
 
@@ -63,6 +77,7 @@ class APIKitMetadata(BaseModel):
     well_count: int = Field(..., description="Number of wells/tests")
     wells: list[str] = Field(..., description="List of well codes in order")
     occurrence_count: int = Field(0, description="Number of times found in dataset")
+    metpo_predicates: Optional[METBOPredicates] = Field(None, description="METPO predicates for assay results")
 
     class Config:
         json_schema_extra = {

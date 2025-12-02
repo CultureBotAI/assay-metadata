@@ -413,6 +413,110 @@ class ChemicalMapper:
         },
     }
 
+    # METPO predicate mappings for positive and negative assay results
+    # Generated 2025-12-02 from METPO ontology v17
+    # Maps assay categories to appropriate METPO predicates
+    METPO_PREDICATE_MAPPINGS = {
+        # Carbohydrate fermentation tests (API 50CHac, API 50CHas, API 20STR)
+        "Carbohydrate fermentation": {
+            "positive": {"id": "METPO:2000011", "label": "ferments"},
+            "negative": {"id": "METPO:2000037", "label": "does not ferment"},
+        },
+
+        # Enzyme profiling tests (API zym)
+        "Enzyme profiling": {
+            "positive": {"id": "METPO:2000302", "label": "shows activity of"},
+            "negative": {"id": "METPO:2000303", "label": "does not show activity of"},
+        },
+
+        # Biochemical profiling tests (API biotype100)
+        "Biochemical profiling": {
+            "positive": {"id": "METPO:2000012", "label": "uses for growth"},
+            "negative": {"id": "METPO:2000038", "label": "does not use for growth"},
+        },
+
+        # Bacterial identification kits (API 20E, API 20NE, API 20A, etc.)
+        # Use general metabolic predicates
+        "Bacterial identification": {
+            "positive": {"id": "METPO:2000002", "label": "assimilates"},
+            "negative": {"id": "METPO:2000027", "label": "does not assimilate"},
+        },
+
+        # Specific well type overrides (takes precedence over kit category)
+        "_well_type_overrides": {
+            # Enzyme wells always use enzyme activity predicates
+            "enzyme": {
+                "positive": {"id": "METPO:2000302", "label": "shows activity of"},
+                "negative": {"id": "METPO:2000303", "label": "does not show activity of"},
+            },
+
+            # Chemical wells for fermentation
+            "chemical_fermentation": {
+                "positive": {"id": "METPO:2000011", "label": "ferments"},
+                "negative": {"id": "METPO:2000037", "label": "does not ferment"},
+            },
+
+            # Chemical wells for utilization/assimilation
+            "chemical_utilization": {
+                "positive": {"id": "METPO:2000002", "label": "assimilates"},
+                "negative": {"id": "METPO:2000027", "label": "does not assimilate"},
+            },
+        },
+
+        # Specific test overrides (well code → predicate)
+        "_well_code_overrides": {
+            # Reduction tests
+            "NO3": {
+                "positive": {"id": "METPO:2000017", "label": "reduces"},
+                "negative": {"id": "METPO:2000044", "label": "does not reduce"},
+            },
+            "NO2": {
+                "positive": {"id": "METPO:2000017", "label": "reduces"},
+                "negative": {"id": "METPO:2000044", "label": "does not reduce"},
+            },
+            "N2": {
+                "positive": {"id": "METPO:2000017", "label": "reduces"},
+                "negative": {"id": "METPO:2000044", "label": "does not reduce"},
+            },
+
+            # Production tests
+            "H2S": {
+                "positive": {"id": "METPO:2000202", "label": "produces"},
+                "negative": {"id": "METPO:2000222", "label": "does not produce"},
+            },
+            "IND": {
+                "positive": {"id": "METPO:2000202", "label": "produces"},
+                "negative": {"id": "METPO:2000222", "label": "does not produce"},
+            },
+            "VP": {
+                "positive": {"id": "METPO:2000202", "label": "produces"},
+                "negative": {"id": "METPO:2000222", "label": "does not produce"},
+            },
+
+            # Hydrolysis tests
+            "GEL": {
+                "positive": {"id": "METPO:2000013", "label": "hydrolyzes"},
+                "negative": {"id": "METPO:2000039", "label": "does not hydrolyze"},
+            },
+            "ESC": {
+                "positive": {"id": "METPO:2000013", "label": "hydrolyzes"},
+                "negative": {"id": "METPO:2000039", "label": "does not hydrolyze"},
+            },
+
+            # Fermentation pathway tests
+            "GLU_ Ferm": {
+                "positive": {"id": "METPO:2000011", "label": "ferments"},
+                "negative": {"id": "METPO:2000037", "label": "does not ferment"},
+            },
+
+            # Assimilation tests
+            "GLU_ Assim": {
+                "positive": {"id": "METPO:2000002", "label": "assimilates"},
+                "negative": {"id": "METPO:2000027", "label": "does not assimilate"},
+            },
+        },
+    }
+
     # Metabolite mappings for BacDive unmapped metabolites (317 total)
     # Researched CHEBI and PubChem IDs - generated 2025-11-18
     METABOLITE_MAPPINGS = {
@@ -830,6 +934,51 @@ class ChemicalMapper:
         # This could be extended to query PubChem/CHEBI APIs
         # For now, return None for unmapped compounds
         return None
+
+    def get_metpo_predicates(
+        self,
+        kit_category: str,
+        well_code: str,
+        well_type: str
+    ) -> dict:
+        """Get appropriate METPO predicates for positive and negative assay results.
+
+        Args:
+            kit_category: Kit category (e.g., "Carbohydrate fermentation", "Enzyme profiling")
+            well_code: Well code (e.g., "GLU", "NO3", "Alkaline phosphatase")
+            well_type: Well type (e.g., "chemical", "enzyme", "phenotypic")
+
+        Returns:
+            Dictionary with positive and negative METPO predicates:
+            {
+                "positive": {"id": "METPO:XXXXXXX", "label": "predicate label"},
+                "negative": {"id": "METPO:XXXXXXX", "label": "does not predicate label"}
+            }
+        """
+        # Priority 1: Check for well code override (most specific)
+        if well_code in self.METPO_PREDICATE_MAPPINGS.get("_well_code_overrides", {}):
+            return self.METPO_PREDICATE_MAPPINGS["_well_code_overrides"][well_code]
+
+        # Priority 2: Check for well type override (enzyme vs chemical)
+        if well_type == "enzyme":
+            return self.METPO_PREDICATE_MAPPINGS["_well_type_overrides"]["enzyme"]
+
+        # Priority 3: Check kit category
+        if kit_category in self.METPO_PREDICATE_MAPPINGS:
+            return self.METPO_PREDICATE_MAPPINGS[kit_category]
+
+        # Priority 4: Determine chemical type (fermentation vs utilization)
+        if well_type == "chemical":
+            if "fermentation" in kit_category.lower():
+                return self.METPO_PREDICATE_MAPPINGS["_well_type_overrides"]["chemical_fermentation"]
+            else:
+                return self.METPO_PREDICATE_MAPPINGS["_well_type_overrides"]["chemical_utilization"]
+
+        # Default: assimilates/does not assimilate
+        return {
+            "positive": {"id": "METPO:2000002", "label": "assimilates"},
+            "negative": {"id": "METPO:2000027", "label": "does not assimilate"},
+        }
 
 
 class EnzymeMapper:

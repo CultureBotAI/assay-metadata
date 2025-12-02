@@ -28,7 +28,17 @@
         "alpha- Mannosidase",
         "alpha- Fucosidase"
       ],
-      "occurrence_count": 11747
+      "occurrence_count": 11747,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000302",
+          "label": "shows activity of"
+        },
+        "negative": {
+          "id": "METPO:2000303",
+          "label": "does not show activity of"
+        }
+      }
     },
     {
       "kit_name": "API 50CHac",
@@ -86,7 +96,17 @@
         "2KG",
         "5KG"
       ],
-      "occurrence_count": 6853
+      "occurrence_count": 6853,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000011",
+          "label": "ferments"
+        },
+        "negative": {
+          "id": "METPO:2000037",
+          "label": "does not ferment"
+        }
+      }
     },
     {
       "kit_name": "API 20NE",
@@ -116,7 +136,17 @@
         "PAC",
         "OX"
       ],
-      "occurrence_count": 3833
+      "occurrence_count": 3833,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API rID32STR",
@@ -157,7 +187,17 @@
         "beta MAN",
         "URE"
       ],
-      "occurrence_count": 3666
+      "occurrence_count": 3666,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API biotype100",
@@ -265,7 +305,17 @@
         "TYR",
         "2KT"
       ],
-      "occurrence_count": 3599
+      "occurrence_count": 3599,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000012",
+          "label": "uses for growth"
+        },
+        "negative": {
+          "id": "METPO:2000038",
+          "label": "does not use for growth"
+        }
+      }
     },
     {
       "kit_name": "API 20E",
@@ -293,7 +343,17 @@
         "NO2",
         "N2"
       ],
-      "occurrence_count": 3452
+      "occurrence_count": 3452,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API coryne",
@@ -323,7 +383,17 @@
         "GLYG",
         "CAT"
       ],
-      "occurrence_count": 3287
+      "occurrence_count": 3287,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API rID32A",
@@ -361,7 +431,17 @@
         "GGA",
         "SerA"
       ],
-      "occurrence_count": 2198
+      "occurrence_count": 2198,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API ID32E",
@@ -402,7 +482,17 @@
         "alphaMAL",
         "AspA"
       ],
-      "occurrence_count": 1438
+      "occurrence_count": 1438,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API NH",
@@ -424,7 +514,17 @@
         "GGT",
         "IND"
       ],
-      "occurrence_count": 1407
+      "occurrence_count": 1407,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API ID32STA",
@@ -459,7 +559,17 @@
         "ARA",
         "beta GUR"
       ],
-      "occurrence_count": 839
+      "occurrence_count": 839,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API CAM",
@@ -489,7 +599,17 @@
         "ERO",
         "CAT"
       ],
-      "occurrence_count": 370
+      "occurrence_count": 370,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API 20STR",
@@ -518,7 +638,17 @@
         "AMD",
         "GLYG"
       ],
-      "occurrence_count": 311
+      "occurrence_count": 311,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API LIST",
@@ -537,7 +667,17 @@
         "G1P",
         "TAG"
       ],
-      "occurrence_count": 270
+      "occurrence_count": 270,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API STA",
@@ -566,7 +706,17 @@
         "URE",
         "LSTR"
       ],
-      "occurrence_count": 220
+      "occurrence_count": 220,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API 20A",
@@ -596,7 +746,17 @@
         "TRE",
         "CAT"
       ],
-      "occurrence_count": 185
+      "occurrence_count": 185,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     },
     {
       "kit_name": "API 50CHas",
@@ -655,7 +815,17 @@
         "2KG",
         "5KG"
       ],
-      "occurrence_count": 13
+      "occurrence_count": 13,
+      "metpo_predicates": {
+        "positive": {
+          "id": "METPO:2000002",
+          "label": "assimilates"
+        },
+        "negative": {
+          "id": "METPO:2000027",
+          "label": "does not assimilate"
+        }
+      }
     }
   ]
 }
