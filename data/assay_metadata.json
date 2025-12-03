@@ -831,8 +831,15 @@
     "Control": {
       "code": "Control",
       "label": "Control well (no substrate)",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Control well (no substrate)",
+      "well_type": "enzyme",
+      "description": "Tests for Control well (no substrate) activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Control well (no substrate)",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API STA",
         "API coryne",
@@ -997,8 +1004,15 @@
     "Trypsin": {
       "code": "Trypsin",
       "label": "Trypsin activity",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Trypsin activity",
+      "well_type": "enzyme",
+      "description": "Tests for Trypsin activity activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Trypsin activity",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API zym"
       ]
@@ -2722,8 +2736,15 @@
     "GNT": {
       "code": "GNT",
       "label": "Gluconate",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Gluconate",
+      "well_type": "enzyme",
+      "description": "Tests for Gluconate activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Gluconate",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20NE",
         "API 50CHac",
@@ -2769,8 +2790,15 @@
     "MTE": {
       "code": "MTE",
       "label": "Maltose variant test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Maltose variant test",
+      "well_type": "enzyme",
+      "description": "Tests for Maltose variant test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Maltose variant test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -2778,8 +2806,15 @@
     "LTE": {
       "code": "LTE",
       "label": "Lactose variant test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Lactose variant test",
+      "well_type": "enzyme",
+      "description": "Tests for Lactose variant test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Lactose variant test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -2929,8 +2964,15 @@
     "MTL": {
       "code": "MTL",
       "label": "Mannitol utilization",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Mannitol utilization",
+      "well_type": "enzyme",
+      "description": "Tests for Mannitol utilization activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Mannitol utilization",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -2938,8 +2980,15 @@
     "HBG": {
       "code": "HBG",
       "label": "Hemoglobin test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Hemoglobin test",
+      "well_type": "enzyme",
+      "description": "Tests for Hemoglobin test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Hemoglobin test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -2947,8 +2996,15 @@
     "3MDG": {
       "code": "3MDG",
       "label": "3-Methyl-D-glucose",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: 3-Methyl-D-glucose",
+      "well_type": "enzyme",
+      "description": "Tests for 3-Methyl-D-glucose activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "3-Methyl-D-glucose",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -2956,8 +3012,15 @@
     "SAT": {
       "code": "SAT",
       "label": "Salicin variant test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Salicin variant test",
+      "well_type": "enzyme",
+      "description": "Tests for Salicin variant test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Salicin variant test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -2980,8 +3043,15 @@
     "LTAT": {
       "code": "LTAT",
       "label": "L-Tartrate",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: L-Tartrate",
+      "well_type": "enzyme",
+      "description": "Tests for L-Tartrate activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "L-Tartrate",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -2989,8 +3059,15 @@
     "DTAT": {
       "code": "DTAT",
       "label": "D-Tartrate",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: D-Tartrate",
+      "well_type": "enzyme",
+      "description": "Tests for D-Tartrate activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "D-Tartrate",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -2998,8 +3075,15 @@
     "MTAT": {
       "code": "MTAT",
       "label": "Meso-Tartrate",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Meso-Tartrate",
+      "well_type": "enzyme",
+      "description": "Tests for Meso-Tartrate activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Meso-Tartrate",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3007,8 +3091,15 @@
     "DMLT": {
       "code": "DMLT",
       "label": "D-Malate test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: D-Malate test",
+      "well_type": "enzyme",
+      "description": "Tests for D-Malate test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "D-Malate test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3016,8 +3107,15 @@
     "LMLT": {
       "code": "LMLT",
       "label": "L-Malate test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: L-Malate test",
+      "well_type": "enzyme",
+      "description": "Tests for L-Malate test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "L-Malate test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3025,8 +3123,15 @@
     "CATE": {
       "code": "CATE",
       "label": "Catalase test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Catalase test",
+      "well_type": "enzyme",
+      "description": "Tests for Catalase test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Catalase test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3034,8 +3139,15 @@
     "TATE": {
       "code": "TATE",
       "label": "Tartrate variant test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Tartrate variant test",
+      "well_type": "enzyme",
+      "description": "Tests for Tartrate variant test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Tartrate variant test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3043,8 +3155,15 @@
     "TTE": {
       "code": "TTE",
       "label": "Trehalose variant enzyme",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Trehalose variant enzyme",
+      "well_type": "enzyme",
+      "description": "Tests for Trehalose variant enzyme activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Trehalose variant enzyme",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3147,8 +3266,15 @@
     "pOBE": {
       "code": "pOBE",
       "label": "para-hydroxybenzoate",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: para-hydroxybenzoate",
+      "well_type": "enzyme",
+      "description": "Tests for para-hydroxybenzoate activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "para-hydroxybenzoate",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3156,8 +3282,15 @@
     "QAT": {
       "code": "QAT",
       "label": "Quinine test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Quinine test",
+      "well_type": "enzyme",
+      "description": "Tests for Quinine test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Quinine test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3165,8 +3298,15 @@
     "GTE": {
       "code": "GTE",
       "label": "Gelatin liquefaction variant",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Gelatin liquefaction variant",
+      "well_type": "enzyme",
+      "description": "Tests for Gelatin liquefaction variant activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Gelatin liquefaction variant",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3174,8 +3314,15 @@
     "mOBE": {
       "code": "mOBE",
       "label": "meta-hydroxybenzoate",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: meta-hydroxybenzoate",
+      "well_type": "enzyme",
+      "description": "Tests for meta-hydroxybenzoate activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "meta-hydroxybenzoate",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3183,8 +3330,15 @@
     "BAT": {
       "code": "BAT",
       "label": "Beta-alanine test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Beta-alanine test",
+      "well_type": "enzyme",
+      "description": "Tests for Beta-alanine test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Beta-alanine test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3192,8 +3346,15 @@
     "PPAT": {
       "code": "PPAT",
       "label": "Phenylpyruvic acid test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Phenylpyruvic acid test",
+      "well_type": "enzyme",
+      "description": "Tests for Phenylpyruvic acid test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Phenylpyruvic acid test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3201,8 +3362,15 @@
     "CMT": {
       "code": "CMT",
       "label": "Coumarin test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Coumarin test",
+      "well_type": "enzyme",
+      "description": "Tests for Coumarin test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Coumarin test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3210,8 +3378,15 @@
     "TGE": {
       "code": "TGE",
       "label": "Trehalose variant test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Trehalose variant test",
+      "well_type": "enzyme",
+      "description": "Tests for Trehalose variant test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Trehalose variant test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3219,8 +3394,15 @@
     "BET": {
       "code": "BET",
       "label": "Betaine utilization",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Betaine utilization",
+      "well_type": "enzyme",
+      "description": "Tests for Betaine utilization activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Betaine utilization",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3228,8 +3410,15 @@
     "PCE": {
       "code": "PCE",
       "label": "Penicillin variant",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Penicillin variant",
+      "well_type": "enzyme",
+      "description": "Tests for Penicillin variant activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Penicillin variant",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3237,8 +3426,15 @@
     "ABT": {
       "code": "ABT",
       "label": "Arabitol",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Arabitol",
+      "well_type": "enzyme",
+      "description": "Tests for Arabitol activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Arabitol",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3246,8 +3442,15 @@
     "HIN": {
       "code": "HIN",
       "label": "Hippurate test variant",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Hippurate test variant",
+      "well_type": "enzyme",
+      "description": "Tests for Hippurate test variant activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Hippurate test variant",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3286,8 +3489,15 @@
     "CYT": {
       "code": "CYT",
       "label": "Cytochrome test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Cytochrome test",
+      "well_type": "enzyme",
+      "description": "Tests for Cytochrome test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Cytochrome test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3340,8 +3550,15 @@
     "GRE": {
       "code": "GRE",
       "label": "Green fluorescence",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Green fluorescence",
+      "well_type": "enzyme",
+      "description": "Tests for Green fluorescence activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Green fluorescence",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3349,8 +3566,15 @@
     "GYT": {
       "code": "GYT",
       "label": "Glycerol test variant",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Glycerol test variant",
+      "well_type": "enzyme",
+      "description": "Tests for Glycerol test variant activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Glycerol test variant",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3358,8 +3582,15 @@
     "AVT": {
       "code": "AVT",
       "label": "Arabinose variant test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Arabinose variant test",
+      "well_type": "enzyme",
+      "description": "Tests for Arabinose variant test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Arabinose variant test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3367,8 +3598,15 @@
     "ETN": {
       "code": "ETN",
       "label": "Ethanol utilization",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Ethanol utilization",
+      "well_type": "enzyme",
+      "description": "Tests for Ethanol utilization activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Ethanol utilization",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3376,8 +3614,15 @@
     "TTN": {
       "code": "TTN",
       "label": "Tetanus toxin",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Tetanus toxin",
+      "well_type": "enzyme",
+      "description": "Tests for Tetanus toxin activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Tetanus toxin",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3430,8 +3675,15 @@
     "APT": {
       "code": "APT",
       "label": "Alanine-phenylalanine-proline test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Alanine-phenylalanine-proline test",
+      "well_type": "enzyme",
+      "description": "Tests for Alanine-phenylalanine-proline test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Alanine-phenylalanine-proline test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -3439,8 +3691,15 @@
     "GTT": {
       "code": "GTT",
       "label": "Glutamate test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Glutamate test",
+      "well_type": "enzyme",
+      "description": "Tests for Glutamate test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Glutamate test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API biotype100"
       ]
@@ -4135,8 +4394,15 @@
     "PEN": {
       "code": "PEN",
       "label": "Penicillin resistance",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Penicillin resistance",
+      "well_type": "enzyme",
+      "description": "Tests for Penicillin resistance activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Penicillin resistance",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API NH"
       ]
@@ -4190,8 +4456,15 @@
     "NOVO": {
       "code": "NOVO",
       "label": "Novobiocin resistance",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Novobiocin resistance",
+      "well_type": "enzyme",
+      "description": "Tests for Novobiocin resistance activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Novobiocin resistance",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API ID32STA"
       ]
@@ -4215,8 +4488,15 @@
     "RP": {
       "code": "RP",
       "label": "Reverse CAMP test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Reverse CAMP test",
+      "well_type": "enzyme",
+      "description": "Tests for Reverse CAMP test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Reverse CAMP test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API ID32E"
       ]
@@ -4285,8 +4565,15 @@
     "LSTR": {
       "code": "LSTR",
       "label": "L-Serine test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: L-Serine test",
+      "well_type": "enzyme",
+      "description": "Tests for L-Serine test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "L-Serine test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API STA"
       ]
@@ -4316,8 +4603,15 @@
     "TTC": {
       "code": "TTC",
       "label": "Tetrazolium reduction",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Tetrazolium reduction",
+      "well_type": "enzyme",
+      "description": "Tests for Tetrazolium reduction activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Tetrazolium reduction",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API CAM"
       ]
@@ -4325,8 +4619,15 @@
     "SUT": {
       "code": "SUT",
       "label": "Sucrose variant test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Sucrose variant test",
+      "well_type": "enzyme",
+      "description": "Tests for Sucrose variant test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Sucrose variant test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API CAM"
       ]
@@ -4334,8 +4635,15 @@
     "NAL": {
       "code": "NAL",
       "label": "Nalidixic acid resistance",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Nalidixic acid resistance",
+      "well_type": "enzyme",
+      "description": "Tests for Nalidixic acid resistance activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Nalidixic acid resistance",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API CAM"
       ]
@@ -4343,8 +4651,15 @@
     "CFZ": {
       "code": "CFZ",
       "label": "Cefoxitin resistance",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Cefoxitin resistance",
+      "well_type": "enzyme",
+      "description": "Tests for Cefoxitin resistance activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Cefoxitin resistance",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API CAM"
       ]
@@ -4367,8 +4682,15 @@
     "ERO": {
       "code": "ERO",
       "label": "Erythromycin test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Erythromycin test",
+      "well_type": "enzyme",
+      "description": "Tests for Erythromycin test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Erythromycin test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API CAM"
       ]
@@ -4376,8 +4698,15 @@
     "MAC": {
       "code": "MAC",
       "label": "MacConkey agar",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: MacConkey agar",
+      "well_type": "enzyme",
+      "description": "Tests for MacConkey agar activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "MacConkey agar",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20E"
       ]
@@ -4385,8 +4714,15 @@
     "OF-O": {
       "code": "OF-O",
       "label": "Oxidative-fermentative (oxidative)",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Oxidative-fermentative (oxidative)",
+      "well_type": "enzyme",
+      "description": "Tests for Oxidative-fermentative (oxidative) activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Oxidative-fermentative (oxidative)",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20E"
       ]
@@ -4394,8 +4730,15 @@
     "OF-F": {
       "code": "OF-F",
       "label": "Oxidative-fermentative (fermentative)",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Oxidative-fermentative (fermentative)",
+      "well_type": "enzyme",
+      "description": "Tests for Oxidative-fermentative (fermentative) activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Oxidative-fermentative (fermentative)",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20E"
       ]
@@ -4403,8 +4746,15 @@
     "DIM": {
       "code": "DIM",
       "label": "Dimethyl test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Dimethyl test",
+      "well_type": "enzyme",
+      "description": "Tests for Dimethyl test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Dimethyl test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API LIST"
       ]
@@ -4444,8 +4794,15 @@
     "SPOR": {
       "code": "SPOR",
       "label": "Sporulation",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Sporulation",
+      "well_type": "enzyme",
+      "description": "Tests for Sporulation activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Sporulation",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20A"
       ]
@@ -4453,8 +4810,15 @@
     "GRAM": {
       "code": "GRAM",
       "label": "Gram stain",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Gram stain",
+      "well_type": "enzyme",
+      "description": "Tests for Gram stain activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Gram stain",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20A"
       ]
@@ -4462,8 +4826,15 @@
     "COCC": {
       "code": "COCC",
       "label": "Coagulase test",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Coagulase test",
+      "well_type": "enzyme",
+      "description": "Tests for Coagulase test activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Coagulase test",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20A"
       ]
@@ -4512,8 +4883,15 @@
     "MOB": {
       "code": "MOB",
       "label": "Motility",
-      "well_type": "phenotypic",
-      "description": "Phenotypic test: Motility",
+      "well_type": "enzyme",
+      "description": "Tests for Motility activity",
+      "enzyme_ids": {
+        "rhea_ids": [],
+        "enzyme_name": "Motility",
+        "go_terms": [],
+        "go_names": [],
+        "metacyc_pathway": []
+      },
       "used_in_kits": [
         "API 20E"
       ]

@@ -946,7 +946,7 @@ class ChemicalMapper:
         Args:
             kit_category: Kit category (e.g., "Carbohydrate fermentation", "Enzyme profiling")
             well_code: Well code (e.g., "GLU", "NO3", "Alkaline phosphatase")
-            well_type: Well type (e.g., "chemical", "enzyme", "phenotypic")
+            well_type: Well type (e.g., "chemical", "enzyme")
 
         Returns:
             Dictionary with positive and negative METPO predicates:

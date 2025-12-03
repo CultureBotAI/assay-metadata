@@ -41,7 +41,7 @@ class WellMetadata(BaseModel):
 
     code: str = Field(..., description="Well code (e.g., GLU, URE)")
     label: str = Field(..., description="Human-readable label")
-    well_type: str = Field(..., description="Type: chemical, enzyme, or other")
+    well_type: str = Field(..., description="Type: chemical or enzyme")
     description: Optional[str] = Field(None, description="Description of the test")
 
     # Chemical identifiers (for substrate wells)

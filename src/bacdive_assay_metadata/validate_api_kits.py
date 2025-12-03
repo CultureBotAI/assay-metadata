@@ -31,11 +31,11 @@ class APIKitValidator:
                 "LDC": {"type": "enzyme", "name": "Lysine decarboxylase", "substrate": "Lysine"},
                 "ODC": {"type": "enzyme", "name": "Ornithine decarboxylase", "substrate": "Ornithine"},
                 "CIT": {"type": "chemical", "name": "Citrate", "chebi": "CHEBI:30769"},
-                "H2S": {"type": "phenotypic", "name": "Hydrogen sulfide production"},
+                "H2S": {"type": "enzyme", "name": "Hydrogen sulfide production"},
                 "URE": {"type": "enzyme", "name": "Urease", "substrate": "Urea"},
                 "TDA": {"type": "enzyme", "name": "Tryptophan deaminase", "substrate": "Tryptophan"},
-                "IND": {"type": "phenotypic", "name": "Indole production"},
-                "VP": {"type": "phenotypic", "name": "Voges-Proskauer (acetoin)"},
+                "IND": {"type": "enzyme", "name": "Indole production"},
+                "VP": {"type": "enzyme", "name": "Voges-Proskauer (acetoin)"},
                 "GEL": {"type": "enzyme", "name": "Gelatinase", "substrate": "Gelatin"},
                 "GLU": {"type": "chemical", "name": "D-Glucose", "chebi": "CHEBI:17234"},
                 "MAN": {"type": "chemical", "name": "D-Mannose", "chebi": "CHEBI:4208"},
@@ -54,8 +54,8 @@ class APIKitValidator:
             "source": "bioMérieux Package Insert REF 20 050",
             "url": "https://faculty.fiu.edu/~makemson/MCB3020Lab/API20neInstructions.pdf",
             "mappings": {
-                "NO3": {"type": "phenotypic", "name": "Nitrate reduction"},
-                "TRP": {"type": "phenotypic", "name": "Tryptophane"},
+                "NO3": {"type": "enzyme", "name": "Nitrate reduction"},
+                "TRP": {"type": "enzyme", "name": "Tryptophane"},
                 "GLU": {"type": "chemical", "name": "D-Glucose", "chebi": "CHEBI:17234"},
                 "ADH": {"type": "enzyme", "name": "Arginine dihydrolase"},
                 "URE": {"type": "enzyme", "name": "Urease"},
@@ -177,7 +177,7 @@ class APIKitValidator:
             elif well_code in self.mapper.ENZYME_ACTIVITY_TESTS:
                 our_name = self.mapper.ENZYME_ACTIVITY_TESTS[well_code]
                 mapping_location = "ENZYME_ACTIVITY_TESTS"
-            # Check phenotypic tests
+            # Check enzyme tests (including phenotypic tests)
             elif well_code in self.mapper.PHENOTYPIC_TESTS:
                 our_name = self.mapper.PHENOTYPIC_TESTS[well_code]
                 mapping_location = "PHENOTYPIC_TESTS"

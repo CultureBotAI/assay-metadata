@@ -250,10 +250,23 @@ class MetadataBuilder:
                 )
             return "enzyme", None, enzyme_ids
 
-        # Check if it's a phenotypic test
+        # Check if it's a phenotypic test - classify as enzyme type
         if well_code in self.chem_mapper.PHENOTYPIC_TESTS or normalized in self.chem_mapper.PHENOTYPIC_TESTS:
-            # Phenotypic tests don't have chemical or enzyme IDs
-            return "phenotypic", None, None
+            # Phenotypic tests are classified as enzyme type
+            test_name = self.chem_mapper.PHENOTYPIC_TESTS.get(well_code) or self.chem_mapper.PHENOTYPIC_TESTS.get(normalized, well_code)
+            enzyme_ids = EnzymeIdentifiers(
+                enzyme_name=test_name,
+                ec_number=None,
+                ec_name=None,
+                rhea_ids=[],
+                go_terms=[],
+                go_names=[],
+                kegg_ko=None,
+                kegg_reaction=None,
+                metacyc_reaction=None,
+                metacyc_pathway=[],
+            )
+            return "enzyme", None, enzyme_ids
 
         # Check if it's a known chemical (try normalized code)
         chem_info = self.chem_mapper.get_chemical_info(normalized, well_code)
@@ -366,8 +379,6 @@ class MetadataBuilder:
             return f"Tests for utilization/fermentation of {label}"
         elif well_type == "enzyme":
             return f"Tests for {label} activity"
-        elif well_type == "phenotypic":
-            return f"Phenotypic test: {label}"
         else:
             return f"Biochemical test: {label}"
 

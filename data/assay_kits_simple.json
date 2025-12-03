@@ -13,10 +13,10 @@
             "Control well (no substrate)"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Control well (no substrate)"
+            "Tests for Control well (no substrate) activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -24,7 +24,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Control well (no substrate)"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -307,10 +309,10 @@
             "Trypsin activity"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Trypsin activity"
+            "Tests for Trypsin activity activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -318,7 +320,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Trypsin activity"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -2428,10 +2432,10 @@
             "Gluconate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Gluconate"
+            "Tests for Gluconate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -2439,7 +2443,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Gluconate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -3047,10 +3053,10 @@
             "Gluconate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Gluconate"
+            "Tests for Gluconate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -3058,7 +3064,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Gluconate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -4801,10 +4809,10 @@
             "Maltose variant test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Maltose variant test"
+            "Tests for Maltose variant test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -4812,7 +4820,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Maltose variant test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -4901,10 +4911,10 @@
             "Lactose variant test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Lactose variant test"
+            "Tests for Lactose variant test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -4912,7 +4922,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Lactose variant test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -5691,10 +5703,10 @@
             "Mannitol utilization"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Mannitol utilization"
+            "Tests for Mannitol utilization activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -5702,7 +5714,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Mannitol utilization"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -5827,10 +5841,10 @@
             "Hemoglobin test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Hemoglobin test"
+            "Tests for Hemoglobin test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -5838,7 +5852,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Hemoglobin test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -5963,10 +5979,10 @@
             "3-Methyl-D-glucose"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: 3-Methyl-D-glucose"
+            "Tests for 3-Methyl-D-glucose activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -5974,7 +5990,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "3-Methyl-D-glucose"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -5991,10 +6009,10 @@
             "Salicin variant test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Salicin variant test"
+            "Tests for Salicin variant test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6002,7 +6020,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Salicin variant test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6055,10 +6075,10 @@
             "L-Tartrate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: L-Tartrate"
+            "Tests for L-Tartrate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6066,7 +6086,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "L-Tartrate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6083,10 +6105,10 @@
             "D-Tartrate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: D-Tartrate"
+            "Tests for D-Tartrate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6094,7 +6116,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "D-Tartrate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6111,10 +6135,10 @@
             "Meso-Tartrate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Meso-Tartrate"
+            "Tests for Meso-Tartrate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6122,7 +6146,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Meso-Tartrate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6139,10 +6165,10 @@
             "D-Malate test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: D-Malate test"
+            "Tests for D-Malate test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6150,7 +6176,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "D-Malate test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6167,10 +6195,10 @@
             "L-Malate test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: L-Malate test"
+            "Tests for L-Malate test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6178,7 +6206,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "L-Malate test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6195,10 +6225,10 @@
             "Catalase test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Catalase test"
+            "Tests for Catalase test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6206,7 +6236,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Catalase test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6223,10 +6255,10 @@
             "Tartrate variant test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Tartrate variant test"
+            "Tests for Tartrate variant test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6234,7 +6266,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Tartrate variant test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6251,10 +6285,10 @@
             "Trehalose variant enzyme"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Trehalose variant enzyme"
+            "Tests for Trehalose variant enzyme activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6262,7 +6296,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Trehalose variant enzyme"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6531,10 +6567,10 @@
             "Gluconate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Gluconate"
+            "Tests for Gluconate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6542,7 +6578,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Gluconate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6631,10 +6669,10 @@
             "para-hydroxybenzoate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: para-hydroxybenzoate"
+            "Tests for para-hydroxybenzoate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6642,7 +6680,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "para-hydroxybenzoate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6659,10 +6699,10 @@
             "Quinine test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Quinine test"
+            "Tests for Quinine test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6670,7 +6710,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Quinine test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6687,10 +6729,10 @@
             "Gelatin liquefaction variant"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Gelatin liquefaction variant"
+            "Tests for Gelatin liquefaction variant activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6698,7 +6740,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Gelatin liquefaction variant"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6715,10 +6759,10 @@
             "meta-hydroxybenzoate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: meta-hydroxybenzoate"
+            "Tests for meta-hydroxybenzoate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6726,7 +6770,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "meta-hydroxybenzoate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6743,10 +6789,10 @@
             "Beta-alanine test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Beta-alanine test"
+            "Tests for Beta-alanine test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6754,7 +6800,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Beta-alanine test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6771,10 +6819,10 @@
             "Phenylpyruvic acid test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Phenylpyruvic acid test"
+            "Tests for Phenylpyruvic acid test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6782,7 +6830,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Phenylpyruvic acid test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6799,10 +6849,10 @@
             "Coumarin test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Coumarin test"
+            "Tests for Coumarin test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6810,7 +6860,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Coumarin test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6827,10 +6879,10 @@
             "Trehalose variant test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Trehalose variant test"
+            "Tests for Trehalose variant test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6838,7 +6890,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Trehalose variant test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6855,10 +6909,10 @@
             "Betaine utilization"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Betaine utilization"
+            "Tests for Betaine utilization activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6866,7 +6920,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Betaine utilization"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6883,10 +6939,10 @@
             "Penicillin variant"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Penicillin variant"
+            "Tests for Penicillin variant activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6894,7 +6950,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Penicillin variant"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6911,10 +6969,10 @@
             "Arabitol"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Arabitol"
+            "Tests for Arabitol activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6922,7 +6980,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Arabitol"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -6939,10 +6999,10 @@
             "Hippurate test variant"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Hippurate test variant"
+            "Tests for Hippurate test variant activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -6950,7 +7010,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Hippurate test variant"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -7039,10 +7101,10 @@
             "Cytochrome test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Cytochrome test"
+            "Tests for Cytochrome test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -7050,7 +7112,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Cytochrome test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -7175,10 +7239,10 @@
             "Green fluorescence"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Green fluorescence"
+            "Tests for Green fluorescence activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -7186,7 +7250,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Green fluorescence"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -7203,10 +7269,10 @@
             "Glycerol test variant"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Glycerol test variant"
+            "Tests for Glycerol test variant activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -7214,7 +7280,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Glycerol test variant"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -7231,10 +7299,10 @@
             "Arabinose variant test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Arabinose variant test"
+            "Tests for Arabinose variant test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -7242,7 +7310,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Arabinose variant test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -7259,10 +7329,10 @@
             "Ethanol utilization"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Ethanol utilization"
+            "Tests for Ethanol utilization activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -7270,7 +7340,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Ethanol utilization"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -7287,10 +7359,10 @@
             "Tetanus toxin"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Tetanus toxin"
+            "Tests for Tetanus toxin activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -7298,7 +7370,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Tetanus toxin"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -7423,10 +7497,10 @@
             "Alanine-phenylalanine-proline test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Alanine-phenylalanine-proline test"
+            "Tests for Alanine-phenylalanine-proline test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -7434,7 +7508,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Alanine-phenylalanine-proline test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -7451,10 +7527,10 @@
             "Glutamate test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Glutamate test"
+            "Tests for Glutamate test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -7462,7 +7538,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Glutamate test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -8877,10 +8955,10 @@
             "Control well (no substrate)"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Control well (no substrate)"
+            "Tests for Control well (no substrate) activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -8888,7 +8966,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Control well (no substrate)"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -10587,10 +10667,10 @@
             "Reverse CAMP test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Reverse CAMP test"
+            "Tests for Reverse CAMP test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -10598,7 +10678,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Reverse CAMP test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -11448,10 +11530,10 @@
             "Penicillin resistance"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Penicillin resistance"
+            "Tests for Penicillin resistance activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -11459,7 +11541,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Penicillin resistance"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -12659,10 +12743,10 @@
             "Novobiocin resistance"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Novobiocin resistance"
+            "Tests for Novobiocin resistance activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -12670,7 +12754,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Novobiocin resistance"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -13076,10 +13162,10 @@
             "Tetrazolium reduction"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Tetrazolium reduction"
+            "Tests for Tetrazolium reduction activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -13087,7 +13173,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Tetrazolium reduction"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -13316,10 +13404,10 @@
             "Sucrose variant test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Sucrose variant test"
+            "Tests for Sucrose variant test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -13327,7 +13415,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Sucrose variant test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -13344,10 +13434,10 @@
             "Nalidixic acid resistance"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Nalidixic acid resistance"
+            "Tests for Nalidixic acid resistance activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -13355,7 +13445,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Nalidixic acid resistance"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -13372,10 +13464,10 @@
             "Cefoxitin resistance"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Cefoxitin resistance"
+            "Tests for Cefoxitin resistance activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -13383,7 +13475,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Cefoxitin resistance"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -13544,10 +13638,10 @@
             "Erythromycin test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Erythromycin test"
+            "Tests for Erythromycin test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -13555,7 +13649,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Erythromycin test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -14380,10 +14476,10 @@
             "Dimethyl test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Dimethyl test"
+            "Tests for Dimethyl test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -14391,7 +14487,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Dimethyl test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -15435,10 +15533,10 @@
             "L-Serine test"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: L-Serine test"
+            "Tests for L-Serine test activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -15446,7 +15544,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "L-Serine test"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
@@ -17951,10 +18051,10 @@
             "Gluconate"
           ],
           "type": [
-            "phenotypic"
+            "enzyme"
           ],
           "description": [
-            "Phenotypic test: Gluconate"
+            "Tests for Gluconate activity"
           ],
           "chebi_id": [],
           "chebi_name": [],
@@ -17962,7 +18062,9 @@
           "pubchem_name": [],
           "inchi": [],
           "smiles": [],
-          "enzyme_name": [],
+          "enzyme_name": [
+            "Gluconate"
+          ],
           "ec_number": [],
           "ec_name": [],
           "go_terms": [],
