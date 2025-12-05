@@ -1,0 +1,285 @@
+2-nitrophenyl beta-D-galactopyranoside
+3-Methyl-D-glucose
+4-nitrophenyl beta-D-galactopyranoside
+4-nitrophenyl-beta-D-galactopyranoside
+6-phospho-beta-galactosidase
+ACC deaminase
+Acid phosphatase
+Alanine arylamidase
+Alanine-phenylalanine-proline arylamidase
+Alanine-phenylalanine-proline test
+Alanyl-Phenylalanyl-Proline arylamidase
+Alkaline phosphatase
+Arabinose variant test
+Arabitol
+Arginine arylamidase
+Arginine dihydrolase
+Aspartic acid arylamidase
+Bam H1
+Beta-alanine test
+Betaine utilization
+Catalase
+Catalase test
+Cefoxitin resistance
+Coagulase test
+Control well (no substrate)
+Coumarin test
+Cytochrome oxidase
+Cytochrome test
+D-Malate test
+D-Tartrate
+D-aminoacylase
+DNase
+Dimethyl test
+Dnase
+Erythromycin test
+Esterase
+Ethanol utilization
+Gamma-glutamyl transferase
+Gelatin liquefaction variant
+Gelatinase
+Gluconate
+Glucose assimilation
+Glucose fermentation
+Glutamate test
+Glutamyl glutamic acid arylamidase
+Glycerol test variant
+Glycine arylamidase
+Gram stain
+Green fluorescence
+Hemoglobin test
+Hippurate hydrolysis
+Hippurate test variant
+Histidine arylamidase
+Hydrogen sulfide production
+Indole production
+L-Malate test
+L-Serine test
+L-Tartrate
+L-arginine arylamidase
+L-arginine dihydrolase
+L-aspartate arylamidase
+L-leucyl-2-naphthylamide hydrolase
+Lactose variant test
+Leucine aminopeptidase
+Leucine arylamidase
+Lipase
+Lysine decarboxylase
+MacConkey agar
+Maltose variant test
+Mannitol utilization
+Meso-Tartrate
+Motility
+N-acetyl-beta-glucosaminidase
+N-acetyl-glucosidase
+Nalidixic acid resistance
+NiFe-hydrogenase
+Nitrate reductase
+Nitrate reduction
+Nitrite reduction
+Nitrogen gas production
+Novobiocin resistance
+Ornithine decarboxylase
+Oxidative-fermentative (fermentative)
+Oxidative-fermentative (oxidative)
+P-nitroso-D-methyl galactose
+Penicillin resistance
+Penicillin variant
+Phenylalanine arylamidase
+Phenylalanine deaminase
+Phenylpyruvic acid test
+Phospholipase
+Proline arylamidase
+Pyrazinamidase
+Pyroglutamic acid arylamidase
+Pyrrolidonyl arylamidase
+Quinine test
+Reverse CAMP test
+Ribulose-bisphosphate carboxylase
+Salicin variant test
+Serine arylamidase
+Sporulation
+Sucrose variant test
+Tartrate variant test
+Tetanus toxin
+Tetrazolium reduction
+Trehalose variant enzyme
+Trehalose variant test
+Trypsin activity
+Tryptophan deaminase
+Tryptophan test
+Tryptophane test
+Tyrosine arylamidase
+Urease
+Voges-Proskauer
+Xylanase
+acetate kinase
+acid phosphatase
+adenyl cyclase hemolysin
+adenylate cyclase
+agarase
+alanine aminopeptidase
+alanine arylamidase
+alanine phenylalanin proline arylamidase
+alcohol dehydrogenase
+alginase
+alkaline phosphatase
+alpha-Amylase
+alpha-L-arabinofuranosidase
+alpha-L-rhamnosidase
+alpha-arabinosidase
+alpha-chymotrypsin
+alpha-fucosidase
+alpha-galactosidase
+alpha-glucosidase
+alpha-glucuronidase
+alpha-maltosidase
+alpha-mannosidase
+alpha-xylosidase
+amylase
+arginine Dihydrolase
+arginine arylamidase
+arginine decarboxylase
+arginine dihydrolase
+arylsulfatase
+benzoyl-D-arginine arylamidase
+beta-D-fucosidase
+beta-D-galactosidase
+beta-Galactosidase 6-phosphate
+beta-L-arabinosidase
+beta-N-acetylgalactosaminidase
+beta-alanine arylamidase pNA
+beta-cellobiase
+beta-fucosidase
+beta-galactopyranosidase
+beta-galactosaminidase
+beta-galactosidase
+beta-galactosidase-6-phosphate
+beta-glucoronidase
+beta-glucosaminidase
+beta-glucosidase
+beta-glucuronidase
+beta-lactamase
+beta-maltosidase
+beta-mannosidase
+beta-xylosidase
+carbohydrates
+carboxylesterase
+caseinase
+catalase
+cellulase
+chitinase
+cholesterol esterase
+chymotrypsin
+coagulase
+cyclomaltodextrin glucanotransferase
+cystine aminopeptidase
+cystine arylamidase
+cytochrome oxidase
+cytochrome-c oxidase
+deaminases
+endo-1,3(4)-beta-glucanase
+endo-1,4-beta-xylanase
+esterase
+esterase (C 4)
+esterase Lipase (C 8)
+esterase lipase (C 8)
+fructose-6-phosphate phosphoketolase
+galacturonidase
+gamma-glutamyltransferase
+gelatinase
+glu-gly-arg-arylamidase
+glucoronidase
+glucosaminidase
+glucose isomerase
+glucosidase
+glucuronidase
+glutamate decarboxylase
+glutamate dehydrogenase
+glutamin glycerin arginin arylamidase
+glutamyl arylamidase pNA
+glutamyl-glutamate arylamidase
+glu–gly–arg arylamidase
+glu–gly–arg-arylamidase
+glycin arylamidase
+glycyl tryptophan arylamidase
+heparin lyase
+hippurate hydrolase
+histidine arylamidase
+hyaluronate lyase
+hyaluronidase
+hydrogenase
+l-pyrrolydonyl arylamidase
+l-pyrrolyldonyl-arylamidase
+lactosidase
+lecithinase
+leucine aminopeptidase
+leucine arylamidase
+leucyl glycin arylamidase
+lipase
+lipase (C 14)
+lipase (Tween 80)
+lysine decarboxylase
+lysozyme
+meta-hydroxybenzoate
+methanol dehydrogenase
+naphthol-AS-BI-phosphohydrolase
+neuramindase
+nitrate reductase
+nitrite reductase
+nitrogenase
+ornithine decarboxylase
+oxidase
+oxoglutarate dehydrogenase
+para-hydroxybenzoate
+pectinase
+penicillinase
+peptide synthetase
+phenylalaninase
+phenylalanine ammonia-lyase
+phenylalanine arylamidase
+phenylalanine deaminase
+phosphatase
+phosphatidate phosphatase
+phosphatidylinositol phospholipase C
+phosphoamidase
+phosphohydrolase
+phospholipase C
+proline-arylamidase
+protease
+pyrazinamidase
+pyroglutamic acid arylamidase
+pyrrolidonyl arylamidase
+ribonuclease
+serine arylamidase
+skimmed milk protease
+superoxide dismutase
+tellurite reductase
+thiosulfate reductase
+tripeptide aminopeptidase
+trypsin
+tryptophan deaminase
+tryptophan decarboxylase
+tryptophanase
+tween esterase
+tyrosinase
+tyrosine arylamidase
+urease
+valine aminopeptidase
+valine arylamidase
+xylan 1,4-beta-xylosidase
+α-arabinosidase
+α-fucosidase
+α-galactosidase
+α-galactosidase (Mannosidase)
+α-glucosidase
+α-maltosidase
+α-mannosidase
+β-N-acetyl-glucosaminidase
+β-galactosidase
+β-galactosidase (ONPG)
+β-galactosidase (PNPG)
+β-glucosidase
+β-glucuronidase
+β-glycosidase
+β-mannosidase

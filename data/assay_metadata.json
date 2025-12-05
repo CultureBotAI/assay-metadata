@@ -874,7 +874,7 @@
       "well_type": "enzyme",
       "description": "Tests for Esterase activity",
       "enzyme_ids": {
-        "ec_number": "3.1.1.1",
+        "ec_number": "3.1.1.-",
         "rhea_ids": [],
         "enzyme_name": "Esterase",
         "go_terms": [
@@ -1397,7 +1397,6 @@
       "well_type": "enzyme",
       "description": "Tests for \u03b1-glucosidase activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.20",
         "rhea_ids": [],
         "enzyme_name": "\u03b1-glucosidase",
         "go_terms": [],
@@ -1416,7 +1415,6 @@
       "well_type": "enzyme",
       "description": "Tests for \u03b2-glucosidase activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.21",
         "rhea_ids": [],
         "enzyme_name": "\u03b2-glucosidase",
         "go_terms": [],
@@ -1435,7 +1433,6 @@
       "well_type": "enzyme",
       "description": "Tests for \u03b1-arabinosidase activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.55",
         "rhea_ids": [],
         "enzyme_name": "\u03b1-arabinosidase",
         "go_terms": [],
@@ -1479,7 +1476,6 @@
       "well_type": "enzyme",
       "description": "Tests for \u03b2-N-acetyl-glucosaminidase activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.52",
         "rhea_ids": [],
         "enzyme_name": "\u03b2-N-acetyl-glucosaminidase",
         "go_terms": [],
@@ -1559,7 +1555,6 @@
       "well_type": "enzyme",
       "description": "Tests for \u03b1-fucosidase activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.51",
         "rhea_ids": [],
         "enzyme_name": "\u03b1-fucosidase",
         "go_terms": [],
@@ -1602,7 +1597,6 @@
       "well_type": "enzyme",
       "description": "Tests for Indole production activity",
       "enzyme_ids": {
-        "ec_number": "4.1.99.1",
         "rhea_ids": [],
         "enzyme_name": "Indole production",
         "go_terms": [],
@@ -3832,7 +3826,6 @@
       "well_type": "enzyme",
       "description": "Tests for Nitrate reduction activity",
       "enzyme_ids": {
-        "ec_number": "1.7.5.1",
         "rhea_ids": [],
         "enzyme_name": "Nitrate reduction",
         "go_terms": [],
@@ -3849,7 +3842,6 @@
       "well_type": "enzyme",
       "description": "Tests for Tryptophane test activity",
       "enzyme_ids": {
-        "ec_number": "4.1.99.1",
         "rhea_ids": [],
         "enzyme_name": "Tryptophane test",
         "go_terms": [],
@@ -4007,7 +3999,6 @@
       "well_type": "enzyme",
       "description": "Tests for o-Nitrophenyl-\u03b2-D-galactopyranoside activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.23",
         "rhea_ids": [],
         "enzyme_name": "\u03b2-galactosidase (ONPG)",
         "go_terms": [],
@@ -4072,7 +4063,6 @@
       "well_type": "enzyme",
       "description": "Tests for Hydrogen sulfide production activity",
       "enzyme_ids": {
-        "ec_number": "4.4.1.1",
         "rhea_ids": [],
         "enzyme_name": "Hydrogen sulfide production",
         "go_terms": [],
@@ -4111,7 +4101,6 @@
       "well_type": "enzyme",
       "description": "Tests for Voges-Proskauer activity",
       "enzyme_ids": {
-        "ec_number": "4.1.1.5",
         "rhea_ids": [],
         "enzyme_name": "Voges-Proskauer",
         "go_terms": [],
@@ -4147,7 +4136,6 @@
       "well_type": "enzyme",
       "description": "Tests for Nitrite reduction activity",
       "enzyme_ids": {
-        "ec_number": "1.7.2.1",
         "rhea_ids": [],
         "enzyme_name": "Nitrite reduction",
         "go_terms": [],
@@ -4164,7 +4152,6 @@
       "well_type": "enzyme",
       "description": "Tests for Nitrogen gas production activity",
       "enzyme_ids": {
-        "ec_number": "1.7.2.4",
         "rhea_ids": [],
         "enzyme_name": "Nitrogen gas production",
         "go_terms": [],
@@ -4311,7 +4298,6 @@
       "well_type": "enzyme",
       "description": "Tests for \u03b2-mannosidase activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.25",
         "rhea_ids": [],
         "enzyme_name": "\u03b2-mannosidase",
         "go_terms": [],
@@ -4507,7 +4493,6 @@
       "well_type": "enzyme",
       "description": "Tests for \u03b1-maltosidase activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.20",
         "rhea_ids": [],
         "enzyme_name": "\u03b1-maltosidase",
         "go_terms": [],
@@ -4584,7 +4569,7 @@
       "well_type": "enzyme",
       "description": "Tests for Esterase activity",
       "enzyme_ids": {
-        "ec_number": "3.1.1.1",
+        "ec_number": "3.1.1.-",
         "rhea_ids": [],
         "enzyme_name": "Esterase",
         "go_terms": [
@@ -4765,7 +4750,6 @@
       "well_type": "enzyme",
       "description": "Tests for \u03b1-mannosidase activity",
       "enzyme_ids": {
-        "ec_number": "3.2.1.24",
         "rhea_ids": [],
         "enzyme_name": "\u03b1-mannosidase",
         "go_terms": [],

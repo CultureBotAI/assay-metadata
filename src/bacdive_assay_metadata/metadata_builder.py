@@ -208,10 +208,15 @@ class MetadataBuilder:
             enzyme_name = self.chem_mapper.ENZYME_ACTIVITY_TESTS[normalized]
 
         if enzyme_name:
-            # Check if EC number is in ENZYME_EC_MAPPINGS (for codes without EC in ENZYME_ANNOTATIONS)
+            # Check if EC number is in ENZYME_EC_MAPPINGS (exact matches)
             ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(well_code)
             if not ec_from_mapping:
                 ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(normalized)
+            # If no exact match, check PARTIAL_EC_MAPPINGS (enzyme family level)
+            if not ec_from_mapping:
+                ec_from_mapping = self.chem_mapper.PARTIAL_EC_MAPPINGS.get(well_code)
+            if not ec_from_mapping:
+                ec_from_mapping = self.chem_mapper.PARTIAL_EC_MAPPINGS.get(normalized)
 
             # Check if GO term mapping exists (for tests without EC numbers)
             go_mapping = self.chem_mapper.GO_TERM_MAPPINGS.get(well_code)
@@ -281,10 +286,15 @@ class MetadataBuilder:
 
         # Check if it looks like an enzyme name (contains "ase" or starts with specific prefixes)
         if "ase" in well_code.lower() or well_code.startswith(("alpha", "beta", "Alkaline", "Acid")):
-            # Check if EC number is in ENZYME_EC_MAPPINGS
+            # Check if EC number is in ENZYME_EC_MAPPINGS (exact matches)
             ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(well_code)
             if not ec_from_mapping:
                 ec_from_mapping = self.chem_mapper.ENZYME_EC_MAPPINGS.get(normalized)
+            # If no exact match, check PARTIAL_EC_MAPPINGS (enzyme family level)
+            if not ec_from_mapping:
+                ec_from_mapping = self.chem_mapper.PARTIAL_EC_MAPPINGS.get(well_code)
+            if not ec_from_mapping:
+                ec_from_mapping = self.chem_mapper.PARTIAL_EC_MAPPINGS.get(normalized)
 
             enzyme_info = self.enzyme_mapper.get_enzyme_info(well_code, ec_from_mapping)
             enzyme_ids = EnzymeIdentifiers(

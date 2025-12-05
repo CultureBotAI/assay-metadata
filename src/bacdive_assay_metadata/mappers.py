@@ -343,35 +343,195 @@ class ChemicalMapper:
         "pOBE": "para-hydroxybenzoate",
     }
 
-    # EC number mappings for enzyme tests without EC numbers
-    # Deterministic lookup from ExpASy ENZYME and BRENDA databases
-    # Generated 2025-11-26 - See EC_LOOKUP_RESULTS.csv for sources
-    # Updated 2025-11-26 - Added pathway enzyme EC numbers for 100% coverage
+    # EC number mappings for enzyme names - Exact matching from ExpASy ENZYME database
+    # Generated 2025-12-04 using deterministic exact matching algorithm
+    # Source: ExpASy ENZYME flat file database (enzyme.dat)
+    # Method: Exact string matching against primary labels and synonyms
+    # 96 exact matches (33.7%), 82 partial matches (28.8%), 107 unmapped (37.5%)
     ENZYME_EC_MAPPINGS = {
-        # HIGH FEASIBILITY - Glycosidases (verified in EC ontology)
-        "alpha ARA": "3.2.1.55",  # α-L-arabinofuranosidase (ExpASy ENZYME, BRENDA)
-        "alpha FUC": "3.2.1.51",  # α-L-fucosidase (ExpASy ENZYME, BRENDA)
-        "alpha GLU": "3.2.1.20",  # α-glucosidase / maltase (ExpASy ENZYME, BRENDA)
-        "alphaMAL": "3.2.1.20",   # α-maltosidase (same as α-glucosidase, ExpASy ENZYME)
-        "alpha MAN": "3.2.1.24",  # α-mannosidase (ExpASy ENZYME, BRENDA)
-        "beta GLU": "3.2.1.21",   # β-glucosidase (ExpASy ENZYME, BRENDA)
-        "beta MAN": "3.2.1.25",   # β-mannosidase (ExpASy ENZYME, BRENDA)
-        "beta NAG": "3.2.1.52",   # β-N-acetylhexosaminidase (ExpASy ENZYME, BRENDA)
-        "ONPG": "3.2.1.23",       # β-galactosidase (ONPG substrate test, ExpASy ENZYME)
+        "6-phospho-beta-galactosidase": "3.2.1.85",
+        "ACC deaminase": "3.5.99.7",
+        "Acid phosphatase": "3.1.3.2",
+        "Alkaline phosphatase": "3.1.3.1",
+        "Arginine dihydrolase": "3.5.3.6",
+        "Catalase": "1.11.1.6",
+        "Cytochrome oxidase": "7.1.1.9",
+        "D-aminoacylase": "3.5.1.81",
+        "DNase": "3.1.21.1",
+        "Dnase": "3.1.21.1",
+        "Leucine aminopeptidase": "3.4.11.1",
+        "Lipase": "3.1.1.3",
+        "Lysine decarboxylase": "4.1.1.18",
+        "N-acetyl-beta-glucosaminidase": "3.2.1.52",
+        "Ornithine decarboxylase": "4.1.1.17",
+        "Ribulose-bisphosphate carboxylase": "4.1.1.39",
+        "Urease": "3.5.1.5",
+        "Xylanase": "3.2.1.32",
+        "acetate kinase": "2.7.2.1",
+        "acid phosphatase": "3.1.3.2",
+        "adenylate cyclase": "4.6.1.1",
+        "agarase": "3.2.1.81",
+        "alcohol dehydrogenase": "1.1.1.1",
+        "alkaline phosphatase": "3.1.3.1",
+        "alpha-Amylase": "3.2.1.1",
+        "alpha-L-arabinofuranosidase": "3.2.1.55",
+        "alpha-L-rhamnosidase": "3.2.1.40",
+        "alpha-chymotrypsin": "3.4.21.1",
+        "alpha-galactosidase": "3.2.1.22",
+        "alpha-glucosidase": "3.2.1.20",
+        "alpha-glucuronidase": "3.2.1.139",
+        "alpha-mannosidase": "3.2.1.24",
+        "alpha-xylosidase": "3.2.1.177",
+        "arginine Dihydrolase": "3.5.3.6",
+        "arginine decarboxylase": "1.13.12.1",
+        "arginine dihydrolase": "3.5.3.6",
+        "beta-D-fucosidase": "3.2.1.38",
+        "beta-L-arabinosidase": "3.2.1.88",
+        "beta-N-acetylgalactosaminidase": "3.2.1.53",
+        "beta-galactosidase": "3.2.1.23",
+        "beta-glucosidase": "3.2.1.21",
+        "beta-glucuronidase": "3.2.1.31",
+        "beta-lactamase": "3.5.2.6",
+        "beta-mannosidase": "3.2.1.25",
+        "beta-xylosidase": "3.2.1.37",
+        "carboxylesterase": "3.1.1.1",
+        "catalase": "1.11.1.6",
+        "cellulase": "3.2.1.4",
+        "chitinase": "3.2.1.14",
+        "cholesterol esterase": "3.1.1.13",
+        "chymotrypsin": "3.4.21.1",
+        "cyclomaltodextrin glucanotransferase": "2.4.1.19",
+        "cystine aminopeptidase": "3.4.11.3",
+        "cytochrome oxidase": "7.1.1.9",
+        "cytochrome-c oxidase": "7.1.1.9",
+        "endo-1,3(4)-beta-glucanase": "3.2.1.6",
+        "endo-1,4-beta-xylanase": "3.2.1.8",
+        "fructose-6-phosphate phosphoketolase": "4.1.2.22",
+        "gamma-glutamyltransferase": "2.3.2.2",
+        "glutamate decarboxylase": "4.1.1.15",
+        "glutamate dehydrogenase": "1.4.1.2",
+        "heparin lyase": "4.2.2.7",
+        "hippurate hydrolase": "3.5.1.32",
+        "hyaluronate lyase": "4.2.2.1",
+        "hyaluronidase": "3.2.1.35",
+        "hydrogenase": "1.12.1.2",
+        "leucine aminopeptidase": "3.4.11.1",
+        "lipase": "3.1.1.3",
+        "lipase (C 14)": "3.1.1.3",
+        "lipase (Tween 80)": "3.1.1.3",
+        "lysine decarboxylase": "4.1.1.18",
+        "lysozyme": "3.2.1.17",
+        "methanol dehydrogenase": "1.1.1.244",
+        "nitrite reductase": "1.7.2.1",
+        "nitrogenase": "1.18.6.1",
+        "ornithine decarboxylase": "4.1.1.17",
+        "oxoglutarate dehydrogenase": "1.2.4.2",
+        "pectinase": "3.2.1.15",
+        "penicillinase": "3.5.2.6",
+        "phenylalaninase": "1.14.16.1",
+        "phenylalanine ammonia-lyase": "4.3.1.24",
+        "phosphatase": "3.1.3.52",
+        "phosphatidate phosphatase": "3.1.3.4",
+        "phosphatidylinositol phospholipase C": "3.1.4.11",
+        "phosphoamidase": "3.9.1.1",
+        "phosphohydrolase": "3.6.1.54",
+        "phospholipase C": "3.1.4.3",
+        "superoxide dismutase": "1.15.1.1",
+        "thiosulfate reductase": "2.8.1.5",
+        "tripeptide aminopeptidase": "3.4.11.4",
+        "trypsin": "3.4.21.4",
+        "tryptophan decarboxylase": "4.1.1.28",
+        "tryptophanase": "1.13.11.11",
+        "tyrosinase": "1.10.3.1",
+        "urease": "3.5.1.5",
+        "xylan 1,4-beta-xylosidase": "3.2.1.37",
+    }
 
-        # MEDIUM FEASIBILITY - Single enzyme tests
-        "IND": "4.1.99.1",        # Tryptophanase (indole production, ExpASy ENZYME)
-
-        # PATHWAY ENZYMES - Key enzymes in multi-step pathways (2025-11-26)
-        "NO3": "1.7.5.1",         # Nitrate reductase (quinone) - respiratory (ExpASy ENZYME)
-        "NO2": "1.7.2.1",         # Nitrite reductase (NO-forming) - denitrification (ExpASy ENZYME)
-        "N2": "1.7.2.4",          # Nitrous-oxide reductase - final step of denitrification (ExpASy ENZYME)
-        "VP": "4.1.1.5",          # Acetolactate decarboxylase - produces acetoin (ExpASy ENZYME)
-        "H2S": "4.4.1.1",         # Cystathionine γ-lyase - H2S production (ExpASy ENZYME)
-        "TRP": "4.1.99.1",        # Tryptophanase - tryptophan to indole (ExpASy ENZYME, same as IND)
-
-        # Note: Arylamidases (ArgA, ProA, etc.) have GO terms but no specific EC numbers
-        # Some tests use GO terms instead (beta GP, GLU_Ferm, GLU_Assim) - see GO_TERM_MAPPINGS
+    # Partial EC numbers (enzyme family level) for enzymes without exact matches
+    # These represent enzyme families where specific EC number cannot be determined
+    PARTIAL_EC_MAPPINGS = {
+        "Alanine arylamidase": "3.5.-.-",
+        "Alanine-phenylalanine-proline arylamidase": "3.5.-.-",
+        "Alanyl-Phenylalanyl-Proline arylamidase": "3.5.-.-",
+        "Arginine arylamidase": "3.5.-.-",
+        "Aspartic acid arylamidase": "3.5.-.-",
+        "Esterase": "3.1.1.-",
+        "Gamma-glutamyl transferase": "2.-.-.-",
+        "Glutamyl glutamic acid arylamidase": "3.5.-.-",
+        "Glycine arylamidase": "3.5.-.-",
+        "Histidine arylamidase": "3.5.-.-",
+        "L-arginine arylamidase": "3.5.-.-",
+        "L-arginine dihydrolase": "3.-.-.-",
+        "L-aspartate arylamidase": "3.5.-.-",
+        "L-leucyl-2-naphthylamide hydrolase": "3.-.-.-",
+        "Leucine arylamidase": "3.5.-.-",
+        "N-acetyl-glucosidase": "3.2.1.-",
+        "Nitrate reductase": "1.-.-.-",
+        "Phenylalanine arylamidase": "3.5.-.-",
+        "Phospholipase": "3.1.1.-",
+        "Proline arylamidase": "3.5.-.-",
+        "Pyrazinamidase": "3.5.-.-",
+        "Pyroglutamic acid arylamidase": "3.5.-.-",
+        "Pyrrolidonyl arylamidase": "3.5.-.-",
+        "Serine arylamidase": "3.5.-.-",
+        "Tyrosine arylamidase": "3.5.-.-",
+        "alanine aminopeptidase": "3.4.-.-",
+        "alanine arylamidase": "3.5.-.-",
+        "alanine phenylalanin proline arylamidase": "3.5.-.-",
+        "arginine arylamidase": "3.5.-.-",
+        "benzoyl-D-arginine arylamidase": "3.5.-.-",
+        "beta-D-galactosidase": "3.2.1.-",
+        "beta-Galactosidase 6-phosphate": "3.2.1.-",
+        "beta-alanine arylamidase pNA": "3.5.-.-",
+        "beta-galactosaminidase": "3.4.-.-",
+        "beta-galactosidase-6-phosphate": "3.2.1.-",
+        "beta-glucosaminidase": "3.4.-.-",
+        "cystine arylamidase": "3.5.-.-",
+        "esterase": "3.1.1.-",
+        "esterase (C 4)": "3.1.1.-",
+        "esterase Lipase (C 8)": "3.1.1.-",
+        "esterase lipase (C 8)": "3.1.1.-",
+        "glu-gly-arg-arylamidase": "3.5.-.-",
+        "glucosaminidase": "3.4.-.-",
+        "glucose isomerase": "5.-.-.-",
+        "glucosidase": "3.2.1.-",
+        "glutamin glycerin arginin arylamidase": "3.5.-.-",
+        "glutamyl arylamidase pNA": "3.5.-.-",
+        "glutamyl-glutamate arylamidase": "3.5.-.-",
+        "glu–gly–arg arylamidase": "3.5.-.-",
+        "glu–gly–arg-arylamidase": "3.5.-.-",
+        "glycin arylamidase": "3.5.-.-",
+        "glycyl tryptophan arylamidase": "3.5.-.-",
+        "histidine arylamidase": "3.5.-.-",
+        "l-pyrrolydonyl arylamidase": "3.5.-.-",
+        "l-pyrrolyldonyl-arylamidase": "3.5.-.-",
+        "leucine arylamidase": "3.5.-.-",
+        "leucyl glycin arylamidase": "3.5.-.-",
+        "naphthol-AS-BI-phosphohydrolase": "3.-.-.-",
+        "nitrate reductase": "1.-.-.-",
+        "oxidase": "1.-.-.-",
+        "phenylalanine arylamidase": "3.5.-.-",
+        "proline-arylamidase": "3.5.-.-",
+        "protease": "3.4.-.-",
+        "pyrazinamidase": "3.5.-.-",
+        "pyroglutamic acid arylamidase": "3.5.-.-",
+        "pyrrolidonyl arylamidase": "3.5.-.-",
+        "serine arylamidase": "3.5.-.-",
+        "skimmed milk protease": "3.4.-.-",
+        "tellurite reductase": "1.-.-.-",
+        "tween esterase": "3.1.1.-",
+        "tyrosine arylamidase": "3.5.-.-",
+        "valine aminopeptidase": "3.4.-.-",
+        "valine arylamidase": "3.5.-.-",
+        "α-galactosidase": "3.2.1.-",
+        "α-galactosidase (Mannosidase)": "3.2.1.-",
+        "α-glucosidase": "3.2.1.-",
+        "β-N-acetyl-glucosaminidase": "3.4.-.-",
+        "β-galactosidase": "3.2.1.-",
+        "β-galactosidase (ONPG)": "3.2.1.-",
+        "β-galactosidase (PNPG)": "3.2.1.-",
+        "β-glucosidase": "3.2.1.-",
+        "β-glycosidase": "3.2.1.-",
     }
 
     # GO term mappings for tests that cannot have EC numbers
@@ -1111,7 +1271,7 @@ class EnzymeMapper:
             "go_terms": ["GO:0016788"],
             "go_names": ["hydrolase activity, acting on ester bonds"],
             "kegg_ko": "K01066",
-            "ec_number": "3.1.1.1",
+            "ec_number": "3.1.1.-",  # Enzyme family level (no exact match to specific esterase)
         },
         "Lipase": {
             "go_terms": ["GO:0004806"],
