@@ -8013,7 +8013,7 @@
             "chemical"
           ],
           "description": [
-            "Tests for utilization/fermentation of Citrate"
+            "Tests for citrate utilization in the API 20E CIT well"
           ],
           "chebi_id": [
             "CHEBI:30769"
