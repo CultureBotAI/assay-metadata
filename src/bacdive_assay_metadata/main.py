@@ -6,6 +6,7 @@ from pathlib import Path
 import sys
 
 from .metadata_builder import MetadataBuilder
+from .well_descriptions import describe_kit_well
 
 
 def main():
@@ -198,13 +199,14 @@ Examples:
             for well_code in kit.wells:
                 if well_code in metadata.wells:
                     well = metadata.wells[well_code]
+                    description = describe_kit_well(kit.kit_name, well_code, well.description)
 
                     # Flatten all features into lists
                     well_entry = {
                         "name": well_code,  # Well code
                         "label": [well.label] if well.label else [],
                         "type": [well.well_type] if well.well_type else [],
-                        "description": [well.description] if well.description else [],
+                        "description": [description] if description else [],
                     }
 
                     # Add chemical identifiers as flat lists

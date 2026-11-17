@@ -62,3 +62,6 @@ rhea_cache.json
 
 # Logs
 *.log
+
+# Durable private canaries and source captures
+.temp/

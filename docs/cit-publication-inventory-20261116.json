@@ -1,0 +1,68 @@
+{
+  "scope": "Every candidate public file listed; inventory itself adds hashes/accounting only. Historical source bodies and private native organism projection excluded.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "95f075bb21f60577bb50fadd41c8ae9e54cdd4318acb69eed4f1df79029b010d",
+      "new_paper_excerpt_words": 0
+    },
+    {
+      "path": "src/bacdive_assay_metadata/main.py",
+      "sha256": "370b22d8a21465c7c25fce158280131db0d55e41bf4b590a707f5b1a8e2743ae",
+      "new_paper_excerpt_words": 0
+    },
+    {
+      "path": "src/bacdive_assay_metadata/well_descriptions.py",
+      "sha256": "d502859fa646657b3634e209726708aeb0a73b85c471ca3b3f7e25be6489b5de",
+      "new_paper_excerpt_words": 0
+    },
+    {
+      "path": "scripts/adhoc/refresh_api20e_cit_20261116.py",
+      "sha256": "fcc450e8194a14eb8ec451ebe785374e4494e697cd0b8a388810b1be61098374",
+      "new_paper_excerpt_words": 0
+    },
+    {
+      "path": "scripts/adhoc/verify_kg_assay_node_20261116.py",
+      "sha256": "1b86554c8cdc9d1fc3e56813ac1d1a063f6d7cc6b0e410b61e3935943e7d84a4",
+      "new_paper_excerpt_words": 0
+    },
+    {
+      "path": "tests/test_api20e_cit_description.py",
+      "sha256": "db9ba2209aea09f5ecfdec0e594db949c3f71f2b7be6846998407752f9e77efe",
+      "new_paper_excerpt_words": 0
+    },
+    {
+      "path": "data/assay_kits_simple.json",
+      "sha256": "438d7e1b3f907c6362e274abc56904609bbe6e4b8dae048361b34b19182aab1c",
+      "new_paper_excerpt_words": 0
+    },
+    {
+      "path": "docs/api20e-cit-definition.md",
+      "sha256": "3f2ec6cf60fd8c183265eba5fcf17f442de0ff6e26d9c93f94b2a9a21596afa7",
+      "new_paper_excerpt_words": 0
+    },
+    {
+      "path": "docs/cit-validation-20261116.md",
+      "sha256": "5d9b9a19d9a73fa25e88f3e9969359e4e102f386f24c40ac4a528a76ef60c923",
+      "new_paper_excerpt_words": 0
+    }
+  ],
+  "publication_sources": [],
+  "non_paper_sources": [
+    {
+      "source_id": "bioMerieux-07584J-2010-05",
+      "url": "https://jeulin.com/media/akeneo_connector/asset_files/F/i/Fiche_Biomerieux_Galerie_API_20E_117389_FR_3910.pdf",
+      "literal_excerpts": [],
+      "unique_quoted_words": 0,
+      "paraphrase_word_upper_bound": 180,
+      "summary_budget": 200
+    }
+  ],
+  "duplicate_policy": "Repeated authored procedure wording counted once as paraphrase; no literal publication excerpts in candidate changes.",
+  "gate": {
+    "passed": true,
+    "publication_quote_words": 0,
+    "max_words_per_publication": 25,
+    "private_source_bodies_in_public_files": false
+  }
+}
